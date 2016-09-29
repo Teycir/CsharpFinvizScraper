@@ -24,18 +24,12 @@ namespace WebScrap.Model
                 const string price = @"//*[@id='last_last']";
                 const string percent = @"//*[@id='quotes_summary_current_data']/div/div[2]/div[1]/span[4]/text()";
 
-
                 const string s3 = @"//*[@id='curr_table']/tbody/tr[1]/td[2]";
                 const string r3 = @"//*[@id='curr_table']/tbody/tr[1]/td[8]";
                 const string s2 = @"//*[@id='curr_table']/tbody/tr[1]/td[3]";
                 const string r2 = @"//*[@id='curr_table']/tbody/tr[1]/td[7]";
-               
                 const string s1 = @"//*[@id='curr_table']/tbody/tr[1]/td[4]";
                 const string r1 = @"//*[@id='curr_table']/tbody/tr[1]/td[6]";
-
-            
-               
-
                
                 dataPath.Add(price);
                 dataPath.Add(percent);
@@ -54,22 +48,9 @@ namespace WebScrap.Model
 
                 if (nodesPt != null)
                 {
-                    int i = 0;
+                  
                     foreach (var node in nodesPt)
                     {
-                        i++;
-
-
-                        //if (node.InnerText.Trim().Equals("Price"))
-                        //{
-                        //    GetValue(node.NextSibling, data, "price");
-                        //}
-
-                        //if (i == 56)
-                        //{
-                        //    data.Add("rsi", node.InnerText);
-                        //}
-
                         if (node.InnerText.Trim().Equals("RSI(14)"))
                         {
                             data.Add("rsi", node.NextSibling.NextSibling.InnerText.Trim());
