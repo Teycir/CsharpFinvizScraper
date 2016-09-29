@@ -1,0 +1,43 @@
+<DataEntry>
+  <Date>01/10/2015 16:07:54</Date>
+  <ticker1>AAPL</ticker1>
+  <ticker2>GOOG</ticker2>
+  <ticker3>MSFT</ticker3>
+  <ticker4>XOM</ticker4>
+  <ticker5>CVX</ticker5>
+  <ticker1FAlert>400000</ticker1FAlert>
+  <ticker2FAlert>400000</ticker2FAlert>
+  <ticker3FAlert>400000</ticker3FAlert>
+  <ticker4FAlert>400000</ticker4FAlert>
+  <ticker5FAlert>400000</ticker5FAlert>
+  <ticker1RAlert>2</ticker1RAlert>
+  <ticker2RAlert>2</ticker2RAlert>
+  <ticker3RAlert>2</ticker3RAlert>
+  <ticker4RAlert>2</ticker4RAlert>
+  <ticker5RAlert>2</ticker5RAlert>
+  <ticker1RAlertNeg>0.2</ticker1RAlertNeg>
+  <ticker2RAlertNeg>0.2</ticker2RAlertNeg>
+  <ticker3RAlertNeg>0.2</ticker3RAlertNeg>
+  <ticker4RAlertNeg>0.2</ticker4RAlertNeg>
+  <ticker5RAlertNeg>2</ticker5RAlertNeg>
+  <ticker6>VXX</ticker6>
+  <ticker7>JPM</ticker7>
+  <ticker8>JNJ</ticker8>
+  <ticker9>PFE</ticker9>
+  <ticker10>GE</ticker10>
+  <ticker6FAlert>400000</ticker6FAlert>
+  <ticker7FAlert>400000</ticker7FAlert>
+  <ticker8FAlert>400000</ticker8FAlert>
+  <ticker9FAlert>400000</ticker9FAlert>
+  <ticker10FAlert>400000</ticker10FAlert>
+  <ticker6RAlert>2</ticker6RAlert>
+  <ticker7RAlert>2</ticker7RAlert>
+  <ticker8RAlert>2</ticker8RAlert>
+  <ticker9RAlert>2</ticker9RAlert>
+  <ticker10RAlert>2</ticker10RAlert>
+  <ticker6RAlertNeg>0.2</ticker6RAlertNeg>
+  <ticker7RAlertNeg>0.2</ticker7RAlertNeg>
+  <ticker8RAlertNeg>0.2</ticker8RAlertNeg>
+  <ticker9RAlertNeg>0.2</ticker9RAlertNeg>
+  <ticker10RAlertNeg>0.2</ticker10RAlertNeg>
+</DataEntry>

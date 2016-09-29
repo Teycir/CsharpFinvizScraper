@@ -1,0 +1,83 @@
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Helpers.dll
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Helpers.pdb
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.dll
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.xml
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\code\C#\Repo\WebScrap\Helpers\obj\Debug\Helpers.dll
+D:\code\C#\Repo\WebScrap\Helpers\obj\Debug\Helpers.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Helpers.dll
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Helpers.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\MySql.Data.dll
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\obj\Debug\Helpers.dll
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\obj\Debug\Helpers.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Helpers.dll.CodeAnalysisLog.xml
+C:\Users\Teycir pc\Desktop\WebScrap\Helpers\bin\Debug\Helpers.dll.lastcodeanalysissucceeded
+F:\WebScrap\Helpers\bin\Debug\Helpers.dll
+F:\WebScrap\Helpers\bin\Debug\Helpers.pdb
+F:\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.dll
+F:\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.xml
+F:\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+F:\WebScrap\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+F:\WebScrap\Helpers\obj\Debug\Helpers.dll
+F:\WebScrap\Helpers\obj\Debug\Helpers.pdb
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Hammock.ClientProfile.dll
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Newtonsoft.Json.dll
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\TweetSharp.dll
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Hammock.ClientProfile.pdb
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\Newtonsoft.Json.xml
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\TweetSharp.pdb
+D:\code\C#\Repo\WebScrap\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+D:\code\C#\Repo\WebScrap\Helpers\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Helpers.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Helpers.pdb
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Hammock.ClientProfile.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\MySql.Data.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\TweetSharp.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Hammock.ClientProfile.pdb
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\bin\Debug\TweetSharp.pdb
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\obj\Debug\Helpers.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\Helpers\obj\Debug\Helpers.pdb
+D:\WebScrapRepo\Helpers\bin\Debug\Helpers.dll
+D:\WebScrapRepo\Helpers\bin\Debug\Helpers.pdb
+D:\WebScrapRepo\Helpers\bin\Debug\Hammock.ClientProfile.dll
+D:\WebScrapRepo\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\WebScrapRepo\Helpers\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\WebScrapRepo\Helpers\bin\Debug\Microsoft.Practices.Unity.dll
+D:\WebScrapRepo\Helpers\bin\Debug\MySql.Data.dll
+D:\WebScrapRepo\Helpers\bin\Debug\Newtonsoft.Json.dll
+D:\WebScrapRepo\Helpers\bin\Debug\TweetSharp.dll
+D:\WebScrapRepo\Helpers\bin\Debug\Hammock.ClientProfile.pdb
+D:\WebScrapRepo\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\WebScrapRepo\Helpers\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\WebScrapRepo\Helpers\bin\Debug\Microsoft.Practices.Unity.xml
+D:\WebScrapRepo\Helpers\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\WebScrapRepo\Helpers\bin\Debug\Newtonsoft.Json.xml
+D:\WebScrapRepo\Helpers\bin\Debug\TweetSharp.pdb
+D:\WebScrapRepo\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+D:\WebScrapRepo\Helpers\obj\Debug\Helpers.dll
+D:\WebScrapRepo\Helpers\obj\Debug\Helpers.pdb

@@ -1,0 +1,199 @@
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\WebScrap.exe.config
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\WebScrap.exe
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Helpers.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\HtmlAgilityPack.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\System.Net.Http.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\System.Runtime.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\System.Threading.Tasks.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Helpers.pdb
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.xml
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\System.Net.Http.xml
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\System.Runtime.xml
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\System.Threading.Tasks.xml
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.csproj.App.config
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.csprojResolveAssemblyReference.cache
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.Properties.Resources.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmAdministration.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmHelp.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmMain.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmMoneyFlow.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.csproj.GenerateResource.Cache
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.pdb
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\WebScrap.pdb
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.exe
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\WebScrap.exe.config
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.exe
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\WebScrap.exe
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\WebScrap.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\Helpers.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\MySql.Data.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\System.Net.Http.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\System.Runtime.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\System.Threading.Tasks.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\Helpers.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\System.Net.Http.xml
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\System.Runtime.xml
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\System.Threading.Tasks.xml
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.csproj.App.config
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.csprojResolveAssemblyReference.cache
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.Properties.Resources.resources
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmAbout.resources
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmAdministration.resources
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmHelp.resources
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmMain.resources
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmMoneyFlow.resources
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmScreener.resources
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\obj\Debug\WebScrap.csproj.GenerateResource.Cache
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\WebScrap.exe.CodeAnalysisLog.xml
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrap\bin\Debug\WebScrap.exe.lastcodeanalysissucceeded
+F:\WebScrap\WebScrap\bin\Debug\WebScrap.exe.config
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.exe
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.pdb
+F:\WebScrap\WebScrap\bin\Debug\WebScrap.exe
+F:\WebScrap\WebScrap\bin\Debug\WebScrap.pdb
+F:\WebScrap\WebScrap\bin\Debug\Helpers.dll
+F:\WebScrap\WebScrap\bin\Debug\HtmlAgilityPack.dll
+F:\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.dll
+F:\WebScrap\WebScrap\bin\Debug\System.Net.Http.dll
+F:\WebScrap\WebScrap\bin\Debug\System.Runtime.dll
+F:\WebScrap\WebScrap\bin\Debug\System.Threading.Tasks.dll
+F:\WebScrap\WebScrap\bin\Debug\Helpers.pdb
+F:\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.xml
+F:\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+F:\WebScrap\WebScrap\bin\Debug\System.Net.Http.xml
+F:\WebScrap\WebScrap\bin\Debug\System.Runtime.xml
+F:\WebScrap\WebScrap\bin\Debug\System.Threading.Tasks.xml
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.csproj.App.config
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.csprojResolveAssemblyReference.cache
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.Properties.Resources.resources
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmAbout.resources
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmAdministration.resources
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmHelp.resources
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmMain.resources
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmMoneyFlow.resources
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmScreener.resources
+F:\WebScrap\WebScrap\obj\Debug\WebScrap.csproj.GenerateResource.Cache
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmSectorialInsiderTransactions.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmTopInsiderTrades.resources
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\TweetSharp.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Hammock.ClientProfile.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Newtonsoft.Json.dll
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\TweetSharp.pdb
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Hammock.ClientProfile.pdb
+D:\code\C#\Repo\WebScrap\WebScrap\bin\Debug\Newtonsoft.Json.xml
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmSaveState.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmLoadState.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmContact.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmInsiderScreener.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmFuturesAlerts.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmInsidersAlert.resources
+D:\code\C#\Repo\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmLicence.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\WebScrap.exe.config
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.exe
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.pdb
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\WebScrap.exe
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\WebScrap.pdb
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Helpers.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\MySql.Data.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\System.Net.Http.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\System.Runtime.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\System.Threading.Tasks.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\TweetSharp.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Hammock.ClientProfile.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Helpers.pdb
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\System.Net.Http.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\System.Runtime.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\System.Threading.Tasks.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\TweetSharp.pdb
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Hammock.ClientProfile.pdb
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.csproj.App.config
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.Properties.Resources.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmContact.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmAdministration.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmFuturesAlerts.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmHelp.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmInsidersAlert.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmLicence.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmLoadState.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmSaveState.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmSectorialInsiderTransactions.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmMain.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmMoneyFlow.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmInsiderScreener.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.View.FrmTopInsiderTrades.resources
+C:\Users\Dell\Downloads\WebScrap_21012016\WebScrap\WebScrap\obj\Debug\WebScrap.csproj.GenerateResource.Cache
+D:\WebScrapRepo\WebScrap\bin\Debug\WebScrap.exe.config
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.exe
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.pdb
+D:\WebScrapRepo\WebScrap\bin\Debug\WebScrap.exe
+D:\WebScrapRepo\WebScrap\bin\Debug\WebScrap.pdb
+D:\WebScrapRepo\WebScrap\bin\Debug\Helpers.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\HtmlAgilityPack.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\Microsoft.Practices.Unity.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\MySql.Data.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\System.Net.Http.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\System.Runtime.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\System.Threading.Tasks.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\TweetSharp.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\Hammock.ClientProfile.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\Newtonsoft.Json.dll
+D:\WebScrapRepo\WebScrap\bin\Debug\Helpers.pdb
+D:\WebScrapRepo\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\WebScrapRepo\WebScrap\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\WebScrapRepo\WebScrap\bin\Debug\Microsoft.Practices.Unity.xml
+D:\WebScrapRepo\WebScrap\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\WebScrapRepo\WebScrap\bin\Debug\System.Net.Http.xml
+D:\WebScrapRepo\WebScrap\bin\Debug\System.Runtime.xml
+D:\WebScrapRepo\WebScrap\bin\Debug\System.Threading.Tasks.xml
+D:\WebScrapRepo\WebScrap\bin\Debug\TweetSharp.pdb
+D:\WebScrapRepo\WebScrap\bin\Debug\Hammock.ClientProfile.pdb
+D:\WebScrapRepo\WebScrap\bin\Debug\Newtonsoft.Json.xml
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.csproj.App.config
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.csprojResolveAssemblyReference.cache
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.Properties.Resources.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmContact.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmAdministration.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmFuturesAlerts.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmHelp.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmInsidersAlert.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmLicence.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmLoadState.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmSaveState.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmSectorialInsiderTransactions.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmMain.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmMoneyFlow.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmInsiderScreener.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.View.FrmTopInsiderTrades.resources
+D:\WebScrapRepo\WebScrap\obj\Debug\WebScrap.csproj.GenerateResource.Cache

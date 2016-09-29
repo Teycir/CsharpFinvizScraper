@@ -1,0 +1,35 @@
+D:\code\C#\Repo\WebScrap\WebScrapTest\obj\Debug\WebScrapTest.csprojResolveAssemblyReference.cache
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\WebScrapTest.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\WebScrapTest.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\WebScrapTest.dll.CodeAnalysisLog.xml
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\WebScrapTest.dll.lastcodeanalysissucceeded
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\Helpers.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\nunit.framework.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\WebScrap.exe
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\MySql.Data.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\System.Net.Http.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\Helpers.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\WebScrap.pdb
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\bin\Debug\System.Net.Http.xml
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\obj\Debug\WebScrapTest.csprojResolveAssemblyReference.cache
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\obj\Debug\WebScrapTest.dll
+C:\Users\Teycir pc\Desktop\WebScrap\WebScrapTest\obj\Debug\WebScrapTest.pdb
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\WebScrapTest.dll
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\WebScrapTest.pdb
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\Helpers.dll
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\HtmlAgilityPack.dll
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\nunit.framework.dll
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\WebScrap.exe
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\TweetSharp.dll
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\System.Net.Http.dll
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\Hammock.ClientProfile.dll
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\Newtonsoft.Json.dll
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\Helpers.pdb
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\WebScrap.pdb
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\TweetSharp.pdb
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\System.Net.Http.xml
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\Hammock.ClientProfile.pdb
+D:\code\C#\Repo\WebScrap\WebScrapTest\bin\Debug\Newtonsoft.Json.xml
+D:\code\C#\Repo\WebScrap\WebScrapTest\obj\Debug\WebScrapTest.dll
+D:\code\C#\Repo\WebScrap\WebScrapTest\obj\Debug\WebScrapTest.pdb
