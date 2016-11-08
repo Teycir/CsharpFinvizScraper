@@ -175,7 +175,7 @@ namespace WebScrap.Model
 
         public void RsiDisplayAlerts(TextBox text, string rsi, int maxval, int minval)
         {
-            if (String.IsNullOrEmpty(rsi)) return;
+            if (string.IsNullOrEmpty(rsi)) return;
 
             double rsival = Convert.ToDouble(rsi.Replace('.', ','));
             if (rsival > maxval)
@@ -489,7 +489,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetEsHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/indices/us-spx-500-futures-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/indices/us-spx-500-futures-technical?period=900");
         }
 
 
@@ -500,7 +500,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetNqHourly()
         {
-            return GetTechnicalData(@" http://www.investing.com/indices/nq-100-futures-technical?period=3600");
+            return GetTechnicalData(@" http://www.investing.com/indices/nq-100-futures-technical?period=900");
         }
 
 
@@ -511,7 +511,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetYmHourly()
         {
-            return GetTechnicalData(@" http://www.investing.com/indices/us-30-technical?period=3600");
+            return GetTechnicalData(@" http://www.investing.com/indices/us-30-technical?period=900");
         }
 
 
@@ -522,7 +522,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetVxHourly()
         {
-            return GetTechnicalData(@" http://www.investing.com/indices/volatility-s-p-500-technical?period=3600");
+            return GetTechnicalData(@" http://www.investing.com/indices/volatility-s-p-500-technical?period=900");
         }
 
 
@@ -534,7 +534,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetGcHourly()
         {
-            return GetTechnicalData(@" http://www.investing.com/commodities/gold-technical?period=3600");
+            return GetTechnicalData(@" http://www.investing.com/commodities/gold-technical?period=900");
         }
 
 
@@ -546,7 +546,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetHgHourly()
         {
-            return GetTechnicalData(@" http://www.investing.com/commodities/copper-technical?period=3600");
+            return GetTechnicalData(@" http://www.investing.com/commodities/copper-technical?period=900");
         }
 
         public Dictionary<string, string> GetNgDaily()
@@ -557,7 +557,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetNgHourly()
         {
-            return GetTechnicalData(@" http://www.investing.com/commodities/natural-gas-technical?period=3600");
+            return GetTechnicalData(@" http://www.investing.com/commodities/natural-gas-technical?period=900");
         }
 
 
@@ -569,7 +569,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetZcHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/us-corn-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/us-corn-technical?period=900");
         }
 
 
@@ -581,7 +581,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetZlHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/us-soybean-oil-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/us-soybean-oil-technical?period=900");
         }
 
 
@@ -593,7 +593,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetCcHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/us-cocoa-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/us-cocoa-technical?period=900");
         }
 
 
@@ -605,7 +605,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetSbHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/us-sugar-no11-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/us-sugar-no11-technical?period=900");
         }
 
 
@@ -617,7 +617,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetLeHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/live-cattle-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/live-cattle-technical?period=900");
         }
 
 
@@ -629,7 +629,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetZnHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/rates-bonds/us-10-yr-t-note-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/rates-bonds/us-10-yr-t-note-technical?period=900");
         }
 
 
@@ -641,7 +641,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetE6Hourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/currencies/eur-usd-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/currencies/eur-usd-technical?period=900");
         }
 
 
@@ -653,7 +653,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetB6Hourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/currencies/gbp-usd-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/currencies/gbp-usd-technical?period=900");
         }
 
 
@@ -665,7 +665,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetTfHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/indices/smallcap-2000-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/indices/smallcap-2000-technical?period=900");
         }
 
 
@@ -677,7 +677,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetDaxHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/indices/germany-30-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/indices/germany-30-technical?period=900");
         }
 
 
@@ -689,7 +689,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetSiHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/silver-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/silver-technical?period=900");
         }
 
 
@@ -701,7 +701,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetPlHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/platinum-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/platinum-technical?period=900");
         }
 
 
@@ -713,7 +713,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetClHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/crude-oil-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/crude-oil-technical?period=900");
         }
 
 
@@ -725,7 +725,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetZwHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/us-wheat-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/us-wheat-technical?period=900");
         }
 
 
@@ -737,7 +737,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetZsHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/us-soybeans-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/us-soybeans-technical?period=900");
         }
 
 
@@ -749,7 +749,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetKcHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/us-coffee-c-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/us-coffee-c-technical?period=900");
         }
 
 
@@ -761,7 +761,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetCtHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/us-cotton-no.2-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/us-cotton-no.2-technical?period=900");
         }
 
 
@@ -773,7 +773,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetHeHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/commodities/lean-hogs-analysis?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/commodities/lean-hogs-analysis?period=900");
         }
 
 
@@ -785,7 +785,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetBundHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/rates-bonds/euro-bund-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/rates-bonds/euro-bund-technical?period=900");
         }
 
 
@@ -797,7 +797,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetA6Hourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/currencies/aud-usd-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/currencies/aud-usd-technical?period=900");
         }
 
 
@@ -809,7 +809,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetJ6Hourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/currencies/usd-jpy-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/currencies/usd-jpy-technical?period=900");
         }
 
         public Dictionary<string, string> GetCadDaily()
@@ -820,7 +820,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetCadHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/currencies/cad-usd-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/currencies/cad-usd-technical?period=900");
         }
 
 
@@ -832,7 +832,7 @@ namespace WebScrap.Model
 
         public Dictionary<string, string> GetChfHourly()
         {
-            return GetTechnicalData(@"http://www.investing.com/currencies/chf-usd-technical?period=3600");
+            return GetTechnicalData(@"http://www.investing.com/currencies/chf-usd-technical?period=900");
         }
     }
 }

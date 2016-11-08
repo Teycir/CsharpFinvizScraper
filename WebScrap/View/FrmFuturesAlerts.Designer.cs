@@ -530,7 +530,7 @@
             this.textBoxF1R3H.ReadOnly = true;
             this.textBoxF1R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF1R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF1R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF1R3H, "R3 1/4 hourly");
             // 
             // textBoxF1S3D
             // 
@@ -550,7 +550,7 @@
             this.textBoxF1S3H.ReadOnly = true;
             this.textBoxF1S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF1S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF1S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF1S3H, "S3 1/4 hourly");
             // 
             // textBoxF1RSIH
             // 
@@ -560,7 +560,7 @@
             this.textBoxF1RSIH.ReadOnly = true;
             this.textBoxF1RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF1RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF1RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF1RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF1RSID
             // 
@@ -627,7 +627,7 @@
             this.listBoxFHourly.ScrollAlwaysVisible = true;
             this.listBoxFHourly.Size = new System.Drawing.Size(297, 316);
             this.listBoxFHourly.TabIndex = 3;
-            this.toolTip1.SetToolTip(this.listBoxFHourly, "Hourly alerts");
+            this.toolTip1.SetToolTip(this.listBoxFHourly, "1/4 hourly alerts");
             // 
             // textBoxF15Price
             // 
@@ -657,7 +657,7 @@
             this.textBoxF15R3H.ReadOnly = true;
             this.textBoxF15R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF15R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF15R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF15R3H, "R3 1/4 hourly");
             // 
             // textBoxF15S3D
             // 
@@ -677,7 +677,7 @@
             this.textBoxF15S3H.ReadOnly = true;
             this.textBoxF15S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF15S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF15S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF15S3H, "S3 1/4 hourly");
             // 
             // textBoxF15RSIH
             // 
@@ -687,7 +687,7 @@
             this.textBoxF15RSIH.ReadOnly = true;
             this.textBoxF15RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF15RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF15RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF15RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF15RSID
             // 
@@ -738,7 +738,7 @@
             this.textBoxF16R3H.ReadOnly = true;
             this.textBoxF16R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF16R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF16R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF16R3H, "R3 1/4 hourly");
             // 
             // textBoxF16S3D
             // 
@@ -758,7 +758,7 @@
             this.textBoxF16S3H.ReadOnly = true;
             this.textBoxF16S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF16S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF16S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF16S3H, "S3 1/4 hourly");
             // 
             // textBoxF16RSIH
             // 
@@ -768,7 +768,7 @@
             this.textBoxF16RSIH.ReadOnly = true;
             this.textBoxF16RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF16RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF16RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF16RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF16RSID
             // 
@@ -819,7 +819,7 @@
             this.textBoxF2R3H.ReadOnly = true;
             this.textBoxF2R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF2R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF2R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF2R3H, "R3 1/4 hourly");
             // 
             // textBoxF2S3D
             // 
@@ -839,7 +839,7 @@
             this.textBoxF2S3H.ReadOnly = true;
             this.textBoxF2S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF2S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF2S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF2S3H, "S3 1/4 hourly");
             // 
             // textBoxF2RSIH
             // 
@@ -849,7 +849,7 @@
             this.textBoxF2RSIH.ReadOnly = true;
             this.textBoxF2RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF2RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF2RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF2RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF2RSID
             // 
@@ -900,7 +900,7 @@
             this.textBoxF18R3H.ReadOnly = true;
             this.textBoxF18R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF18R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF18R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF18R3H, "R3 1/4 hourly");
             // 
             // textBoxF18S3D
             // 
@@ -920,7 +920,7 @@
             this.textBoxF18S3H.ReadOnly = true;
             this.textBoxF18S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF18S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF18S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF18S3H, "S3 1/4 hourly");
             // 
             // textBoxF18RSIH
             // 
@@ -930,7 +930,7 @@
             this.textBoxF18RSIH.ReadOnly = true;
             this.textBoxF18RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF18RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF18RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF18RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF18RSID
             // 
@@ -981,7 +981,7 @@
             this.textBoxF4R3H.ReadOnly = true;
             this.textBoxF4R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF4R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF4R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF4R3H, "R3 1/4 hourly");
             // 
             // textBoxF4S3D
             // 
@@ -1001,7 +1001,7 @@
             this.textBoxF4S3H.ReadOnly = true;
             this.textBoxF4S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF4S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF4S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF4S3H, "S3 1/4 hourly");
             // 
             // textBoxF4RSIH
             // 
@@ -1011,7 +1011,7 @@
             this.textBoxF4RSIH.ReadOnly = true;
             this.textBoxF4RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF4RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF4RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF4RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF4RSID
             // 
@@ -1062,7 +1062,7 @@
             this.textBoxF17R3H.ReadOnly = true;
             this.textBoxF17R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF17R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF17R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF17R3H, "R3 1/4 hourly");
             // 
             // textBoxF17S3D
             // 
@@ -1082,7 +1082,7 @@
             this.textBoxF17S3H.ReadOnly = true;
             this.textBoxF17S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF17S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF17S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF17S3H, "S3 1/4 hourly");
             // 
             // textBoxF17RSIH
             // 
@@ -1092,7 +1092,7 @@
             this.textBoxF17RSIH.ReadOnly = true;
             this.textBoxF17RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF17RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF17RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF17RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF17RSID
             // 
@@ -1143,7 +1143,7 @@
             this.textBoxF3R3H.ReadOnly = true;
             this.textBoxF3R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF3R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF3R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF3R3H, "R3 1/4 hourly");
             // 
             // textBoxF3S3D
             // 
@@ -1163,7 +1163,7 @@
             this.textBoxF3S3H.ReadOnly = true;
             this.textBoxF3S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF3S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF3S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF3S3H, "S3 1/4 hourly");
             // 
             // textBoxF3RSIH
             // 
@@ -1173,7 +1173,7 @@
             this.textBoxF3RSIH.ReadOnly = true;
             this.textBoxF3RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF3RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF3RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF3RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF3RSID
             // 
@@ -1224,7 +1224,7 @@
             this.textBoxF22R3H.ReadOnly = true;
             this.textBoxF22R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF22R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF22R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF22R3H, "R3 1/4 hourly");
             // 
             // textBoxF22S3D
             // 
@@ -1244,7 +1244,7 @@
             this.textBoxF22S3H.ReadOnly = true;
             this.textBoxF22S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF22S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF22S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF22S3H, "S3 1/4 hourly");
             // 
             // textBoxF22RSIH
             // 
@@ -1254,7 +1254,7 @@
             this.textBoxF22RSIH.ReadOnly = true;
             this.textBoxF22RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF22RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF22RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF22RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF22RSID
             // 
@@ -1305,7 +1305,7 @@
             this.textBoxF8R3H.ReadOnly = true;
             this.textBoxF8R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF8R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF8R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF8R3H, "R3 1/4 hourly");
             // 
             // textBoxF8S3D
             // 
@@ -1325,7 +1325,7 @@
             this.textBoxF8S3H.ReadOnly = true;
             this.textBoxF8S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF8S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF8S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF8S3H, "S3 1/4 hourly");
             // 
             // textBoxF8RSIH
             // 
@@ -1335,7 +1335,7 @@
             this.textBoxF8RSIH.ReadOnly = true;
             this.textBoxF8RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF8RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF8RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF8RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF8RSID
             // 
@@ -1386,7 +1386,7 @@
             this.textBoxF21R3H.ReadOnly = true;
             this.textBoxF21R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF21R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF21R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF21R3H, "R3 1/4 hourly");
             // 
             // textBoxF21S3D
             // 
@@ -1406,7 +1406,7 @@
             this.textBoxF21S3H.ReadOnly = true;
             this.textBoxF21S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF21S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF21S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF21S3H, "S3 1/4 hourly");
             // 
             // textBoxF21RSIH
             // 
@@ -1416,7 +1416,7 @@
             this.textBoxF21RSIH.ReadOnly = true;
             this.textBoxF21RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF21RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF21RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF21RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF21RSID
             // 
@@ -1467,7 +1467,7 @@
             this.textBoxF7R3H.ReadOnly = true;
             this.textBoxF7R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF7R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF7R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF7R3H, "R3 1/4 hourly");
             // 
             // textBoxF7S3D
             // 
@@ -1487,7 +1487,7 @@
             this.textBoxF7S3H.ReadOnly = true;
             this.textBoxF7S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF7S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF7S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF7S3H, "S3 1/4 hourly");
             // 
             // textBoxF7RSIH
             // 
@@ -1497,7 +1497,7 @@
             this.textBoxF7RSIH.ReadOnly = true;
             this.textBoxF7RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF7RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF7RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF7RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF7RSID
             // 
@@ -1548,7 +1548,7 @@
             this.textBoxF20R3H.ReadOnly = true;
             this.textBoxF20R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF20R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF20R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF20R3H, "R3 1/4 hourly");
             // 
             // textBoxF20S3D
             // 
@@ -1568,7 +1568,7 @@
             this.textBoxF20S3H.ReadOnly = true;
             this.textBoxF20S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF20S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF20S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF20S3H, "S3 1/4 hourly");
             // 
             // textBoxF20RSIH
             // 
@@ -1578,7 +1578,7 @@
             this.textBoxF20RSIH.ReadOnly = true;
             this.textBoxF20RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF20RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF20RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF20RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF20RSID
             // 
@@ -1629,7 +1629,7 @@
             this.textBoxF6R3H.ReadOnly = true;
             this.textBoxF6R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF6R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF6R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF6R3H, "R3 1/4 hourly");
             // 
             // textBoxF6S3D
             // 
@@ -1649,7 +1649,7 @@
             this.textBoxF6S3H.ReadOnly = true;
             this.textBoxF6S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF6S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF6S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF6S3H, "S3 1/4 hourly");
             // 
             // textBoxF6RSIH
             // 
@@ -1659,7 +1659,7 @@
             this.textBoxF6RSIH.ReadOnly = true;
             this.textBoxF6RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF6RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF6RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF6RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF6RSID
             // 
@@ -1710,7 +1710,7 @@
             this.textBoxF19R3H.ReadOnly = true;
             this.textBoxF19R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF19R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF19R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF19R3H, "R3 1/4 hourly");
             // 
             // textBoxF19S3D
             // 
@@ -1730,7 +1730,7 @@
             this.textBoxF19S3H.ReadOnly = true;
             this.textBoxF19S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF19S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF19S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF19S3H, "S3 1/4 hourly");
             // 
             // textBoxF19RSIH
             // 
@@ -1740,7 +1740,7 @@
             this.textBoxF19RSIH.ReadOnly = true;
             this.textBoxF19RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF19RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF19RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF19RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF19RSID
             // 
@@ -1791,7 +1791,7 @@
             this.textBoxF5R3H.ReadOnly = true;
             this.textBoxF5R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF5R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF5R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF5R3H, "R3 1/4 hourly");
             // 
             // textBoxF5S3D
             // 
@@ -1811,7 +1811,7 @@
             this.textBoxF5S3H.ReadOnly = true;
             this.textBoxF5S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF5S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF5S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF5S3H, "S3 1/4 hourly");
             // 
             // textBoxF5RSIH
             // 
@@ -1821,7 +1821,7 @@
             this.textBoxF5RSIH.ReadOnly = true;
             this.textBoxF5RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF5RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF5RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF5RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF5RSID
             // 
@@ -1872,7 +1872,7 @@
             this.textBoxF26R3H.ReadOnly = true;
             this.textBoxF26R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF26R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF26R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF26R3H, "R3 1/4 hourly");
             // 
             // textBoxF26S3D
             // 
@@ -1892,7 +1892,7 @@
             this.textBoxF26S3H.ReadOnly = true;
             this.textBoxF26S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF26S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF26S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF26S3H, "S3 1/4 hourly");
             // 
             // textBoxF26RSIH
             // 
@@ -1902,7 +1902,7 @@
             this.textBoxF26RSIH.ReadOnly = true;
             this.textBoxF26RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF26RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF26RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF26RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF26RSID
             // 
@@ -1953,7 +1953,7 @@
             this.textBoxF12R3H.ReadOnly = true;
             this.textBoxF12R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF12R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF12R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF12R3H, "R3 1/4 hourly");
             // 
             // textBoxF12S3D
             // 
@@ -1973,7 +1973,7 @@
             this.textBoxF12S3H.ReadOnly = true;
             this.textBoxF12S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF12S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF12S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF12S3H, "S3 1/4 hourly");
             // 
             // textBoxF12RSIH
             // 
@@ -1983,7 +1983,7 @@
             this.textBoxF12RSIH.ReadOnly = true;
             this.textBoxF12RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF12RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF12RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF12RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF12RSID
             // 
@@ -2034,7 +2034,7 @@
             this.textBoxF25R3H.ReadOnly = true;
             this.textBoxF25R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF25R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF25R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF25R3H, "R3 1/4 hourly");
             // 
             // textBoxF25S3D
             // 
@@ -2054,7 +2054,7 @@
             this.textBoxF25S3H.ReadOnly = true;
             this.textBoxF25S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF25S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF25S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF25S3H, "S3 1/4 hourly");
             // 
             // textBoxF25RSIH
             // 
@@ -2064,7 +2064,7 @@
             this.textBoxF25RSIH.ReadOnly = true;
             this.textBoxF25RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF25RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF25RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF25RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF25RSID
             // 
@@ -2115,7 +2115,7 @@
             this.textBoxF11R3H.ReadOnly = true;
             this.textBoxF11R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF11R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF11R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF11R3H, "R3 1/4 hourly");
             // 
             // textBoxF11S3D
             // 
@@ -2135,7 +2135,7 @@
             this.textBoxF11S3H.ReadOnly = true;
             this.textBoxF11S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF11S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF11S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF11S3H, "S3 1/4 hourly");
             // 
             // textBoxF11RSIH
             // 
@@ -2145,7 +2145,7 @@
             this.textBoxF11RSIH.ReadOnly = true;
             this.textBoxF11RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF11RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF11RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF11RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF11RSID
             // 
@@ -2196,7 +2196,7 @@
             this.textBoxF24R3H.ReadOnly = true;
             this.textBoxF24R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF24R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF24R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF24R3H, "R3 1/4 hourly");
             // 
             // textBoxF24S3D
             // 
@@ -2216,7 +2216,7 @@
             this.textBoxF24S3H.ReadOnly = true;
             this.textBoxF24S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF24S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF24S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF24S3H, "S3 1/4 hourly");
             // 
             // textBoxF24RSIH
             // 
@@ -2226,7 +2226,7 @@
             this.textBoxF24RSIH.ReadOnly = true;
             this.textBoxF24RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF24RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF24RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF24RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF24RSID
             // 
@@ -2277,7 +2277,7 @@
             this.textBoxF10R3H.ReadOnly = true;
             this.textBoxF10R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF10R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF10R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF10R3H, "R3 1/4 hourly");
             // 
             // textBoxF10S3D
             // 
@@ -2297,7 +2297,7 @@
             this.textBoxF10S3H.ReadOnly = true;
             this.textBoxF10S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF10S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF10S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF10S3H, "S3 1/4 hourly");
             // 
             // textBoxF10RSIH
             // 
@@ -2307,7 +2307,7 @@
             this.textBoxF10RSIH.ReadOnly = true;
             this.textBoxF10RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF10RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF10RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF10RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF10RSID
             // 
@@ -2358,7 +2358,7 @@
             this.textBoxF23R3H.ReadOnly = true;
             this.textBoxF23R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF23R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF23R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF23R3H, "R3 1/4 hourly");
             // 
             // textBoxF23S3D
             // 
@@ -2378,7 +2378,7 @@
             this.textBoxF23S3H.ReadOnly = true;
             this.textBoxF23S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF23S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF23S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF23S3H, "S3 1/4 hourly");
             // 
             // textBoxF23RSIH
             // 
@@ -2388,7 +2388,7 @@
             this.textBoxF23RSIH.ReadOnly = true;
             this.textBoxF23RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF23RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF23RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF23RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF23RSID
             // 
@@ -2439,7 +2439,7 @@
             this.textBoxF9R3H.ReadOnly = true;
             this.textBoxF9R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF9R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF9R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF9R3H, "R3 1/4 hourly");
             // 
             // textBoxF9S3D
             // 
@@ -2459,7 +2459,7 @@
             this.textBoxF9S3H.ReadOnly = true;
             this.textBoxF9S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF9S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF9S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF9S3H, "S3 1/4 hourly");
             // 
             // textBoxF9RSIH
             // 
@@ -2469,7 +2469,7 @@
             this.textBoxF9RSIH.ReadOnly = true;
             this.textBoxF9RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF9RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF9RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF9RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF9RSID
             // 
@@ -2520,7 +2520,7 @@
             this.textBoxF28R3H.ReadOnly = true;
             this.textBoxF28R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF28R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF28R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF28R3H, "R3 1/4 hourly");
             // 
             // textBoxF28S3D
             // 
@@ -2540,7 +2540,7 @@
             this.textBoxF28S3H.ReadOnly = true;
             this.textBoxF28S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF28S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF28S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF28S3H, "S3 1/4 hourly");
             // 
             // textBoxF28RSIH
             // 
@@ -2550,7 +2550,7 @@
             this.textBoxF28RSIH.ReadOnly = true;
             this.textBoxF28RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF28RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF28RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF28RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF28RSID
             // 
@@ -2601,7 +2601,7 @@
             this.textBoxF14R3H.ReadOnly = true;
             this.textBoxF14R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF14R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF14R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF14R3H, "R3 1/4 hourly");
             // 
             // textBoxF14S3D
             // 
@@ -2621,7 +2621,7 @@
             this.textBoxF14S3H.ReadOnly = true;
             this.textBoxF14S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF14S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF14S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF14S3H, "S3 1/4 hourly");
             // 
             // textBoxF14RSIH
             // 
@@ -2631,7 +2631,7 @@
             this.textBoxF14RSIH.ReadOnly = true;
             this.textBoxF14RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF14RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF14RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF14RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF14RSID
             // 
@@ -2682,7 +2682,7 @@
             this.textBoxF27R3H.ReadOnly = true;
             this.textBoxF27R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF27R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF27R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF27R3H, "R3 1/4 hourly");
             // 
             // textBoxF27S3D
             // 
@@ -2702,7 +2702,7 @@
             this.textBoxF27S3H.ReadOnly = true;
             this.textBoxF27S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF27S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF27S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF27S3H, "S3 1/4 hourly");
             // 
             // textBoxF27RSIH
             // 
@@ -2712,7 +2712,7 @@
             this.textBoxF27RSIH.ReadOnly = true;
             this.textBoxF27RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF27RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF27RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF27RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF27RSID
             // 
@@ -2763,7 +2763,7 @@
             this.textBoxF13R3H.ReadOnly = true;
             this.textBoxF13R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF13R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF13R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF13R3H, "R3 1/4 hourly");
             // 
             // textBoxF13S3D
             // 
@@ -2783,7 +2783,7 @@
             this.textBoxF13S3H.ReadOnly = true;
             this.textBoxF13S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF13S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF13S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF13S3H, "S3 1/4 hourly");
             // 
             // textBoxF13RSIH
             // 
@@ -2868,7 +2868,7 @@
             this.textBoxF30R3H.ReadOnly = true;
             this.textBoxF30R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF30R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF30R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF30R3H, "R3 1/4 hourly");
             // 
             // textBoxF30S3D
             // 
@@ -2888,7 +2888,7 @@
             this.textBoxF30S3H.ReadOnly = true;
             this.textBoxF30S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF30S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF30S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF30S3H, "S3 1/4 hourly");
             // 
             // textBoxF30RSIH
             // 
@@ -2898,7 +2898,7 @@
             this.textBoxF30RSIH.ReadOnly = true;
             this.textBoxF30RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF30RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF30RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF30RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF30RSID
             // 
@@ -2949,7 +2949,7 @@
             this.textBoxF29R3H.ReadOnly = true;
             this.textBoxF29R3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF29R3H.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.textBoxF29R3H, "R3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF29R3H, "R3 1/4 hourly");
             // 
             // textBoxF29S3D
             // 
@@ -2969,7 +2969,7 @@
             this.textBoxF29S3H.ReadOnly = true;
             this.textBoxF29S3H.Size = new System.Drawing.Size(61, 20);
             this.textBoxF29S3H.TabIndex = 5;
-            this.toolTip1.SetToolTip(this.textBoxF29S3H, "S3 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF29S3H, "S3 1/4 hourly");
             // 
             // textBoxF29RSIH
             // 
@@ -2979,7 +2979,7 @@
             this.textBoxF29RSIH.ReadOnly = true;
             this.textBoxF29RSIH.Size = new System.Drawing.Size(61, 20);
             this.textBoxF29RSIH.TabIndex = 4;
-            this.toolTip1.SetToolTip(this.textBoxF29RSIH, "RSI14 hourly");
+            this.toolTip1.SetToolTip(this.textBoxF29RSIH, "RSI14 1/4 hourly");
             // 
             // textBoxF29RSID
             // 
@@ -4327,7 +4327,7 @@
             this.buttonClearHourlyAlerts.Name = "buttonClearHourlyAlerts";
             this.buttonClearHourlyAlerts.Size = new System.Drawing.Size(107, 23);
             this.buttonClearHourlyAlerts.TabIndex = 91;
-            this.buttonClearHourlyAlerts.Text = "Clear hourly alerts";
+            this.buttonClearHourlyAlerts.Text = "Clear 15 min alerts";
             this.buttonClearHourlyAlerts.UseVisualStyleBackColor = true;
             this.buttonClearHourlyAlerts.Click += new System.EventHandler(this.buttonClearHourlyAlerts_Click);
             // 
@@ -4408,9 +4408,9 @@
             this.label35.ForeColor = System.Drawing.Color.Red;
             this.label35.Location = new System.Drawing.Point(65, 46);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(252, 16);
+            this.label35.Size = new System.Drawing.Size(277, 16);
             this.label35.TabIndex = 99;
-            this.label35.Text = "* D for daily, H for hourly time frame";
+            this.label35.Text = "* D for daily, H for 1/4 hourly time frame";
             // 
             // panel30
             // 
@@ -4450,9 +4450,9 @@
             this.labelHourly.ForeColor = System.Drawing.Color.Red;
             this.labelHourly.Location = new System.Drawing.Point(1413, 521);
             this.labelHourly.Name = "labelHourly";
-            this.labelHourly.Size = new System.Drawing.Size(37, 13);
+            this.labelHourly.Size = new System.Drawing.Size(38, 13);
             this.labelHourly.TabIndex = 105;
-            this.labelHourly.Text = "Hourly";
+            this.labelHourly.Text = "15 min";
             // 
             // buttonClearDaily
             // 

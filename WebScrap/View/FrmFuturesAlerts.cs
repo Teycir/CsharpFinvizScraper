@@ -133,15 +133,25 @@ namespace WebScrap.View
             Dictionary<string, string> f1Daily = dailydatafut;
             Dictionary<string, string> f1Hourly = hourlydatafut;
             if (dailydatafut == null || hourlydatafut == null) return;
+            if(f1Daily["rsi"]!=null)
             _scrap.RsiDisplayAlerts(text4, f1Daily["rsi"],70,30);
+            if(f1Hourly["rsi"]!=null)
             _scrap.RsiDisplayAlerts(text7, f1Hourly["rsi"],70,30);
+            if(f1Daily["price"]!=null)
             ThreadHelper.SetText(this, text1, f1Daily["price"]);
+            if(f1Daily["percent"]!= null)
             ThreadHelper.SetText(this, label1, f1Daily["percent"]);
+            if(f1Daily["s3"]!=null)
             ThreadHelper.SetText(this, text2, f1Daily["s3"]);
+            if(f1Daily["r3"]!=null)
             ThreadHelper.SetText(this, text3, f1Daily["r3"]);
+            if(f1Daily["rsi"]!=null)
             ThreadHelper.SetText(this, text4, f1Daily["rsi"]);
+            if(f1Hourly["s3"]!=null)
             ThreadHelper.SetText(this, text5, f1Hourly["s3"]);
+            if(f1Hourly["r3"]!=null)
             ThreadHelper.SetText(this, text6, f1Hourly["r3"]);
+            if(f1Hourly["rsi"]!=null)
             ThreadHelper.SetText(this, text7, f1Hourly["rsi"]);
 
 
@@ -163,7 +173,7 @@ namespace WebScrap.View
 
             if(_rsiHourly)
             {
-                _scrap.RsiAlerts(f1Hourly["rsi"], ticker, " hourly RSI14 alert: ", 70, 30,
+                _scrap.RsiAlerts(f1Hourly["rsi"], ticker, " 15 min RSI14 alert: ", 70, 30,
                           _alertsHourlyRsi, this, listBoxFHourly, _soundalertHourly, _mailalertHourly, _tweetalertHourly,
                           url, "SIREN", textBoxHourlyTickers.Text);
                 Thread.Sleep(1000);
@@ -185,7 +195,7 @@ namespace WebScrap.View
             if(_smaHourly)
             {
                 _scrap.SmaAlerts(f1Hourly["sma20"], f1Hourly["sma50"],
-                       "Hourly SMA alert: ", ticker, this, listBoxFHourly, _soundalertHourly, _mailalertHourly, _tweetalertHourly,
+                       " 15 min SMA alert: ", ticker, this, listBoxFHourly, _soundalertHourly, _mailalertHourly, _tweetalertHourly,
                     url, "SIREN", textBoxHourlyTickers.Text,_alertsHourlySma);
                 Thread.Sleep(1000);
             }
@@ -231,13 +241,13 @@ namespace WebScrap.View
             if (_ppHourly)
             {
                 _scrap.PivotAlerts(f1Hourly["s1"], f1Hourly["price"],
-                         "S", " hourly S1 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                         "S", " 15 min S1 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                          _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                          textBoxHourlyTickers.Text);
                 Thread.Sleep(1000);
 
                 _scrap.PivotAlerts(f1Hourly["r1"], f1Hourly["price"],
-                                   "R", " hourly R1 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                   "R", " 15 min R1 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                    _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                    textBoxHourlyTickers.Text);
                 Thread.Sleep(1000);
@@ -245,27 +255,27 @@ namespace WebScrap.View
 
 
                 _scrap.PivotAlerts(f1Hourly["s2"], f1Hourly["price"],
-                                   "S", " hourly S2 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                   "S", " 15 min S2 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                    _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                    textBoxHourlyTickers.Text);
                 Thread.Sleep(1000);
 
                 _scrap.PivotAlerts(f1Hourly["r2"], f1Hourly["price"],
-                                   "R", " hourly R2 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                   "R", " 15 min R2 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                    _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                    textBoxHourlyTickers.Text);
                 Thread.Sleep(1000);
 
 
                 _scrap.PivotAlerts(f1Hourly["s3"], f1Hourly["price"],
-                                   "S", " hourly S3 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                   "S", " 15 min S3 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                    _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                    textBoxHourlyTickers.Text);
                 Thread.Sleep(1000);
 
 
                 _scrap.PivotAlerts(f1Hourly["r3"], f1Hourly["price"],
-                                   "R", " hourly R3 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                   "R", " 15 min R3 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                    _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                    textBoxHourlyTickers.Text);
                 Thread.Sleep(1000);
@@ -327,13 +337,13 @@ namespace WebScrap.View
                 if (_pp1Hourly)
                 {
                     _scrap.PivotAlerts(f1Hourly["s1"], f1Hourly["price"],
-                                       "S", " hourly S1 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                       "S", " 15 min S1 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                        _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                        textBoxHourlyTickers.Text);
                     Thread.Sleep(1000);
 
                     _scrap.PivotAlerts(f1Hourly["r1"], f1Hourly["price"],
-                                       "R", " hourly R1 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                       "R", " 15 min R1 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                        _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                        textBoxHourlyTickers.Text);
                     Thread.Sleep(1000);
@@ -343,13 +353,13 @@ namespace WebScrap.View
                 if (_pp2Hourly)
                 {
                     _scrap.PivotAlerts(f1Hourly["s2"], f1Hourly["price"],
-                                       "S", " hourly S2 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                       "S", " 15 min S2 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                        _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                        textBoxHourlyTickers.Text);
                     Thread.Sleep(1000);
 
                     _scrap.PivotAlerts(f1Hourly["r2"], f1Hourly["price"],
-                                       "R", " hourly R2 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                       "R", " 15 min R2 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                        _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                        textBoxHourlyTickers.Text);
                     Thread.Sleep(1000);
@@ -359,13 +369,13 @@ namespace WebScrap.View
                 if (_pp3Hourly)
                 {
                     _scrap.PivotAlerts(f1Hourly["s3"], f1Hourly["price"],
-                                       "S", " hourly S3 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                       "S", " 15 min S3 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                        _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                        textBoxHourlyTickers.Text);
                     Thread.Sleep(1000);
 
                     _scrap.PivotAlerts(f1Hourly["r3"], f1Hourly["price"],
-                                       "R", " hourly R3 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
+                                       "R", " 15 min R3 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
                                        _mailalertHourly, _tweetalertHourly, this, listBoxFHourly, url, "SIREN",
                                        textBoxHourlyTickers.Text);
                     Thread.Sleep(1000);
