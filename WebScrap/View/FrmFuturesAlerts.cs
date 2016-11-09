@@ -133,11 +133,19 @@ namespace WebScrap.View
             Dictionary<string, string> f1Daily = dailydatafut;
             Dictionary<string, string> f1Hourly = hourlydatafut;
             if (dailydatafut == null || hourlydatafut == null) return;
-            if(f1Daily["rsi"]!=null)
-            _scrap.RsiDisplayAlerts(text4, f1Daily["rsi"],70,30);
-            if(f1Hourly["rsi"]!=null)
-            _scrap.RsiDisplayAlerts(text7, f1Hourly["rsi"],70,30);
-            if(f1Daily["price"]!=null)
+            if (f1Daily.ContainsKey("rsi"))
+            {
+                if (f1Daily["rsi"] != null)
+                    _scrap.RsiDisplayAlerts(text4, f1Daily["rsi"], 70, 30);
+            }
+            if (f1Hourly.ContainsKey("rsi"))
+            {
+                 if (f1Hourly["rsi"] != null)
+                _scrap.RsiDisplayAlerts(text7, f1Hourly["rsi"], 70, 30);
+            }
+               
+
+            if (f1Daily["price"]!=null)
             ThreadHelper.SetText(this, text1, f1Daily["price"]);
             if(f1Daily["percent"]!= null)
             ThreadHelper.SetText(this, label1, f1Daily["percent"]);
