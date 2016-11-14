@@ -134,52 +134,57 @@ namespace WebScrap.View
             Dictionary<string, string> f1Hourly = hourlydatafut;
             if (dailydatafut == null || hourlydatafut == null) return;
             if (f1Daily.ContainsKey("rsi"))
-            {
-                if (f1Daily["rsi"] != null)
-                    _scrap.RsiDisplayAlerts(text4, f1Daily["rsi"], 70, 30);
-            }
+               if (f1Daily["rsi"] != null)
+                  _scrap.RsiDisplayAlerts(text4, f1Daily["rsi"], 70, 30);
+            
             if (f1Hourly.ContainsKey("rsi"))
-            {
-                 if (f1Hourly["rsi"] != null)
+               if (f1Hourly["rsi"] != null)
                 _scrap.RsiDisplayAlerts(text7, f1Hourly["rsi"], 70, 30);
-            }
-               
 
-            if (f1Daily["price"]!=null)
+
+            if (f1Daily.ContainsKey("price"))
+                if (f1Daily["price"]!=null)
             ThreadHelper.SetText(this, text1, f1Daily["price"]);
-            if(f1Daily["percent"]!= null)
+            if (f1Daily.ContainsKey("percent"))
+                if (f1Daily["percent"]!= null)
             ThreadHelper.SetText(this, label1, f1Daily["percent"]);
-            if(f1Daily["s3"]!=null)
+            if (f1Daily.ContainsKey("s3"))
+                if (f1Daily["s3"]!=null)
             ThreadHelper.SetText(this, text2, f1Daily["s3"]);
-            if(f1Daily["r3"]!=null)
+            if (f1Daily.ContainsKey("r3"))
+                if (f1Daily["r3"]!=null)
             ThreadHelper.SetText(this, text3, f1Daily["r3"]);
-            if(f1Daily["rsi"]!=null)
+            if (f1Daily.ContainsKey("rsi"))
+                if (f1Daily["rsi"]!=null)
             ThreadHelper.SetText(this, text4, f1Daily["rsi"]);
-            if(f1Hourly["s3"]!=null)
+            if (f1Hourly.ContainsKey("s3"))
+                if (f1Hourly["s3"]!=null)
             ThreadHelper.SetText(this, text5, f1Hourly["s3"]);
-            if(f1Hourly["r3"]!=null)
+            if (f1Hourly.ContainsKey("r3"))
+                if (f1Hourly["r3"]!=null)
             ThreadHelper.SetText(this, text6, f1Hourly["r3"]);
-            if(f1Hourly["rsi"]!=null)
+            if (f1Hourly.ContainsKey("rsi"))
+                if (f1Hourly["rsi"]!=null)
             ThreadHelper.SetText(this, text7, f1Hourly["rsi"]);
 
 
-          
-          
 
-            _scrap.SmaDisplayAlerts(f1Daily["sma20"], f1Daily["sma50"], f1Hourly["sma20"], f1Hourly["sma50"], ticker, this, labeltrend, url);
-
+            if (f1Daily.ContainsKey("sma20") && f1Daily.ContainsKey("sma50")&& f1Hourly.ContainsKey("sma20") && f1Hourly.ContainsKey("sma50"))
+                _scrap.SmaDisplayAlerts(f1Daily["sma20"], f1Daily["sma50"], f1Hourly["sma20"], f1Hourly["sma50"], ticker, this, labeltrend, url);
 
 
-            if(_rsiDaily)
+
+            if(_rsiDaily && f1Daily.ContainsKey("rsi"))
             {
-                _scrap.RsiAlerts(f1Daily["rsi"], ticker, " daily RSI14 alert: ", 70, 30,
+                
+                    _scrap.RsiAlerts(f1Daily["rsi"], ticker, " daily RSI14 alert: ", 70, 30,
                        _alertsDailyRsi, this, listBoxFDaily, _soundalertDaily, _mailalertDaily, _tweetalertDaily, url,
                        "ALARM", textBoxDailyTickers.Text);
                 Thread.Sleep(1000);
             }
       
 
-            if(_rsiHourly)
+            if(_rsiHourly && f1Hourly.ContainsKey("rsi"))
             {
                 _scrap.RsiAlerts(f1Hourly["rsi"], ticker, " 15 min RSI14 alert: ", 70, 30,
                           _alertsHourlyRsi, this, listBoxFHourly, _soundalertHourly, _mailalertHourly, _tweetalertHourly,
@@ -189,7 +194,7 @@ namespace WebScrap.View
          
 
 
-            if(_smaDaily)
+            if(_smaDaily && f1Daily.ContainsKey("sma20") && f1Daily.ContainsKey("sma50"))
             {
                 _scrap.SmaAlerts(f1Daily["sma20"], f1Daily["sma50"],
                               "daily SMA alert: ", ticker, this, listBoxFDaily, _soundalertDaily, _mailalertDaily, _tweetalertDaily,
@@ -200,7 +205,7 @@ namespace WebScrap.View
           
 
 
-            if(_smaHourly)
+            if(_smaHourly && f1Hourly.ContainsKey("sma20") && f1Hourly.ContainsKey("sma50"))
             {
                 _scrap.SmaAlerts(f1Hourly["sma20"], f1Hourly["sma50"],
                        " 15 min SMA alert: ", ticker, this, listBoxFHourly, _soundalertHourly, _mailalertHourly, _tweetalertHourly,
@@ -210,7 +215,7 @@ namespace WebScrap.View
        
            
 
-            if(_ppDaily)
+            if(_ppDaily && f1Daily.ContainsKey("price") && f1Daily.ContainsKey("s1") && f1Daily.ContainsKey("s2") &&  f1Daily.ContainsKey("s3") && f1Daily.ContainsKey("r1") && f1Daily.ContainsKey("r2") && f1Daily.ContainsKey("r3"))
             {
                 _scrap.PivotAlerts(f1Daily["s1"], f1Daily["price"],
                         "S", " daily S1 breach alert: ", ticker, _alertsDailyPp, _soundalertDaily, _mailalertDaily,
@@ -246,7 +251,7 @@ namespace WebScrap.View
                 Thread.Sleep(1000);
             }
 
-            if (_ppHourly)
+            if (_ppHourly && f1Hourly.ContainsKey("price") && f1Hourly.ContainsKey("s1") && f1Hourly.ContainsKey("s2") && f1Hourly.ContainsKey("s3") && f1Hourly.ContainsKey("r1") && f1Hourly.ContainsKey("r2") && f1Hourly.ContainsKey("r3"))
             {
                 _scrap.PivotAlerts(f1Hourly["s1"], f1Hourly["price"],
                          "S", " 15 min S1 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
@@ -291,7 +296,7 @@ namespace WebScrap.View
 
             if(!_ppDaily)
             {
-                if (_pp1Daily)
+                if (_pp1Daily && f1Daily.ContainsKey("price") && f1Daily.ContainsKey("s1")  && f1Daily.ContainsKey("r1"))
                 {
                     _scrap.PivotAlerts(f1Daily["s1"], f1Daily["price"],
                                        "S", " Daily S1 breach alert: ", ticker, _alertsDailyPp, _soundalertDaily,
@@ -307,7 +312,7 @@ namespace WebScrap.View
 
                 }
 
-                if (_pp2Daily)
+                if (_pp2Daily && f1Daily.ContainsKey("price") && f1Daily.ContainsKey("s2") && f1Daily.ContainsKey("r2"))
                 {
                     _scrap.PivotAlerts(f1Daily["s2"], f1Daily["price"],
                                        "S", " Daily S2 breach alert: ", ticker, _alertsDailyPp, _soundalertDaily,
@@ -323,7 +328,7 @@ namespace WebScrap.View
 
                 }
 
-                if (_pp3Daily)
+                if (_pp3Daily && f1Daily.ContainsKey("price") && f1Daily.ContainsKey("s3") && f1Daily.ContainsKey("r3"))
                 {
                     _scrap.PivotAlerts(f1Daily["s3"], f1Daily["price"],
                                        "S", " Daily S3 breach alert: ", ticker, _alertsDailyPp, _soundalertDaily,
@@ -342,7 +347,7 @@ namespace WebScrap.View
           
             if(!_ppHourly)
             {
-                if (_pp1Hourly)
+                if (_pp1Hourly && f1Hourly.ContainsKey("price") && f1Hourly.ContainsKey("s1") && f1Hourly.ContainsKey("r1"))
                 {
                     _scrap.PivotAlerts(f1Hourly["s1"], f1Hourly["price"],
                                        "S", " 15 min S1 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
@@ -358,7 +363,7 @@ namespace WebScrap.View
 
                 }
 
-                if (_pp2Hourly)
+                if (_pp2Hourly && f1Hourly.ContainsKey("price") && f1Hourly.ContainsKey("s2") && f1Hourly.ContainsKey("r2"))
                 {
                     _scrap.PivotAlerts(f1Hourly["s2"], f1Hourly["price"],
                                        "S", " 15 min S2 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
@@ -374,7 +379,7 @@ namespace WebScrap.View
 
                 }
 
-                if (_pp3Hourly)
+                if (_pp3Hourly && f1Hourly.ContainsKey("price") && f1Hourly.ContainsKey("s3") && f1Hourly.ContainsKey("r3"))
                 {
                     _scrap.PivotAlerts(f1Hourly["s3"], f1Hourly["price"],
                                        "S", " 15 min S3 breach alert: ", ticker, _alertsHourlyPp, _soundalertHourly,
@@ -390,10 +395,6 @@ namespace WebScrap.View
 
                 }
             }
-
-           
-
-
         }
 
 
