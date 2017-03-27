@@ -2,6 +2,7 @@
 
 using System.Windows.Forms;
 using Helpers;
+using System;
 
 #endregion
 
@@ -12,6 +13,7 @@ namespace WebScrap.View
         public FrmHelp()
         {
             InitializeComponent();
+           
         }
 
 

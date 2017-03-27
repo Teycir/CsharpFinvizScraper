@@ -20,14 +20,15 @@ namespace WebScrap.View
 
         public FrmMain()
         {
-           
+            // Generate key
+            string crypt = StringCipherHelper.Encrypt(DateTime.Now.ToString() + "*" + "600", "Cirtey1979!");
+            string test = crypt;
             InitializeComponent();
         }
 
         private void InitUsagePeriod()
         {
-            string crypt = StringCipherHelper.Encrypt(DateTime.Now.ToString() + "*" + "366", "Cirtey1979!");
-            string test = crypt;
+
             labelDaysLeft.Text = null;
 
             bool licenceisvalid = WebScrapLicence.LicenceFileValid();
@@ -89,6 +90,14 @@ namespace WebScrap.View
                 buttonFuturesAlerts.Enabled = false;
                 buttonInsiderTradesAlert.Enabled = false;
                 labelDaysLeft.Font = new Font(Font.FontFamily.Name, 20);
+                FrmLicence frmLicence = new FrmLicence(this);
+                frmLicence.Show();
+                string cryptentered = frmLicence.KeyLicence;
+
+                if (!String.IsNullOrEmpty(cryptentered))
+                {
+                    WebScrapWriteData.WriteExpirationData(cryptentered);
+                }
             }
         }
 

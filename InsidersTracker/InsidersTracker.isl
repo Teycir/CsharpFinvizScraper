@@ -339,26 +339,26 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>Hammock.ClientProfile.dll</td><td>{4EECE4E2-E2C0-45A5-BE39-DD3664E536E3}</td><td>INSTALLDIR</td><td>2</td><td/><td>hammock.clientprofile.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Helpers.dll</td><td>{8F7439AB-ADAC-4E80-BF6A-5BE290B0B5EC}</td><td>INSTALLDIR</td><td>2</td><td/><td>helpers.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>HtmlAgilityPack.dll</td><td>{4E91D45E-7A4C-4AF6-8AA7-9B1AA01BF636}</td><td>INSTALLDIR</td><td>2</td><td/><td>htmlagilitypack.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Hammock.ClientProfile.dll</td><td>{0742A29A-6DE4-4443-B504-99D94FF45CC6}</td><td>INSTALLDIR</td><td>2</td><td/><td>hammock.clientprofile.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Helpers.dll</td><td>{B8937EAC-7C8C-4134-AAA6-0512D686620B}</td><td>INSTALLDIR</td><td>2</td><td/><td>helpers.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>HtmlAgilityPack.dll</td><td>{AB5150BD-2D2E-4A13-B8F5-21340C1FD3C1}</td><td>INSTALLDIR</td><td>2</td><td/><td>htmlagilitypack.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{4E997C4E-12A7-49C6-8B43-62FB21AB1F0D}</td><td>SQL</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{B379DE53-AEE7-4C18-B10D-E40FEAE2C8A3}</td><td>TICKERS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{2F425578-DDFD-4B7D-B4B2-840A1E338616}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Microsoft.Practices.ServiceLocation.dll</td><td>{D59AC763-431A-4595-BF53-CD887EB7CE82}</td><td>INSTALLDIR</td><td>2</td><td/><td>microsoft.practices.servicel</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Microsoft.Practices.Unity.Configuration.dll</td><td>{D8D671B5-B12E-43DC-BF58-16696D226676}</td><td>INSTALLDIR</td><td>2</td><td/><td>microsoft.practices.unity.co</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Microsoft.Practices.Unity.dll</td><td>{8C315CC5-77F3-4618-AC3F-5C8F8C4796CD}</td><td>INSTALLDIR</td><td>2</td><td/><td>microsoft.practices.unity.dl</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>MySql.Data.dll</td><td>{D7059B38-6FE6-450C-AF62-7B28C249F40B}</td><td>INSTALLDIR</td><td>2</td><td/><td>mysql.data.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Newtonsoft.Json.dll</td><td>{2718C037-79CC-47D2-B87A-912EF0773C1C}</td><td>INSTALLDIR</td><td>2</td><td/><td>newtonsoft.json.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Net.Http.Extensions.dll</td><td>{53EBD517-E8ED-476E-BD99-62FF2BCEB2B4}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.net.http.extensions.d</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Net.Http.Primitives.dll</td><td>{81082979-96A0-48DB-B0A2-142A0D0C04EC}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.net.http.primitives.d</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Net.Http.WebRequest.dll</td><td>{DFCE917E-EFC7-4BA7-8D3F-2A251015B12A}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.net.http.webrequest.d</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Net.Http.dll</td><td>{15EF75FD-ED48-4AF1-B01B-73B2EF9194C1}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.net.http.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Runtime.dll</td><td>{2ED68F13-5E88-4C6B-8D7F-DF7F5F5B2FA4}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.runtime.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>System.Threading.Tasks.dll</td><td>{1002AA62-CB1B-40EE-851B-0C432B575F91}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.threading.tasks.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>TweetSharp.dll</td><td>{A71A39BF-0617-4B1C-9EE2-C4E2C0A64157}</td><td>INSTALLDIR</td><td>2</td><td/><td>tweetsharp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>WebScrap.exe</td><td>{28FF263B-0FCA-4579-B313-A4D650F2F986}</td><td>INSTALLDIR</td><td>2</td><td/><td>webscrap.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>WebScrap.vshost.exe</td><td>{60A1F1C5-6472-487F-9582-1C47C9BA0703}</td><td>INSTALLDIR</td><td>2</td><td/><td>webscrap.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.Practices.ServiceLocation.dll</td><td>{A4466185-891B-4252-B7C5-118F41952960}</td><td>INSTALLDIR</td><td>2</td><td/><td>microsoft.practices.servicel</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.Practices.Unity.Configuration.dll</td><td>{B6DDDD06-B926-498C-BE7F-533ED196A66D}</td><td>INSTALLDIR</td><td>2</td><td/><td>microsoft.practices.unity.co</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.Practices.Unity.dll</td><td>{A10A301F-9D42-45D9-8489-14321460279D}</td><td>INSTALLDIR</td><td>2</td><td/><td>microsoft.practices.unity.dl</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>MySql.Data.dll</td><td>{E540278D-6F1D-484B-8FCF-8C316E4C4BE1}</td><td>INSTALLDIR</td><td>2</td><td/><td>mysql.data.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Newtonsoft.Json.dll</td><td>{A6D213DD-3D43-4CFE-AAF7-E8F3A1A9891A}</td><td>INSTALLDIR</td><td>2</td><td/><td>newtonsoft.json.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Net.Http.Extensions.dll</td><td>{4EFA83CB-F50C-4585-8112-F671472E9CC6}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.net.http.extensions.d</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Net.Http.Primitives.dll</td><td>{75EECA34-7C57-4AC2-B256-DAA54FF9DE69}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.net.http.primitives.d</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Net.Http.WebRequest.dll</td><td>{0EEBC460-2653-48DC-92C1-80383116D8F1}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.net.http.webrequest.d</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Net.Http.dll</td><td>{A766524B-7AFD-4FB3-8443-6D8110E45D3D}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.net.http.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Runtime.dll</td><td>{753C771D-D059-4BD3-B3D2-BE48C98A03DD}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.runtime.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Threading.Tasks.dll</td><td>{17ECFD52-586F-411C-97D7-B6A4CAB45FCB}</td><td>INSTALLDIR</td><td>2</td><td/><td>system.threading.tasks.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>TweetSharp.dll</td><td>{49D74FD5-7667-42CA-BE7D-198F1AE9BEAD}</td><td>INSTALLDIR</td><td>2</td><td/><td>tweetsharp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>WebScrap.exe</td><td>{817958FA-7B0E-4C5B-9691-12CD916E234C}</td><td>INSTALLDIR</td><td>2</td><td/><td>webscrap.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>WebScrap.vshost.exe</td><td>{EA349E2E-76A0-40C8-92A0-4B2ABF3A600B}</td><td>INSTALLDIR</td><td>2</td><td/><td>webscrap.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -938,7 +938,7 @@
 		<row><td>DatabaseFolder</td><td>ChangeFolder</td><td>SpawnDialog</td><td>InstallChangeFolder</td><td>1</td><td>1</td></row>
 		<row><td>DatabaseFolder</td><td>ChangeFolder</td><td>[_BrowseProperty]</td><td>DATABASEDIR</td><td>1</td><td>2</td></row>
 		<row><td>DatabaseFolder</td><td>Next</td><td>NewDialog</td><td>SetupType</td><td>1</td><td>1</td></row>
-		<row><td>DestinationFolder</td><td>Back</td><td>NewDialog</td><td>CustomerInformation</td><td>1</td><td>0</td></row>
+		<row><td>DestinationFolder</td><td>Back</td><td>NewDialog</td><td>LicenseAgreement</td><td>NOT Installed</td><td>0</td></row>
 		<row><td>DestinationFolder</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>1</td></row>
 		<row><td>DestinationFolder</td><td>ChangeFolder</td><td>SpawnDialog</td><td>InstallChangeFolder</td><td>1</td><td>1</td></row>
 		<row><td>DestinationFolder</td><td>ChangeFolder</td><td>[_BrowseProperty]</td><td>INSTALLDIR</td><td>1</td><td>2</td></row>
@@ -959,7 +959,7 @@
 		<row><td>LicenseAgreement</td><td>Back</td><td>NewDialog</td><td>InstallWelcome</td><td>NOT Installed</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>DoAction</td><td>ISPrint</td><td>1</td><td>0</td></row>
-		<row><td>LicenseAgreement</td><td>Next</td><td>NewDialog</td><td>ReadyToInstall</td><td>AgreeToLicense = "Yes"</td><td>0</td></row>
+		<row><td>LicenseAgreement</td><td>Next</td><td>NewDialog</td><td>DestinationFolder</td><td>AgreeToLicense = "Yes"</td><td>0</td></row>
 		<row><td>MaintenanceType</td><td>Back</td><td>NewDialog</td><td>MaintenanceWelcome</td><td>1</td><td>0</td></row>
 		<row><td>MaintenanceType</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>MaintenanceType</td><td>Next</td><td>NewDialog</td><td>CustomSetup</td><td>_IsMaintenance = "Change"</td><td>12</td></row>
@@ -990,7 +990,7 @@
 		<row><td>ReadmeInformation</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>1</td></row>
 		<row><td>ReadmeInformation</td><td>Next</td><td>NewDialog</td><td>CustomerInformation</td><td>1</td><td>1</td></row>
 		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>CustomSetup</td><td>Installed OR _IsSetupTypeMin = "Custom"</td><td>2</td></row>
-		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>LicenseAgreement</td><td>NOT Installed</td><td>1</td></row>
+		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>DestinationFolder</td><td>NOT Installed</td><td>1</td></row>
 		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>MaintenanceType</td><td>Installed AND _IsMaintenance = "Reinstall"</td><td>3</td></row>
 		<row><td>ReadyToInstall</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>ReadyToInstall</td><td>InstallNow</td><td>EndDialog</td><td>Return</td><td>OutOfNoRbDiskSpace &lt;&gt; 1</td><td>0</td></row>
@@ -1938,62 +1938,62 @@
 		<col def="S72">ISComponentSubFolder_</col>
 		<row><td>aa_default.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>AA_DEF~1.XML|AA_Default.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\tickers\AA_Default.xml</td><td>1</td><td/></row>
 		<row><td>agribusiness.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>AGRIBU~1.XML|Agribusiness.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\tickers\Agribusiness.xml</td><td>1</td><td/></row>
-		<row><td>alarm.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>ALARM.WAV</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\ALARM.WAV</td><td>1</td><td/></row>
+		<row><td>alarm.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>ALARM.WAV</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\ALARM.WAV</td><td>1</td><td/></row>
 		<row><td>banks.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>Banks.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\tickers\Banks.xml</td><td>1</td><td/></row>
 		<row><td>biotechs.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>Biotechs.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\tickers\Biotechs.xml</td><td>1</td><td/></row>
-		<row><td>clock.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>CLOCK.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\CLOCK.wav</td><td>1</td><td/></row>
+		<row><td>clock.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>CLOCK.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\CLOCK.wav</td><td>1</td><td/></row>
 		<row><td>createtablefindata.sql</td><td>ISX_DEFAULTCOMPONENT</td><td>CREATE~1.SQL|createtablefindata.sql</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\SQL\createtablefindata.sql</td><td>1</td><td/></row>
 		<row><td>energy.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>Energy.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\tickers\Energy.xml</td><td>1</td><td/></row>
-		<row><td>favicon.ico</td><td>ISX_DEFAULTCOMPONENT2</td><td>favicon.ico</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\favicon.ico</td><td>1</td><td/></row>
+		<row><td>favicon.ico</td><td>ISX_DEFAULTCOMPONENT2</td><td>favicon.ico</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\favicon.ico</td><td>1</td><td/></row>
 		<row><td>gold.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>Gold.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\tickers\Gold.xml</td><td>1</td><td/></row>
-		<row><td>hammock.clientprofile.dll</td><td>Hammock.ClientProfile.dll</td><td>HAMMOC~1.DLL|Hammock.ClientProfile.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Hammock.ClientProfile.dll</td><td>1</td><td/></row>
-		<row><td>hammock.clientprofile.pdb</td><td>ISX_DEFAULTCOMPONENT2</td><td>HAMMOC~1.PDB|Hammock.ClientProfile.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Hammock.ClientProfile.pdb</td><td>1</td><td/></row>
-		<row><td>helpers.dll</td><td>Helpers.dll</td><td>Helpers.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Helpers.dll</td><td>1</td><td/></row>
-		<row><td>helpers.pdb</td><td>ISX_DEFAULTCOMPONENT2</td><td>Helpers.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Helpers.pdb</td><td>1</td><td/></row>
-		<row><td>htmlagilitypack.dll</td><td>HtmlAgilityPack.dll</td><td>HTMLAG~1.DLL|HtmlAgilityPack.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\HtmlAgilityPack.dll</td><td>1</td><td/></row>
+		<row><td>hammock.clientprofile.dll</td><td>Hammock.ClientProfile.dll</td><td>HAMMOC~1.DLL|Hammock.ClientProfile.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Hammock.ClientProfile.dll</td><td>1</td><td/></row>
+		<row><td>hammock.clientprofile.pdb</td><td>ISX_DEFAULTCOMPONENT2</td><td>HAMMOC~1.PDB|Hammock.ClientProfile.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Hammock.ClientProfile.pdb</td><td>1</td><td/></row>
+		<row><td>helpers.dll</td><td>Helpers.dll</td><td>Helpers.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Helpers.dll</td><td>1</td><td/></row>
+		<row><td>helpers.pdb</td><td>ISX_DEFAULTCOMPONENT2</td><td>Helpers.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Helpers.pdb</td><td>1</td><td/></row>
+		<row><td>htmlagilitypack.dll</td><td>HtmlAgilityPack.dll</td><td>HTMLAG~1.DLL|HtmlAgilityPack.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\HtmlAgilityPack.dll</td><td>1</td><td/></row>
 		<row><td>largecaps.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>LARGEC~1.XML|LargeCaps.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\tickers\LargeCaps.xml</td><td>1</td><td/></row>
-		<row><td>microsoft.practices.servicel</td><td>Microsoft.Practices.ServiceLocation.dll</td><td>MICROS~1.DLL|Microsoft.Practices.ServiceLocation.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Microsoft.Practices.ServiceLocation.dll</td><td>1</td><td/></row>
-		<row><td>microsoft.practices.servicel1</td><td>ISX_DEFAULTCOMPONENT2</td><td>MICROS~1.PDB|Microsoft.Practices.ServiceLocation.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Microsoft.Practices.ServiceLocation.pdb</td><td>1</td><td/></row>
-		<row><td>microsoft.practices.servicel2</td><td>ISX_DEFAULTCOMPONENT2</td><td>MICROS~1.XML|Microsoft.Practices.ServiceLocation.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Microsoft.Practices.ServiceLocation.xml</td><td>1</td><td/></row>
-		<row><td>microsoft.practices.unity.co</td><td>Microsoft.Practices.Unity.Configuration.dll</td><td>MICROS~1.DLL|Microsoft.Practices.Unity.Configuration.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Microsoft.Practices.Unity.Configuration.dll</td><td>1</td><td/></row>
-		<row><td>microsoft.practices.unity.co1</td><td>ISX_DEFAULTCOMPONENT2</td><td>MICROS~1.XML|Microsoft.Practices.Unity.Configuration.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Microsoft.Practices.Unity.Configuration.xml</td><td>1</td><td/></row>
-		<row><td>microsoft.practices.unity.dl</td><td>Microsoft.Practices.Unity.dll</td><td>MICROS~1.DLL|Microsoft.Practices.Unity.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Microsoft.Practices.Unity.dll</td><td>1</td><td/></row>
-		<row><td>microsoft.practices.unity.xm</td><td>ISX_DEFAULTCOMPONENT2</td><td>MICROS~1.XML|Microsoft.Practices.Unity.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Microsoft.Practices.Unity.xml</td><td>1</td><td/></row>
-		<row><td>mysql.data.dll</td><td>MySql.Data.dll</td><td>MYSQLD~1.DLL|MySql.Data.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\MySql.Data.dll</td><td>1</td><td/></row>
-		<row><td>newtonsoft.json.dll</td><td>Newtonsoft.Json.dll</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
-		<row><td>newtonsoft.json.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>NEWTON~1.XML|Newtonsoft.Json.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\Newtonsoft.Json.xml</td><td>1</td><td/></row>
-		<row><td>number1.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number1.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\number1.wav</td><td>1</td><td/></row>
-		<row><td>number10.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number10.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\number10.wav</td><td>1</td><td/></row>
-		<row><td>number2.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number2.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\number2.wav</td><td>1</td><td/></row>
-		<row><td>number3.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number3.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\number3.wav</td><td>1</td><td/></row>
-		<row><td>number4.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number4.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\number4.wav</td><td>1</td><td/></row>
-		<row><td>number5.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number5.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\number5.wav</td><td>1</td><td/></row>
-		<row><td>number6.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number6.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\number6.wav</td><td>1</td><td/></row>
-		<row><td>number7.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number7.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\number7.wav</td><td>1</td><td/></row>
-		<row><td>number8.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number8.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\number8.wav</td><td>1</td><td/></row>
-		<row><td>number9.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number9.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\number9.wav</td><td>1</td><td/></row>
+		<row><td>microsoft.practices.servicel</td><td>Microsoft.Practices.ServiceLocation.dll</td><td>MICROS~1.DLL|Microsoft.Practices.ServiceLocation.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Microsoft.Practices.ServiceLocation.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.practices.servicel1</td><td>ISX_DEFAULTCOMPONENT2</td><td>MICROS~1.PDB|Microsoft.Practices.ServiceLocation.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Microsoft.Practices.ServiceLocation.pdb</td><td>1</td><td/></row>
+		<row><td>microsoft.practices.servicel2</td><td>ISX_DEFAULTCOMPONENT2</td><td>MICROS~1.XML|Microsoft.Practices.ServiceLocation.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Microsoft.Practices.ServiceLocation.xml</td><td>1</td><td/></row>
+		<row><td>microsoft.practices.unity.co</td><td>Microsoft.Practices.Unity.Configuration.dll</td><td>MICROS~1.DLL|Microsoft.Practices.Unity.Configuration.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Microsoft.Practices.Unity.Configuration.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.practices.unity.co1</td><td>ISX_DEFAULTCOMPONENT2</td><td>MICROS~1.XML|Microsoft.Practices.Unity.Configuration.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Microsoft.Practices.Unity.Configuration.xml</td><td>1</td><td/></row>
+		<row><td>microsoft.practices.unity.dl</td><td>Microsoft.Practices.Unity.dll</td><td>MICROS~1.DLL|Microsoft.Practices.Unity.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Microsoft.Practices.Unity.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.practices.unity.xm</td><td>ISX_DEFAULTCOMPONENT2</td><td>MICROS~1.XML|Microsoft.Practices.Unity.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Microsoft.Practices.Unity.xml</td><td>1</td><td/></row>
+		<row><td>mysql.data.dll</td><td>MySql.Data.dll</td><td>MYSQLD~1.DLL|MySql.Data.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\MySql.Data.dll</td><td>1</td><td/></row>
+		<row><td>newtonsoft.json.dll</td><td>Newtonsoft.Json.dll</td><td>NEWTON~1.DLL|Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
+		<row><td>newtonsoft.json.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>NEWTON~1.XML|Newtonsoft.Json.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\Newtonsoft.Json.xml</td><td>1</td><td/></row>
+		<row><td>number1.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number1.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\number1.wav</td><td>1</td><td/></row>
+		<row><td>number10.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number10.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\number10.wav</td><td>1</td><td/></row>
+		<row><td>number2.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number2.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\number2.wav</td><td>1</td><td/></row>
+		<row><td>number3.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number3.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\number3.wav</td><td>1</td><td/></row>
+		<row><td>number4.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number4.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\number4.wav</td><td>1</td><td/></row>
+		<row><td>number5.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number5.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\number5.wav</td><td>1</td><td/></row>
+		<row><td>number6.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number6.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\number6.wav</td><td>1</td><td/></row>
+		<row><td>number7.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number7.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\number7.wav</td><td>1</td><td/></row>
+		<row><td>number8.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number8.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\number8.wav</td><td>1</td><td/></row>
+		<row><td>number9.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>number9.wav</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\number9.wav</td><td>1</td><td/></row>
 		<row><td>oil.xml</td><td>ISX_DEFAULTCOMPONENT1</td><td>Oil.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\tickers\Oil.xml</td><td>1</td><td/></row>
-		<row><td>siren.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>SIREN.WAV</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\SIREN.WAV</td><td>1</td><td/></row>
-		<row><td>system.net.http.dll</td><td>System.Net.Http.dll</td><td>SYSTEM~1.DLL|System.Net.Http.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Net.Http.dll</td><td>1</td><td/></row>
-		<row><td>system.net.http.extensions.d</td><td>System.Net.Http.Extensions.dll</td><td>SYSTEM~1.DLL|System.Net.Http.Extensions.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Net.Http.Extensions.dll</td><td>1</td><td/></row>
-		<row><td>system.net.http.extensions.x</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Net.Http.Extensions.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Net.Http.Extensions.xml</td><td>1</td><td/></row>
-		<row><td>system.net.http.primitives.d</td><td>System.Net.Http.Primitives.dll</td><td>SYSTEM~1.DLL|System.Net.Http.Primitives.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Net.Http.Primitives.dll</td><td>1</td><td/></row>
-		<row><td>system.net.http.primitives.x</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Net.Http.Primitives.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Net.Http.Primitives.xml</td><td>1</td><td/></row>
-		<row><td>system.net.http.webrequest.d</td><td>System.Net.Http.WebRequest.dll</td><td>SYSTEM~1.DLL|System.Net.Http.WebRequest.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Net.Http.WebRequest.dll</td><td>1</td><td/></row>
-		<row><td>system.net.http.webrequest.x</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Net.Http.WebRequest.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Net.Http.WebRequest.xml</td><td>1</td><td/></row>
-		<row><td>system.net.http.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Net.Http.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Net.Http.xml</td><td>1</td><td/></row>
-		<row><td>system.runtime.dll</td><td>System.Runtime.dll</td><td>SYSTEM~1.DLL|System.Runtime.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Runtime.dll</td><td>1</td><td/></row>
-		<row><td>system.runtime.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Runtime.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Runtime.xml</td><td>1</td><td/></row>
-		<row><td>system.threading.tasks.dll</td><td>System.Threading.Tasks.dll</td><td>SYSTEM~1.DLL|System.Threading.Tasks.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Threading.Tasks.dll</td><td>1</td><td/></row>
-		<row><td>system.threading.tasks.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Threading.Tasks.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\System.Threading.Tasks.xml</td><td>1</td><td/></row>
-		<row><td>tweetsharp.dll</td><td>TweetSharp.dll</td><td>TWEETS~1.DLL|TweetSharp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\TweetSharp.dll</td><td>1</td><td/></row>
-		<row><td>tweetsharp.pdb</td><td>ISX_DEFAULTCOMPONENT2</td><td>TWEETS~1.PDB|TweetSharp.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\TweetSharp.pdb</td><td>1</td><td/></row>
-		<row><td>webscrap.exe</td><td>WebScrap.exe</td><td>WebScrap.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\WebScrap.exe</td><td>1</td><td/></row>
-		<row><td>webscrap.exe.config</td><td>ISX_DEFAULTCOMPONENT2</td><td>WEBSCR~1.CON|WebScrap.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\WebScrap.exe.config</td><td>1</td><td/></row>
-		<row><td>webscrap.pdb</td><td>ISX_DEFAULTCOMPONENT2</td><td>WebScrap.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\WebScrap.pdb</td><td>1</td><td/></row>
-		<row><td>webscrap.vshost.exe</td><td>WebScrap.vshost.exe</td><td>WEBSCR~1.EXE|WebScrap.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\WebScrap.vshost.exe</td><td>1</td><td/></row>
-		<row><td>webscrap.vshost.exe.config</td><td>ISX_DEFAULTCOMPONENT2</td><td>WEBSCR~1.CON|WebScrap.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\WebScrap.vshost.exe.config</td><td>1</td><td/></row>
-		<row><td>webscrap.vshost.exe.manifest</td><td>ISX_DEFAULTCOMPONENT2</td><td>WEBSCR~1.MAN|WebScrap.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>D:\WebScrapRepo\WebScrap\bin\Release\WebScrap.vshost.exe.manifest</td><td>1</td><td/></row>
+		<row><td>siren.wav</td><td>ISX_DEFAULTCOMPONENT2</td><td>SIREN.WAV</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\SIREN.WAV</td><td>1</td><td/></row>
+		<row><td>system.net.http.dll</td><td>System.Net.Http.dll</td><td>SYSTEM~1.DLL|System.Net.Http.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Net.Http.dll</td><td>1</td><td/></row>
+		<row><td>system.net.http.extensions.d</td><td>System.Net.Http.Extensions.dll</td><td>SYSTEM~1.DLL|System.Net.Http.Extensions.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Net.Http.Extensions.dll</td><td>1</td><td/></row>
+		<row><td>system.net.http.extensions.x</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Net.Http.Extensions.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Net.Http.Extensions.xml</td><td>1</td><td/></row>
+		<row><td>system.net.http.primitives.d</td><td>System.Net.Http.Primitives.dll</td><td>SYSTEM~1.DLL|System.Net.Http.Primitives.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Net.Http.Primitives.dll</td><td>1</td><td/></row>
+		<row><td>system.net.http.primitives.x</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Net.Http.Primitives.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Net.Http.Primitives.xml</td><td>1</td><td/></row>
+		<row><td>system.net.http.webrequest.d</td><td>System.Net.Http.WebRequest.dll</td><td>SYSTEM~1.DLL|System.Net.Http.WebRequest.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Net.Http.WebRequest.dll</td><td>1</td><td/></row>
+		<row><td>system.net.http.webrequest.x</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Net.Http.WebRequest.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Net.Http.WebRequest.xml</td><td>1</td><td/></row>
+		<row><td>system.net.http.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Net.Http.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Net.Http.xml</td><td>1</td><td/></row>
+		<row><td>system.runtime.dll</td><td>System.Runtime.dll</td><td>SYSTEM~1.DLL|System.Runtime.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Runtime.dll</td><td>1</td><td/></row>
+		<row><td>system.runtime.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Runtime.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Runtime.xml</td><td>1</td><td/></row>
+		<row><td>system.threading.tasks.dll</td><td>System.Threading.Tasks.dll</td><td>SYSTEM~1.DLL|System.Threading.Tasks.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Threading.Tasks.dll</td><td>1</td><td/></row>
+		<row><td>system.threading.tasks.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>SYSTEM~1.XML|System.Threading.Tasks.xml</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\System.Threading.Tasks.xml</td><td>1</td><td/></row>
+		<row><td>tweetsharp.dll</td><td>TweetSharp.dll</td><td>TWEETS~1.DLL|TweetSharp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\TweetSharp.dll</td><td>1</td><td/></row>
+		<row><td>tweetsharp.pdb</td><td>ISX_DEFAULTCOMPONENT2</td><td>TWEETS~1.PDB|TweetSharp.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\TweetSharp.pdb</td><td>1</td><td/></row>
+		<row><td>webscrap.exe</td><td>WebScrap.exe</td><td>WebScrap.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\WebScrap.exe</td><td>1</td><td/></row>
+		<row><td>webscrap.exe.config</td><td>ISX_DEFAULTCOMPONENT2</td><td>WEBSCR~1.CON|WebScrap.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\WebScrap.exe.config</td><td>1</td><td/></row>
+		<row><td>webscrap.pdb</td><td>ISX_DEFAULTCOMPONENT2</td><td>WebScrap.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\WebScrap.pdb</td><td>1</td><td/></row>
+		<row><td>webscrap.vshost.exe</td><td>WebScrap.vshost.exe</td><td>WEBSCR~1.EXE|WebScrap.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\WebScrap.vshost.exe</td><td>1</td><td/></row>
+		<row><td>webscrap.vshost.exe.config</td><td>ISX_DEFAULTCOMPONENT2</td><td>WEBSCR~1.CON|WebScrap.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\WebScrap.vshost.exe.config</td><td>1</td><td/></row>
+		<row><td>webscrap.vshost.exe.manifest</td><td>ISX_DEFAULTCOMPONENT2</td><td>WEBSCR~1.MAN|WebScrap.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>D:\GitInsidersTracker\WebScrap\bin\Release\WebScrap.vshost.exe.manifest</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2009,6 +2009,7 @@
 	<table name="ISAssistantTag">
 		<col key="yes" def="s72">Tag</col>
 		<col def="S255">Data</col>
+		<row><td>WebScrap.exe</td><td/></row>
 	</table>
 
 	<table name="ISBillBoard">
@@ -2135,26 +2136,26 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>Hammock.ClientProfile.dll</td><td/><td/><td>_51B54969_6C69_4AA2_AD82_CC609CE361F0_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Helpers.dll</td><td/><td/><td>_66858AD0_7DE6_4F01_B454_549A604724F5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>HtmlAgilityPack.dll</td><td/><td/><td>_9015802B_61CB_4103_B5EC_2D230E018D40_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Hammock.ClientProfile.dll</td><td/><td/><td>_9114F45B_417A_4A68_A1F8_70A275505F63_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Helpers.dll</td><td/><td/><td>_E5B59C6F_1994_4959_8880_7D6C99B08190_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>HtmlAgilityPack.dll</td><td/><td/><td>_04F3EB74_B42F_4D85_943E_716B0CAD2A4A_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_2E025E6F_8E22_4D4B_A6D3_AD71914055C6_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_060AAAE6_AB27_48B7_8C56_4AA7F7BB1C33_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_E5572DE5_9260_4A23_967F_F7B68E885729_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Microsoft.Practices.ServiceLocation.dll</td><td/><td/><td>_66D2227F_240F_4CF3_A047_5676325F53D3_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Microsoft.Practices.Unity.Configuration.dll</td><td/><td/><td>_512808B0_296D_45EA_A973_08C8EC053E74_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Microsoft.Practices.Unity.dll</td><td/><td/><td>_3DC785C9_E3B2_44E6_B8A8_E22685E9D2C8_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>MySql.Data.dll</td><td/><td/><td>_9EB570C7_C10B_4737_9F20_663D31F4BD28_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Newtonsoft.Json.dll</td><td/><td/><td>_35CD4777_F4BC_40AF_85E4_54454E2C05D5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Net.Http.Extensions.dll</td><td/><td/><td>_ED622253_E78F_4DFB_BE3C_FAA2EF23967C_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Net.Http.Primitives.dll</td><td/><td/><td>_CF24B139_08F5_4367_8E1C_FDAC7310B6EF_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Net.Http.WebRequest.dll</td><td/><td/><td>_BB21F8CD_361C_4C11_8BDB_00D702C115E5_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Net.Http.dll</td><td/><td/><td>_30E4FC20_F0D2_464C_90B0_A63F0DFD98E8_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Runtime.dll</td><td/><td/><td>_AC7EB9AB_1A5B_4277_97DC_3493DC87BA7E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>System.Threading.Tasks.dll</td><td/><td/><td>_EE744D8C_46A6_4F0A_B132_0A8DA3987E67_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>TweetSharp.dll</td><td/><td/><td>_6DE71863_985F_4571_B321_57369F5E2454_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>WebScrap.exe</td><td/><td/><td>_53F89BDB_27A1_4898_B350_E72D8B0E355D_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>WebScrap.vshost.exe</td><td/><td/><td>_BFE5CCFC_945A_4FC8_A29E_EEFD95DE66B3_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.Practices.ServiceLocation.dll</td><td/><td/><td>_877AB538_BEBB_485A_9EA1_827A24F60E11_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.Practices.Unity.Configuration.dll</td><td/><td/><td>_794BA2AD_C14B_4063_8AB7_15B96FE6154A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.Practices.Unity.dll</td><td/><td/><td>_4CD7A92E_5AE5_4736_A7A0_7D0A091CBB9A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>MySql.Data.dll</td><td/><td/><td>_BC7020C8_934F_4C8B_9D26_E2FC5792CF21_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Newtonsoft.Json.dll</td><td/><td/><td>_AD9446A8_8636_41D5_A448_B65EAAEB83D2_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Net.Http.Extensions.dll</td><td/><td/><td>_DE871F68_9544_4ED0_AFD5_C617C68BBED6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Net.Http.Primitives.dll</td><td/><td/><td>_0D023399_53E5_495D_8971_FB6F9B16E99F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Net.Http.WebRequest.dll</td><td/><td/><td>_71F7AE71_A083_42E0_9C4E_5E02F25976AA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Net.Http.dll</td><td/><td/><td>_16E9F620_FF04_4AC5_BC77_657FBA03DDF4_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Runtime.dll</td><td/><td/><td>_A04DA0A1_5022_4554_A553_17187D4E6588_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Threading.Tasks.dll</td><td/><td/><td>_A3DF913B_D034_4A40_BF4F_8685DF2C521D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>TweetSharp.dll</td><td/><td/><td>_A45D5E80_BB8A_4119_BE47_F20697084B5D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>WebScrap.exe</td><td/><td/><td>_A0AF3D0D_D356_486D_9294_5BCEB9E6511D_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>WebScrap.vshost.exe</td><td/><td/><td>_665A097D_4B87_4CDD_9126_A3B1BC61EFBF_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2742,7 +2743,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>Teycitek</td><td>0</td><td/><td>-1977341680</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>Teycitek</td><td>0</td><td/><td>774112427</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-1977308944</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>-1977308944</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>-1977308944</td></row>
@@ -3556,6 +3557,7 @@
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>-1977308944</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>InsidersTracker</td><td>0</td><td/><td>-1977349616</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>LAUNCH~1.EXE|Launch WebScrap.vshost.exe</td><td>0</td><td/><td>-1977323024</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>InsidersTracker</td><td>0</td><td/><td>774116555</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>-1977308944</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>-1977308944</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>-1977308944</td></row>
@@ -3845,9 +3847,10 @@
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-1977308944</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-1977308944</td></row>
 		<row><td>ID_STRING1</td><td>1033</td><td/><td>0</td><td/><td>-1977306896</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>http://insiderstracker.blogspot.com/</td><td>0</td><td/><td>-1977308880</td></row>
-		<row><td>ID_STRING3</td><td>1033</td><td>Teycitek</td><td>0</td><td/><td>-1977341680</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>http://www.Teycitek.com</td><td>0</td><td/><td>774112427</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>Teycitek</td><td>0</td><td/><td>774112427</td></row>
 		<row><td>ID_STRING4</td><td>1033</td><td>LAUNCH~1.EXE|Launch WebScrap.exe</td><td>0</td><td/><td>-1977306640</td></row>
+		<row><td>ID_STRING5</td><td>1033</td><td>LAUNCH~1.EXE|Launch WebScrap.exe</td><td>0</td><td/><td>774155435</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-1977308944</td></row>
 	</table>
 
@@ -3963,7 +3966,9 @@
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
 		<row><td>WebScrap.exe1_44AD3847062B427D835F83770402200E.exe</td><td/><td>D:\WebScrapRepo\WebScrap\bin\Release\WebScrap.exe</td><td>0</td></row>
+		<row><td>WebScrap.exe1_4F02253E62E342808AD0B6666212AA20.exe</td><td/><td>D:\GitInsidersTracker\WebScrap\bin\Release\WebScrap.exe</td><td>0</td></row>
 		<row><td>WebScrap.exe_7DC139C7C9FC4AD1BD80B80319CCADA3.exe</td><td/><td>D:\WebScrapRepo\WebScrap\bin\Release\WebScrap.exe</td><td>0</td></row>
+		<row><td>WebScrap.exe_8D9297738C9B4200AF5023E893BE869C.exe</td><td/><td>D:\GitInsidersTracker\WebScrap\bin\Release\WebScrap.exe</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4096,7 +4101,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{E73079FC-52AB-47BD-8D1A-15786C743AA2}</td></row>
 		<row><td>ISUSSignature</td><td>{C18DB976-3098-438C-958C-2D0D73214A12}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewAppFiles,viewShortcuts</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4482,6 +4487,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>RestartManagerOption</td><td>CloseRestart</td><td/></row>
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
+		<row><td>SHOWLAUNCHPROGRAM</td><td>-1</td><td/></row>
 		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
@@ -4545,8 +4551,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
-		<row><td>FileKey1</td><td>WebScrap.exe</td><td/><td>teycitek</td><td>2</td></row>
-		<row><td>FileKey2</td><td>WebScrap.exe</td><td/><td>inside_1_insiderstracker</td><td>2</td></row>
 		<row><td>WebScrap.exe</td><td>WebScrap.exe</td><td/><td>inside_1_insiderstracker</td><td>2</td></row>
 	</table>
 
@@ -4633,8 +4637,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>WebScrap.exe</td><td>inside_1_insiderstracker</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>WebScrap.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>WebScrap.exe_7DC139C7C9FC4AD1BD80B80319CCADA3.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>WebScrap.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>WebScrap.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>WebScrap.exe1_44AD3847062B427D835F83770402200E.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>WebScrap.exe</td><td>inside_1_insiderstracker</td><td>##IDS_SHORTCUT_DISPLAY_NAME3##</td><td>WebScrap.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>WebScrap.exe_8D9297738C9B4200AF5023E893BE869C.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>WebScrap.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME3##</td><td>WebScrap.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>WebScrap.exe1_4F02253E62E342808AD0B6666212AA20.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
