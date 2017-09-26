@@ -115,6 +115,10 @@ namespace WebScrap.Presenter
             rsi14.Add(string.Empty);
             rsi14.Add(">70");
             rsi14.Add("<70");
+            rsi14.Add(">60");
+            rsi14.Add("<60");
+            rsi14.Add(">50");
+            rsi14.Add("<50");
             rsi14.Add(">30");
             rsi14.Add("<30");
             _viewScreener.FillCombobox(comboboxes[1], rsi14);
@@ -128,25 +132,39 @@ namespace WebScrap.Presenter
             _viewScreener.FillCombobox(comboboxes[2], anareco);
             List<string> price = new List<string>();
             price.Add(string.Empty);
+            price.Add("<1");
             price.Add("<2");
             price.Add("<5");
+            price.Add(">1");
+            price.Add(">2");
+            price.Add(">5");
             price.Add("<10");
+            price.Add("<20");
+            price.Add("<50");
             price.Add(">10");
+            price.Add(">20");
+            price.Add(">50");
             _viewScreener.FillCombobox(comboboxes[3], price);
 
             List<string> wlow52 = new List<string>();
             wlow52.Add(string.Empty);
-            wlow52.Add("<0");
+            wlow52.Add(">1");
+            wlow52.Add(">5");
             wlow52.Add(">10");
+            wlow52.Add(">20");
             wlow52.Add(">30");
+            wlow52.Add(">40");
             wlow52.Add(">50");
             _viewScreener.FillCombobox(comboboxes[4], wlow52);
 
             List<string> whigh52 = new List<string>();
             whigh52.Add(string.Empty);
-            whigh52.Add(">0");
+            whigh52.Add("<1");
+            whigh52.Add("<5");
             whigh52.Add("<10");
+            whigh52.Add("<20");
             whigh52.Add("<30");
+            whigh52.Add("<40");
             whigh52.Add("<50");
             _viewScreener.FillCombobox(comboboxes[5], whigh52);
 
@@ -167,6 +185,8 @@ namespace WebScrap.Presenter
             List<string> numrecentinspurchase = new List<string>();
             numrecentinspurchase.Add(string.Empty);
             numrecentinspurchase.Add(">0");
+            numrecentinspurchase.Add(">1");
+            numrecentinspurchase.Add(">2");
             numrecentinspurchase.Add(">3");
 
 
@@ -175,6 +195,8 @@ namespace WebScrap.Presenter
             List<string> numrecentinssale = new List<string>();
             numrecentinssale.Add(string.Empty);
             numrecentinssale.Add(">0");
+            numrecentinssale.Add(">1");
+            numrecentinssale.Add(">2");
             numrecentinssale.Add(">3");
 
 
@@ -183,6 +205,8 @@ namespace WebScrap.Presenter
             List<string> numrecentdiffinspurchase = new List<string>();
             numrecentdiffinspurchase.Add(string.Empty);
             numrecentdiffinspurchase.Add(">0");
+            numrecentdiffinspurchase.Add(">1");
+            numrecentdiffinspurchase.Add(">2");
             numrecentdiffinspurchase.Add(">3");
 
 
@@ -191,6 +215,8 @@ namespace WebScrap.Presenter
             List<string> numrecentdiffinssale = new List<string>();
             numrecentdiffinssale.Add(string.Empty);
             numrecentdiffinssale.Add(">0");
+            numrecentdiffinssale.Add(">1");
+            numrecentdiffinssale.Add(">2");
             numrecentdiffinssale.Add(">3");
 
 

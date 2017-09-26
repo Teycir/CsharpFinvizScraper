@@ -306,7 +306,8 @@ namespace WebScrap.Model
                 {
                     foreach (var node in nodesInsPur)
                     {
-                        if (nodesInsPur.Count < 78)
+                        // 78
+                        if (nodesInsPur.Count < 80)
                         {
                             data.Add("lastinsiderpurchaseprice", "0");
                             data.Add("lastinsiderpurchasevalue", "0");
@@ -314,7 +315,7 @@ namespace WebScrap.Model
                         }
                         j++;
 
-                        if (j == 78)
+                        if (j == 80)
                         {
                             if (node.InnerText.Contains('$'))
                             {
@@ -330,7 +331,7 @@ namespace WebScrap.Model
                         }
                         if (containsPurchase)
                         {
-                            if (j == 82)
+                            if (j == 84)
                             {
                                 GetValue(node, data, "lastinsiderpurchasevalue");
                                 containsPurchase = false;
@@ -392,7 +393,7 @@ namespace WebScrap.Model
                 {
                     foreach (var node in nodesInsSal)
                     {
-                        if (nodesInsSal.Count < 78)
+                        if (nodesInsSal.Count < 80)
                         {
                             data.Add("lastinsidersaleprice", "0");
                             data.Add("lastinsidersalevalue", "0");
@@ -401,7 +402,7 @@ namespace WebScrap.Model
                         k++;
 
 
-                        if (k == 78)
+                        if (k == 80)
                         {
                             if (node.InnerText.Contains("$"))
                             {
@@ -417,7 +418,7 @@ namespace WebScrap.Model
                         }
                         if (containsSale)
                         {
-                            if (k == 82)
+                            if (k == 84)
                             {
                                 GetValue(node, data, "lastinsidersalevalue");
                                 containsSale = false;
@@ -725,10 +726,10 @@ namespace WebScrap.Model
            
             DbConnect connection = DbConnect("finviz");
             List<string> tickers = GetFinvizTickers(@"http://finviz.com/screener.ashx?v=1");
-            //TODO
+            //// TODO
             //testing do not remove
             //List<string> tickers = new List<string>();
-           // tickers.Add("shld");
+            //tickers.Add("cqh");
             //tickers.Add("swks");
             //tickers.Add("ayr");
             //tickers.Add("xon");
