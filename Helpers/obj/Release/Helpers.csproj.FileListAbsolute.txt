@@ -54,4 +54,3 @@ D:\GitInsidersTracker\Helpers\bin\Release\Newtonsoft.Json.xml
 D:\GitInsidersTracker\Helpers\bin\Release\TweetSharp.pdb
 D:\GitInsidersTracker\Helpers\obj\Release\Helpers.dll
 D:\GitInsidersTracker\Helpers\obj\Release\Helpers.pdb
-D:\GitInsidersTracker\Helpers\obj\Release\Helpers.csprojResolveAssemblyReference.cache

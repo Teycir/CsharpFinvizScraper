@@ -442,6 +442,20 @@
             this.checkBoxPP3H = new System.Windows.Forms.CheckBox();
             this.checkBoxPP2H = new System.Windows.Forms.CheckBox();
             this.checkBoxPP1H = new System.Windows.Forms.CheckBox();
+            this.checkBoxqPP3H = new System.Windows.Forms.CheckBox();
+            this.checkBoxqPP2H = new System.Windows.Forms.CheckBox();
+            this.checkBoxqPP1H = new System.Windows.Forms.CheckBox();
+            this.checkBoxqHRsi = new System.Windows.Forms.CheckBox();
+            this.checkBoxqHSma = new System.Windows.Forms.CheckBox();
+            this.checkBoxqHPp = new System.Windows.Forms.CheckBox();
+            this.buttonqHourlyTickers = new System.Windows.Forms.Button();
+            this.textBoxqHourlyTickers = new System.Windows.Forms.TextBox();
+            this.label39 = new System.Windows.Forms.Label();
+            this.checkBoxTwitterqHourly = new System.Windows.Forms.CheckBox();
+            this.checkBoxEmailqHourly = new System.Windows.Forms.CheckBox();
+            this.checkBoxSoundqHourly = new System.Windows.Forms.CheckBox();
+            this.listBoxFqHourly = new System.Windows.Forms.ListBox();
+            this.buttonClearqHourlyAlerts = new System.Windows.Forms.Button();
             this.panelFT1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -586,7 +600,7 @@
             // checkBoxSoundFT
             // 
             this.checkBoxSoundFT.AutoSize = true;
-            this.checkBoxSoundFT.Location = new System.Drawing.Point(1535, 50);
+            this.checkBoxSoundFT.Location = new System.Drawing.Point(1535, 71);
             this.checkBoxSoundFT.Name = "checkBoxSoundFT";
             this.checkBoxSoundFT.Size = new System.Drawing.Size(57, 17);
             this.checkBoxSoundFT.TabIndex = 0;
@@ -598,7 +612,7 @@
             // checkBoxEmailF
             // 
             this.checkBoxEmailF.AutoSize = true;
-            this.checkBoxEmailF.Location = new System.Drawing.Point(1602, 50);
+            this.checkBoxEmailF.Location = new System.Drawing.Point(1602, 71);
             this.checkBoxEmailF.Name = "checkBoxEmailF";
             this.checkBoxEmailF.Size = new System.Drawing.Size(51, 17);
             this.checkBoxEmailF.TabIndex = 1;
@@ -611,10 +625,10 @@
             // 
             this.listBoxFDaily.FormattingEnabled = true;
             this.listBoxFDaily.HorizontalScrollbar = true;
-            this.listBoxFDaily.Location = new System.Drawing.Point(1410, 175);
+            this.listBoxFDaily.Location = new System.Drawing.Point(1410, 196);
             this.listBoxFDaily.Name = "listBoxFDaily";
             this.listBoxFDaily.ScrollAlwaysVisible = true;
-            this.listBoxFDaily.Size = new System.Drawing.Size(297, 316);
+            this.listBoxFDaily.Size = new System.Drawing.Size(297, 134);
             this.listBoxFDaily.TabIndex = 2;
             this.toolTip1.SetToolTip(this.listBoxFDaily, "Daily alerts");
             // 
@@ -622,12 +636,12 @@
             // 
             this.listBoxFHourly.FormattingEnabled = true;
             this.listBoxFHourly.HorizontalScrollbar = true;
-            this.listBoxFHourly.Location = new System.Drawing.Point(1410, 624);
+            this.listBoxFHourly.Location = new System.Drawing.Point(1410, 480);
             this.listBoxFHourly.Name = "listBoxFHourly";
             this.listBoxFHourly.ScrollAlwaysVisible = true;
-            this.listBoxFHourly.Size = new System.Drawing.Size(297, 316);
+            this.listBoxFHourly.Size = new System.Drawing.Size(297, 134);
             this.listBoxFHourly.TabIndex = 3;
-            this.toolTip1.SetToolTip(this.listBoxFHourly, "1/4 hourly alerts");
+            this.toolTip1.SetToolTip(this.listBoxFHourly, "hourly alerts");
             // 
             // textBoxF15Price
             // 
@@ -2819,7 +2833,7 @@
             // checkBoxFTwitter
             // 
             this.checkBoxFTwitter.AutoSize = true;
-            this.checkBoxFTwitter.Location = new System.Drawing.Point(1464, 50);
+            this.checkBoxFTwitter.Location = new System.Drawing.Point(1464, 71);
             this.checkBoxFTwitter.Name = "checkBoxFTwitter";
             this.checkBoxFTwitter.Size = new System.Drawing.Size(58, 17);
             this.checkBoxFTwitter.TabIndex = 33;
@@ -3005,7 +3019,7 @@
             // checkBoxTwitterHourly
             // 
             this.checkBoxTwitterHourly.AutoSize = true;
-            this.checkBoxTwitterHourly.Location = new System.Drawing.Point(1469, 497);
+            this.checkBoxTwitterHourly.Location = new System.Drawing.Point(1469, 353);
             this.checkBoxTwitterHourly.Name = "checkBoxTwitterHourly";
             this.checkBoxTwitterHourly.Size = new System.Drawing.Size(58, 17);
             this.checkBoxTwitterHourly.TabIndex = 103;
@@ -3017,7 +3031,7 @@
             // checkBoxEmailHourly
             // 
             this.checkBoxEmailHourly.AutoSize = true;
-            this.checkBoxEmailHourly.Location = new System.Drawing.Point(1602, 497);
+            this.checkBoxEmailHourly.Location = new System.Drawing.Point(1602, 353);
             this.checkBoxEmailHourly.Name = "checkBoxEmailHourly";
             this.checkBoxEmailHourly.Size = new System.Drawing.Size(51, 17);
             this.checkBoxEmailHourly.TabIndex = 102;
@@ -3029,7 +3043,7 @@
             // checkBoxSoundHourly
             // 
             this.checkBoxSoundHourly.AutoSize = true;
-            this.checkBoxSoundHourly.Location = new System.Drawing.Point(1536, 497);
+            this.checkBoxSoundHourly.Location = new System.Drawing.Point(1536, 353);
             this.checkBoxSoundHourly.Name = "checkBoxSoundHourly";
             this.checkBoxSoundHourly.Size = new System.Drawing.Size(57, 17);
             this.checkBoxSoundHourly.TabIndex = 101;
@@ -3040,7 +3054,7 @@
             // 
             // textBoxDailyTickers
             // 
-            this.textBoxDailyTickers.Location = new System.Drawing.Point(1410, 149);
+            this.textBoxDailyTickers.Location = new System.Drawing.Point(1410, 170);
             this.textBoxDailyTickers.Name = "textBoxDailyTickers";
             this.textBoxDailyTickers.Size = new System.Drawing.Size(297, 20);
             this.textBoxDailyTickers.TabIndex = 107;
@@ -3048,7 +3062,7 @@
             // 
             // textBoxHourlyTickers
             // 
-            this.textBoxHourlyTickers.Location = new System.Drawing.Point(1410, 598);
+            this.textBoxHourlyTickers.Location = new System.Drawing.Point(1410, 454);
             this.textBoxHourlyTickers.Name = "textBoxHourlyTickers";
             this.textBoxHourlyTickers.Size = new System.Drawing.Size(297, 20);
             this.textBoxHourlyTickers.TabIndex = 109;
@@ -3056,7 +3070,7 @@
             // 
             // buttonDailyTickers
             // 
-            this.buttonDailyTickers.Location = new System.Drawing.Point(1498, 122);
+            this.buttonDailyTickers.Location = new System.Drawing.Point(1498, 143);
             this.buttonDailyTickers.Name = "buttonDailyTickers";
             this.buttonDailyTickers.Size = new System.Drawing.Size(123, 23);
             this.buttonDailyTickers.TabIndex = 108;
@@ -3067,7 +3081,7 @@
             // 
             // buttonHourlyTickers
             // 
-            this.buttonHourlyTickers.Location = new System.Drawing.Point(1498, 569);
+            this.buttonHourlyTickers.Location = new System.Drawing.Point(1498, 425);
             this.buttonHourlyTickers.Name = "buttonHourlyTickers";
             this.buttonHourlyTickers.Size = new System.Drawing.Size(123, 23);
             this.buttonHourlyTickers.TabIndex = 110;
@@ -3081,7 +3095,7 @@
             this.checkBoxDRsi.AutoSize = true;
             this.checkBoxDRsi.Checked = true;
             this.checkBoxDRsi.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxDRsi.Location = new System.Drawing.Point(1464, 73);
+            this.checkBoxDRsi.Location = new System.Drawing.Point(1464, 94);
             this.checkBoxDRsi.Name = "checkBoxDRsi";
             this.checkBoxDRsi.Size = new System.Drawing.Size(41, 17);
             this.checkBoxDRsi.TabIndex = 113;
@@ -3095,7 +3109,7 @@
             this.checkBoxDSma.AutoSize = true;
             this.checkBoxDSma.Checked = true;
             this.checkBoxDSma.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxDSma.Location = new System.Drawing.Point(1602, 73);
+            this.checkBoxDSma.Location = new System.Drawing.Point(1602, 94);
             this.checkBoxDSma.Name = "checkBoxDSma";
             this.checkBoxDSma.Size = new System.Drawing.Size(47, 17);
             this.checkBoxDSma.TabIndex = 112;
@@ -3107,7 +3121,7 @@
             // checkBoxDPp
             // 
             this.checkBoxDPp.AutoSize = true;
-            this.checkBoxDPp.Location = new System.Drawing.Point(1535, 73);
+            this.checkBoxDPp.Location = new System.Drawing.Point(1535, 94);
             this.checkBoxDPp.Name = "checkBoxDPp";
             this.checkBoxDPp.Size = new System.Drawing.Size(40, 17);
             this.checkBoxDPp.TabIndex = 111;
@@ -3121,7 +3135,7 @@
             this.checkBoxHRsi.AutoSize = true;
             this.checkBoxHRsi.Checked = true;
             this.checkBoxHRsi.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxHRsi.Location = new System.Drawing.Point(1469, 520);
+            this.checkBoxHRsi.Location = new System.Drawing.Point(1469, 376);
             this.checkBoxHRsi.Name = "checkBoxHRsi";
             this.checkBoxHRsi.Size = new System.Drawing.Size(41, 17);
             this.checkBoxHRsi.TabIndex = 116;
@@ -3133,7 +3147,7 @@
             // checkBoxHSma
             // 
             this.checkBoxHSma.AutoSize = true;
-            this.checkBoxHSma.Location = new System.Drawing.Point(1602, 520);
+            this.checkBoxHSma.Location = new System.Drawing.Point(1602, 376);
             this.checkBoxHSma.Name = "checkBoxHSma";
             this.checkBoxHSma.Size = new System.Drawing.Size(47, 17);
             this.checkBoxHSma.TabIndex = 115;
@@ -3145,7 +3159,7 @@
             // checkBoxHPp
             // 
             this.checkBoxHPp.AutoSize = true;
-            this.checkBoxHPp.Location = new System.Drawing.Point(1536, 520);
+            this.checkBoxHPp.Location = new System.Drawing.Point(1536, 376);
             this.checkBoxHPp.Name = "checkBoxHPp";
             this.checkBoxHPp.Size = new System.Drawing.Size(40, 17);
             this.checkBoxHPp.TabIndex = 114;
@@ -3160,11 +3174,11 @@
             this.labelTrend.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTrend.Location = new System.Drawing.Point(7, 120);
             this.labelTrend.Name = "labelTrend";
-            this.labelTrend.Size = new System.Drawing.Size(78, 13);
+            this.labelTrend.Size = new System.Drawing.Size(93, 13);
             this.labelTrend.TabIndex = 117;
-            this.labelTrend.Text = "TREND D/H";
+            this.labelTrend.Text = "TREND D/H/Q";
             this.toolTip1.SetToolTip(this.labelTrend, "Trend is ↑ if price >sma200&100&50&20");
-            this.labelTrend.Click += new System.EventHandler(this.labelTrend_Click);
+
             // 
             // label36
             // 
@@ -3172,9 +3186,9 @@
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(682, 120);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(78, 13);
+            this.label36.Size = new System.Drawing.Size(93, 13);
             this.label36.TabIndex = 118;
-            this.label36.Text = "TREND D/H";
+            this.label36.Text = "TREND D/H/Q";
             this.toolTip1.SetToolTip(this.label36, "Trend is ↓ if price < sma200&100&50&20");
             // 
             // panel1
@@ -4323,11 +4337,11 @@
             // 
             // buttonClearHourlyAlerts
             // 
-            this.buttonClearHourlyAlerts.Location = new System.Drawing.Point(1444, 11);
+            this.buttonClearHourlyAlerts.Location = new System.Drawing.Point(1520, 11);
             this.buttonClearHourlyAlerts.Name = "buttonClearHourlyAlerts";
             this.buttonClearHourlyAlerts.Size = new System.Drawing.Size(107, 23);
             this.buttonClearHourlyAlerts.TabIndex = 91;
-            this.buttonClearHourlyAlerts.Text = "Clear 15 min alerts";
+            this.buttonClearHourlyAlerts.Text = "Clear 60 min alerts";
             this.buttonClearHourlyAlerts.UseVisualStyleBackColor = true;
             this.buttonClearHourlyAlerts.Click += new System.EventHandler(this.buttonClearHourlyAlerts_Click);
             // 
@@ -4408,9 +4422,9 @@
             this.label35.ForeColor = System.Drawing.Color.Red;
             this.label35.Location = new System.Drawing.Point(65, 46);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(277, 16);
+            this.label35.Size = new System.Drawing.Size(364, 16);
             this.label35.TabIndex = 99;
-            this.label35.Text = "* D for daily, H for 1/4 hourly time frame";
+            this.label35.Text = "* D for daily, H for hourly, Q for 1/4 hourly time frame";
             // 
             // panel30
             // 
@@ -4438,7 +4452,7 @@
             // 
             this.labelDaily.AutoSize = true;
             this.labelDaily.ForeColor = System.Drawing.Color.Red;
-            this.labelDaily.Location = new System.Drawing.Point(1413, 73);
+            this.labelDaily.Location = new System.Drawing.Point(1413, 94);
             this.labelDaily.Name = "labelDaily";
             this.labelDaily.Size = new System.Drawing.Size(30, 13);
             this.labelDaily.TabIndex = 104;
@@ -4448,15 +4462,16 @@
             // 
             this.labelHourly.AutoSize = true;
             this.labelHourly.ForeColor = System.Drawing.Color.Red;
-            this.labelHourly.Location = new System.Drawing.Point(1413, 521);
+            this.labelHourly.Location = new System.Drawing.Point(1413, 377);
             this.labelHourly.Name = "labelHourly";
             this.labelHourly.Size = new System.Drawing.Size(38, 13);
             this.labelHourly.TabIndex = 105;
-            this.labelHourly.Text = "15 min";
+            this.labelHourly.Text = "60 min";
+        
             // 
             // buttonClearDaily
             // 
-            this.buttonClearDaily.Location = new System.Drawing.Point(1570, 11);
+            this.buttonClearDaily.Location = new System.Drawing.Point(1633, 11);
             this.buttonClearDaily.Name = "buttonClearDaily";
             this.buttonClearDaily.Size = new System.Drawing.Size(107, 23);
             this.buttonClearDaily.TabIndex = 106;
@@ -4733,15 +4748,12 @@
             this.labelT27.Name = "labelT27";
             this.labelT27.Size = new System.Drawing.Size(2, 15);
             this.labelT27.TabIndex = 137;
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+        
             // 
             // checkBoxPP1D
             // 
             this.checkBoxPP1D.AutoSize = true;
-            this.checkBoxPP1D.Location = new System.Drawing.Point(1464, 99);
+            this.checkBoxPP1D.Location = new System.Drawing.Point(1464, 120);
             this.checkBoxPP1D.Name = "checkBoxPP1D";
             this.checkBoxPP1D.Size = new System.Drawing.Size(46, 17);
             this.checkBoxPP1D.TabIndex = 150;
@@ -4752,7 +4764,7 @@
             // checkBoxPP2D
             // 
             this.checkBoxPP2D.AutoSize = true;
-            this.checkBoxPP2D.Location = new System.Drawing.Point(1535, 99);
+            this.checkBoxPP2D.Location = new System.Drawing.Point(1535, 120);
             this.checkBoxPP2D.Name = "checkBoxPP2D";
             this.checkBoxPP2D.Size = new System.Drawing.Size(46, 17);
             this.checkBoxPP2D.TabIndex = 151;
@@ -4763,7 +4775,7 @@
             // checkBoxPP3D
             // 
             this.checkBoxPP3D.AutoSize = true;
-            this.checkBoxPP3D.Location = new System.Drawing.Point(1602, 99);
+            this.checkBoxPP3D.Location = new System.Drawing.Point(1602, 120);
             this.checkBoxPP3D.Name = "checkBoxPP3D";
             this.checkBoxPP3D.Size = new System.Drawing.Size(46, 17);
             this.checkBoxPP3D.TabIndex = 152;
@@ -4774,7 +4786,7 @@
             // checkBoxPP3H
             // 
             this.checkBoxPP3H.AutoSize = true;
-            this.checkBoxPP3H.Location = new System.Drawing.Point(1603, 546);
+            this.checkBoxPP3H.Location = new System.Drawing.Point(1603, 402);
             this.checkBoxPP3H.Name = "checkBoxPP3H";
             this.checkBoxPP3H.Size = new System.Drawing.Size(46, 17);
             this.checkBoxPP3H.TabIndex = 155;
@@ -4785,7 +4797,7 @@
             // checkBoxPP2H
             // 
             this.checkBoxPP2H.AutoSize = true;
-            this.checkBoxPP2H.Location = new System.Drawing.Point(1536, 546);
+            this.checkBoxPP2H.Location = new System.Drawing.Point(1536, 402);
             this.checkBoxPP2H.Name = "checkBoxPP2H";
             this.checkBoxPP2H.Size = new System.Drawing.Size(46, 17);
             this.checkBoxPP2H.TabIndex = 154;
@@ -4796,7 +4808,7 @@
             // checkBoxPP1H
             // 
             this.checkBoxPP1H.AutoSize = true;
-            this.checkBoxPP1H.Location = new System.Drawing.Point(1469, 546);
+            this.checkBoxPP1H.Location = new System.Drawing.Point(1469, 402);
             this.checkBoxPP1H.Name = "checkBoxPP1H";
             this.checkBoxPP1H.Size = new System.Drawing.Size(46, 17);
             this.checkBoxPP1H.TabIndex = 153;
@@ -4804,13 +4816,184 @@
             this.checkBoxPP1H.UseVisualStyleBackColor = true;
             this.checkBoxPP1H.CheckedChanged += new System.EventHandler(this.checkBoxPP1H_CheckedChanged);
             // 
+            // checkBoxqPP3H
+            // 
+            this.checkBoxqPP3H.AutoSize = true;
+            this.checkBoxqPP3H.Location = new System.Drawing.Point(1603, 689);
+            this.checkBoxqPP3H.Name = "checkBoxqPP3H";
+            this.checkBoxqPP3H.Size = new System.Drawing.Size(46, 17);
+            this.checkBoxqPP3H.TabIndex = 168;
+            this.checkBoxqPP3H.Text = "PP3";
+            this.checkBoxqPP3H.UseVisualStyleBackColor = true;
+            this.checkBoxqPP3H.CheckedChanged += new System.EventHandler(this.checkBoxqPP3H_CheckedChanged);
+            // 
+            // checkBoxqPP2H
+            // 
+            this.checkBoxqPP2H.AutoSize = true;
+            this.checkBoxqPP2H.Location = new System.Drawing.Point(1536, 689);
+            this.checkBoxqPP2H.Name = "checkBoxqPP2H";
+            this.checkBoxqPP2H.Size = new System.Drawing.Size(46, 17);
+            this.checkBoxqPP2H.TabIndex = 167;
+            this.checkBoxqPP2H.Text = "PP2";
+            this.checkBoxqPP2H.UseVisualStyleBackColor = true;
+            this.checkBoxqPP2H.CheckedChanged += new System.EventHandler(this.checkBoxqPP2H_CheckedChanged);
+            // 
+            // checkBoxqPP1H
+            // 
+            this.checkBoxqPP1H.AutoSize = true;
+            this.checkBoxqPP1H.Location = new System.Drawing.Point(1469, 689);
+            this.checkBoxqPP1H.Name = "checkBoxqPP1H";
+            this.checkBoxqPP1H.Size = new System.Drawing.Size(46, 17);
+            this.checkBoxqPP1H.TabIndex = 166;
+            this.checkBoxqPP1H.Text = "PP1";
+            this.checkBoxqPP1H.UseVisualStyleBackColor = true;
+            this.checkBoxqPP1H.CheckedChanged += new System.EventHandler(this.checkBoxqPP1H_CheckedChanged);
+            // 
+            // checkBoxqHRsi
+            // 
+            this.checkBoxqHRsi.AutoSize = true;
+            this.checkBoxqHRsi.Checked = true;
+            this.checkBoxqHRsi.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxqHRsi.Location = new System.Drawing.Point(1469, 663);
+            this.checkBoxqHRsi.Name = "checkBoxqHRsi";
+            this.checkBoxqHRsi.Size = new System.Drawing.Size(41, 17);
+            this.checkBoxqHRsi.TabIndex = 165;
+            this.checkBoxqHRsi.Text = "Rsi";
+            this.toolTip1.SetToolTip(this.checkBoxqHRsi, "Alerts on overbought/oversold RSI");
+            this.checkBoxqHRsi.UseVisualStyleBackColor = true;
+            this.checkBoxqHRsi.CheckedChanged += new System.EventHandler(this.checkBoxqHRsi_CheckedChanged);
+            // 
+            // checkBoxqHSma
+            // 
+            this.checkBoxqHSma.AutoSize = true;
+            this.checkBoxqHSma.Location = new System.Drawing.Point(1602, 663);
+            this.checkBoxqHSma.Name = "checkBoxqHSma";
+            this.checkBoxqHSma.Size = new System.Drawing.Size(47, 17);
+            this.checkBoxqHSma.TabIndex = 164;
+            this.checkBoxqHSma.Text = "Sma";
+            this.toolTip1.SetToolTip(this.checkBoxqHSma, "Alerts when price is above or below sma200&100&50&20");
+            this.checkBoxqHSma.UseVisualStyleBackColor = true;
+            this.checkBoxqHSma.CheckedChanged += new System.EventHandler(this.checkBoxqHSma_CheckedChanged);
+            // 
+            // checkBoxqHPp
+            // 
+            this.checkBoxqHPp.AutoSize = true;
+            this.checkBoxqHPp.Location = new System.Drawing.Point(1536, 663);
+            this.checkBoxqHPp.Name = "checkBoxqHPp";
+            this.checkBoxqHPp.Size = new System.Drawing.Size(40, 17);
+            this.checkBoxqHPp.TabIndex = 163;
+            this.checkBoxqHPp.Text = "PP";
+            this.toolTip1.SetToolTip(this.checkBoxqHPp, "Alerts on support/resistance breaches");
+            this.checkBoxqHPp.UseVisualStyleBackColor = true;
+            this.checkBoxqHPp.CheckedChanged += new System.EventHandler(this.checkBoxqHPp_CheckedChanged);
+            // 
+            // buttonqHourlyTickers
+            // 
+            this.buttonqHourlyTickers.Location = new System.Drawing.Point(1498, 712);
+            this.buttonqHourlyTickers.Name = "buttonqHourlyTickers";
+            this.buttonqHourlyTickers.Size = new System.Drawing.Size(123, 23);
+            this.buttonqHourlyTickers.TabIndex = 162;
+            this.buttonqHourlyTickers.Text = "Save alert tickers";
+            this.toolTip1.SetToolTip(this.buttonqHourlyTickers, "Save tickers for email and sound alert");
+            this.buttonqHourlyTickers.UseVisualStyleBackColor = true;
+            this.buttonqHourlyTickers.Click += new System.EventHandler(this.buttonqHourlyTickers_Click);
+            // 
+            // textBoxqHourlyTickers
+            // 
+            this.textBoxqHourlyTickers.Location = new System.Drawing.Point(1410, 741);
+            this.textBoxqHourlyTickers.Name = "textBoxqHourlyTickers";
+            this.textBoxqHourlyTickers.Size = new System.Drawing.Size(297, 20);
+            this.textBoxqHourlyTickers.TabIndex = 161;
+            this.toolTip1.SetToolTip(this.textBoxqHourlyTickers, "Type here the tickers you want to use for mail and sound alerts");
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.ForeColor = System.Drawing.Color.Red;
+            this.label39.Location = new System.Drawing.Point(1413, 664);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(38, 13);
+            this.label39.TabIndex = 160;
+            this.label39.Text = "15 min";
+            // 
+            // checkBoxTwitterqHourly
+            // 
+            this.checkBoxTwitterqHourly.AutoSize = true;
+            this.checkBoxTwitterqHourly.Location = new System.Drawing.Point(1469, 640);
+            this.checkBoxTwitterqHourly.Name = "checkBoxTwitterqHourly";
+            this.checkBoxTwitterqHourly.Size = new System.Drawing.Size(58, 17);
+            this.checkBoxTwitterqHourly.TabIndex = 159;
+            this.checkBoxTwitterqHourly.Text = "Twitter";
+            this.toolTip1.SetToolTip(this.checkBoxTwitterqHourly, "Check for twitter alert");
+            this.checkBoxTwitterqHourly.UseVisualStyleBackColor = true;
+            this.checkBoxTwitterqHourly.CheckedChanged += new System.EventHandler(this.checkBoxTwitterqHourly_CheckedChanged);
+            // 
+            // checkBoxEmailqHourly
+            // 
+            this.checkBoxEmailqHourly.AutoSize = true;
+            this.checkBoxEmailqHourly.Location = new System.Drawing.Point(1602, 640);
+            this.checkBoxEmailqHourly.Name = "checkBoxEmailqHourly";
+            this.checkBoxEmailqHourly.Size = new System.Drawing.Size(51, 17);
+            this.checkBoxEmailqHourly.TabIndex = 158;
+            this.checkBoxEmailqHourly.Text = "Email";
+            this.toolTip1.SetToolTip(this.checkBoxEmailqHourly, "Check for Email alert on saved tickers");
+            this.checkBoxEmailqHourly.UseVisualStyleBackColor = true;
+            this.checkBoxEmailqHourly.CheckedChanged += new System.EventHandler(this.checkBoxEmailqHourly_CheckedChanged);
+            // 
+            // checkBoxSoundqHourly
+            // 
+            this.checkBoxSoundqHourly.AutoSize = true;
+            this.checkBoxSoundqHourly.Location = new System.Drawing.Point(1536, 640);
+            this.checkBoxSoundqHourly.Name = "checkBoxSoundqHourly";
+            this.checkBoxSoundqHourly.Size = new System.Drawing.Size(57, 17);
+            this.checkBoxSoundqHourly.TabIndex = 157;
+            this.checkBoxSoundqHourly.Text = "Sound";
+            this.toolTip1.SetToolTip(this.checkBoxSoundqHourly, "Check for sound alert on saved tickers");
+            this.checkBoxSoundqHourly.UseVisualStyleBackColor = true;
+            this.checkBoxSoundqHourly.CheckedChanged += new System.EventHandler(this.checkBoxSoundqHourly_CheckedChanged);
+            // 
+            // listBoxFqHourly
+            // 
+            this.listBoxFqHourly.FormattingEnabled = true;
+            this.listBoxFqHourly.HorizontalScrollbar = true;
+            this.listBoxFqHourly.Location = new System.Drawing.Point(1410, 767);
+            this.listBoxFqHourly.Name = "listBoxFqHourly";
+            this.listBoxFqHourly.ScrollAlwaysVisible = true;
+            this.listBoxFqHourly.Size = new System.Drawing.Size(297, 134);
+            this.listBoxFqHourly.TabIndex = 156;
+            this.toolTip1.SetToolTip(this.listBoxFqHourly, "1/4 hourly alerts");
+            // 
+            // buttonClearqHourlyAlerts
+            // 
+            this.buttonClearqHourlyAlerts.Location = new System.Drawing.Point(1401, 11);
+            this.buttonClearqHourlyAlerts.Name = "buttonClearqHourlyAlerts";
+            this.buttonClearqHourlyAlerts.Size = new System.Drawing.Size(107, 23);
+            this.buttonClearqHourlyAlerts.TabIndex = 169;
+            this.buttonClearqHourlyAlerts.Text = "Clear 15 min alerts";
+            this.buttonClearqHourlyAlerts.UseVisualStyleBackColor = true;
+            this.buttonClearqHourlyAlerts.Click += new System.EventHandler(this.buttonClearqHourlyAlerts_Click);
+            // 
             // FrmFuturesAlerts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1742, 952);
+            this.ClientSize = new System.Drawing.Size(1759, 952);
+            this.Controls.Add(this.buttonClearqHourlyAlerts);
+            this.Controls.Add(this.checkBoxqPP3H);
+            this.Controls.Add(this.checkBoxqPP2H);
+            this.Controls.Add(this.checkBoxqPP1H);
+            this.Controls.Add(this.checkBoxqHRsi);
+            this.Controls.Add(this.checkBoxqHSma);
+            this.Controls.Add(this.checkBoxqHPp);
+            this.Controls.Add(this.buttonqHourlyTickers);
+            this.Controls.Add(this.textBoxqHourlyTickers);
+            this.Controls.Add(this.label39);
+            this.Controls.Add(this.checkBoxTwitterqHourly);
+            this.Controls.Add(this.checkBoxEmailqHourly);
+            this.Controls.Add(this.checkBoxSoundqHourly);
+            this.Controls.Add(this.listBoxFqHourly);
             this.Controls.Add(this.checkBoxPP3H);
             this.Controls.Add(this.checkBoxPP2H);
             this.Controls.Add(this.checkBoxPP1H);
@@ -4952,7 +5135,7 @@
             this.Text = "Insiders tracker: futures alerts";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmFuturesAlerts_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmFuturesAlerts_FormClosed);
-            this.Load += new System.EventHandler(this.FrmFuturesAlerts_Load);
+           
             this.panelFT1.ResumeLayout(false);
             this.panelFT1.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -5434,5 +5617,19 @@
         private System.Windows.Forms.CheckBox checkBoxPP3H;
         private System.Windows.Forms.CheckBox checkBoxPP2H;
         private System.Windows.Forms.CheckBox checkBoxPP1H;
+        private System.Windows.Forms.CheckBox checkBoxqPP2H;
+        private System.Windows.Forms.CheckBox checkBoxqPP1H;
+        private System.Windows.Forms.CheckBox checkBoxqHRsi;
+        private System.Windows.Forms.CheckBox checkBoxqHSma;
+        private System.Windows.Forms.CheckBox checkBoxqHPp;
+        private System.Windows.Forms.Button buttonqHourlyTickers;
+        private System.Windows.Forms.TextBox textBoxqHourlyTickers;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.CheckBox checkBoxTwitterqHourly;
+        private System.Windows.Forms.CheckBox checkBoxEmailqHourly;
+        private System.Windows.Forms.CheckBox checkBoxSoundqHourly;
+        private System.Windows.Forms.ListBox listBoxFqHourly;
+        private System.Windows.Forms.CheckBox checkBoxqPP3H;
+        private System.Windows.Forms.Button buttonClearqHourlyAlerts;
     }
 }

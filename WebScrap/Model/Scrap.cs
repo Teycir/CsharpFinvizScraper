@@ -109,9 +109,9 @@ namespace WebScrap.Model
 
 
         /// <summary>
-        /// 	Gets the WSJ data.
+        /// 	Brings the WSJ data to my shiny beautiful database.
         /// </summary>
-        /// <param name="ticker"> The ticker. </param>
+        /// <param name="ticker"> The sexy ticker. </param>
         /// <returns> </returns>
         public Dictionary<string, string> GetWsjData(string ticker)
         {

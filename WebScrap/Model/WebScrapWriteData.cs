@@ -237,6 +237,39 @@ namespace WebScrap.Model
         }
 
 
+
+
+
+        /// <summary>
+        /// 	Writes the data.
+        /// </summary>
+        /// <param name="tickers"> The tickers. </param>
+        /// <returns> </returns>
+        public static string WriteqHourlyFuturesTickers(string tickers)
+        {
+            //just in case: we protect code with try.
+            try
+            {
+                string filename = FileHelper.GetRoot() + "//InsidersTracker//"
+                                  + GetFilename("qHourlyFuturesTickers", ".xml");
+                File.Delete(filename);
+                StreamWriter sw = new StreamWriter(filename, true);
+                XElement xmlEntry = new XElement("DataEntry",
+                                                 new XElement("Tickers", tickers)
+                    );
+                //
+                sw.WriteLine(xmlEntry);
+                sw.Close();
+                return "Futures 15 min tickers storage succeeded";
+            }
+            catch (Exception ex)
+            {
+                Log.WriteLog(ex);
+                return "Futures 15 min Error";
+            }
+        }
+
+
         /// <summary>
         /// 	Writes the data.
         /// </summary>
