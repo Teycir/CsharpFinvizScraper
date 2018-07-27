@@ -122,7 +122,7 @@ namespace WebScrap.View
         {
             InitializeComponent();
 
-            comboBoxTransactionValue.SelectedIndex = 4;
+            comboBoxTransactionValue.SelectedIndex = 0;
             _allTickers = checkBoxAlertAll.Checked;
             ReadTextData(_file);
 

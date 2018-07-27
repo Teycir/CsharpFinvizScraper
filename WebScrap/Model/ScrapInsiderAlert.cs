@@ -214,7 +214,7 @@ namespace WebScrap.Model
                 {
                     insidertrade =
                         @"http://openinsider.com/screener?fd=1&fdr=&td=0&tdr=&s=&o=&t=p&minprice=&maxprice=&v=0&sicMin=&sicMax=&sortcol=8&maxresults=100&excludeDerivRelated=1";
-                    //*[@id="tablewrapper"]/a[1]
+                   
                 }
 
 
@@ -222,21 +222,28 @@ namespace WebScrap.Model
                 {
                     insidertrade =
                         @"http://openinsider.com/screener?fd=1&fdr=&td=0&tdr=&s=&o=&t=s&minprice=&maxprice=&v=0&sicMin=&sicMax=&sortcol=8&maxresults=100&excludeDerivRelated=1";
-                    //*[@id="tablewrapper"]/a[1]
+                   
                 }
                 if (action != "Sale" && action != "Purchase") return null;
-
-
-                var nodesInsPur = WebScrapHelper.LoadHtmlDoc(insidertrade, "//*[@id='results']/a");
-
-                foreach (var node in nodesInsPur)
+                List<string> noDupes=null;
+                int k;
+                string xpath=null;
+                for (k = 1; k < 400; k++)
                 {
-                    if (String.IsNullOrEmpty(node.InnerText)) break;
-                    data.Add(node.InnerText);
+                    xpath = @"//*[@id='tablewrapper']/table/tbody/tr[" + k + "]/td[4]/b/a";
+
+                    var nodesInsPur = WebScrapHelper.LoadHtmlDoc(insidertrade, xpath);
+                    if (nodesInsPur == null) return noDupes;
+                    
+                        foreach (var node in nodesInsPur)
+                        {
+                            if (String.IsNullOrEmpty(node.InnerText)) break;
+                            data.Add(node.InnerText);
+                        }
+                            noDupes = data.Distinct().ToList();
+                    
                 }
-
-                var noDupes = data.Distinct().ToList();
-
+               
                 return noDupes;
             }
             catch (Exception ex)
@@ -258,23 +265,17 @@ namespace WebScrap.Model
 
                 if (action == "Purchase")
                 {
-                    // @"http://openinsider.com/screener?fd=0&fdr=&td=0&tdr=&s=" + ticker +
-                    // @"&o=&t=p&minprice=&maxprice=&v=1000&sicMin=&sicMax=&sortcol=0&maxresults=500&excludeDerivRelated=1";
+                    
                     insidertrade =
                           @"http://openinsider.com/screener?fd=0&fdr=&td=0&tdr=&s=" + ticker +
                      @"&o=&t=p&minprice=&maxprice=&v=1000&sicMin=&sicMax=&sortcol=0&maxresults=500&excludeDerivRelated=1";
-                    //@"http://openinsider.com/screener?s="+ticker+@"&fd=1&fdr=&td=0&tdr=&o=&t=p&pl=0&ph=&v=&vh=&ocl=&och=&ll=&lh=&sicMin=&sicMax=&sortcol=0&cnt=100&excludeDerivRelated=1&daysago=0";
                 }
 
 
                 if (action == "Sale")
                 {
-                  //  @"http://openinsider.com/screener?fd=0&fdr=&td=0&tdr=&s=" + ticker +
-                  //@"&o=&t=s&minprice=&maxprice=&v=1000&sicMin=&sicMax=&sortcol=0&maxresults=500&excludeDerivRelated=1";
 
                     insidertrade =
-                        //@"http://openinsider.com/screener?s="+ticker+@"&fd=1&fdr=&td=0&tdr=&o=&t=s&pl=0&ph=&v=&vh=&ocl=&och=&ll=&lh=&sicMin=&sicMax=&sortcol=0&cnt=100&excludeDerivRelated=1&daysago=0";
-
                       @"http://openinsider.com/screener?fd=0&fdr=&td=0&tdr=&s=" + ticker +
                     @"&o=&t=s&minprice=&maxprice=&v=1000&sicMin=&sicMax=&sortcol=0&maxresults=500&excludeDerivRelated=1";
 
@@ -293,7 +294,7 @@ namespace WebScrap.Model
                 {
                     foreach (var node in nodesInsPur)
                     {
-                        if (nodesInsPur.Count < 78)
+                        if (nodesInsPur.Count < 80)
                         {
                             data.Add("lastprice", "0");
                             data.Add("lastvalue", "0");
@@ -302,7 +303,7 @@ namespace WebScrap.Model
                         j++;
 
 
-                        if (j == 78)
+                        if (j == 80 )
                         {
                             if (node.InnerText.Contains('$'))
                             {
@@ -318,7 +319,7 @@ namespace WebScrap.Model
                         }
                         if (containsTrade)
                         {
-                            if (j == 82)
+                            if (j == 84)
                             {
                                 GetValue(node, data, "lastvalue", action);
                                 containsTrade = false;
