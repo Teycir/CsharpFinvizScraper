@@ -17,10 +17,7 @@ namespace WebScrap.View
         }
 
 
-        private void linkLabelWsj_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Webpages.OpenWebpage(linkLabelWsj.Text);
-        }
+      
 
         private void linkLabelFinviz_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -37,9 +34,5 @@ namespace WebScrap.View
             Webpages.OpenWebpage(linkLabelInstall.Text);
         }
 
-        private void linkLabelInvesting_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Webpages.OpenWebpage(linkLabelOpenInsider.Text);
-        }
     }
 }

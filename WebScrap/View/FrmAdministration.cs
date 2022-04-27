@@ -71,13 +71,7 @@ namespace WebScrap.View
         private void buttonValidate_Click(object sender, EventArgs e)
         {
             labelResultDb.Text = null;
-            string crypt = null;
-            if (!String.IsNullOrEmpty(textBoxPassword.Text))
-            {
-                crypt = StringCipherHelper.Encrypt(textBoxPassword.Text, "Cirtey1979!");
-            }
-            labelResultDb.Text = WebScrapWriteData.WriteDbData(textBoxServer.Text,  textBoxDb.Text
-                                                               );
+            labelResultDb.Text = WebScrapWriteData.WriteDbData(textBoxServer.Text,  textBoxDb.Text);
         }
 
         private void buttonValidateEmail_Click(object sender, EventArgs e)

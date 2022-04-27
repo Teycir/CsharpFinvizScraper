@@ -34,10 +34,6 @@
             this.labelServer = new System.Windows.Forms.Label();
             this.labelDb = new System.Windows.Forms.Label();
             this.textBoxDb = new System.Windows.Forms.TextBox();
-            this.labelUid = new System.Windows.Forms.Label();
-            this.textBoxUid = new System.Windows.Forms.TextBox();
-            this.labelPassword = new System.Windows.Forms.Label();
-            this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.buttonValidateDb = new System.Windows.Forms.Button();
             this.labelResultDb = new System.Windows.Forms.Label();
             this.panelDb = new System.Windows.Forms.Panel();
@@ -111,39 +107,6 @@
             this.textBoxDb.Size = new System.Drawing.Size(100, 20);
             this.textBoxDb.TabIndex = 4;
             // 
-            // labelUid
-            // 
-            this.labelUid.AutoSize = true;
-            this.labelUid.Location = new System.Drawing.Point(16, 142);
-            this.labelUid.Name = "labelUid";
-            this.labelUid.Size = new System.Drawing.Size(23, 13);
-            this.labelUid.TabIndex = 7;
-            this.labelUid.Text = "Uid";
-            // 
-            // textBoxUid
-            // 
-            this.textBoxUid.Location = new System.Drawing.Point(80, 139);
-            this.textBoxUid.Name = "textBoxUid";
-            this.textBoxUid.Size = new System.Drawing.Size(100, 20);
-            this.textBoxUid.TabIndex = 6;
-            // 
-            // labelPassword
-            // 
-            this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(16, 185);
-            this.labelPassword.Name = "labelPassword";
-            this.labelPassword.Size = new System.Drawing.Size(53, 13);
-            this.labelPassword.TabIndex = 9;
-            this.labelPassword.Text = "Password";
-            // 
-            // textBoxPassword
-            // 
-            this.textBoxPassword.Location = new System.Drawing.Point(80, 182);
-            this.textBoxPassword.Name = "textBoxPassword";
-            this.textBoxPassword.PasswordChar = '*';
-            this.textBoxPassword.Size = new System.Drawing.Size(100, 20);
-            this.textBoxPassword.TabIndex = 8;
-            // 
             // buttonValidateDb
             // 
             this.buttonValidateDb.Location = new System.Drawing.Point(69, 332);
@@ -169,11 +132,7 @@
             this.panelDb.Controls.Add(this.labelDb);
             this.panelDb.Controls.Add(this.textBoxServer);
             this.panelDb.Controls.Add(this.labelServer);
-            this.panelDb.Controls.Add(this.labelPassword);
-            this.panelDb.Controls.Add(this.textBoxPassword);
-            this.panelDb.Controls.Add(this.labelUid);
             this.panelDb.Controls.Add(this.textBoxDb);
-            this.panelDb.Controls.Add(this.textBoxUid);
             this.panelDb.Location = new System.Drawing.Point(12, 12);
             this.panelDb.Name = "panelDb";
             this.panelDb.Size = new System.Drawing.Size(229, 268);
@@ -524,10 +483,6 @@
         private System.Windows.Forms.Label labelServer;
         private System.Windows.Forms.Label labelDb;
         private System.Windows.Forms.TextBox textBoxDb;
-        private System.Windows.Forms.Label labelUid;
-        private System.Windows.Forms.TextBox textBoxUid;
-        private System.Windows.Forms.Label labelPassword;
-        private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Button buttonValidateDb;
         private System.Windows.Forms.Label labelResultDb;
         private System.Windows.Forms.Panel panelDb;

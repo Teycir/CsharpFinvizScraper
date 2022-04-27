@@ -16,6 +16,12 @@ namespace WebScrap.View
         private readonly PresMain _pres;
 
         public Thread ThreadMain;
+
+        public FrmInsiderScreener(Thread threadMain)
+        {
+            ThreadMain = threadMain;
+        }
+
         private string _connectionstring;
         private bool _obLiClick;
         private bool _obTpClick;
