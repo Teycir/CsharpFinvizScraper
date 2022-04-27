@@ -67,34 +67,6 @@ namespace Helpers
             }
         }
 
-        /// <summary>
-        /// 	Writes the data.
-        /// </summary>
-        /// <param name="server"> The server. </param>
-        /// <param name="port"> The port. </param>
-        /// <param name="database"> The database. </param>
-        /// <param name="uid"> The uid. </param>
-        /// <param name="password"> The password. </param>
-        public static void WriteData(String server, string port, string database, string uid, string password)
-        {
-            //just in case: we protect code with try.
-            try
-            {
-                string filename = MakeFilename("_Data", ".xml");
-                StreamWriter sw = new StreamWriter(filename, true);
-                XElement xmlEntry = new XElement("DataEntry",
-                                                 new XElement("Date", DateTime.Now.ToString()),
-                                                 new XElement("server", server), new XElement("port", server),
-                                                 new XElement("database", server), new XElement("uid", server),
-                                                 new XElement("password", server));
-                //
-                sw.WriteLine(xmlEntry);
-                sw.Close();
-            }
-            catch (Exception)
-            {
-            }
-        }
 
 
         /// <summary>

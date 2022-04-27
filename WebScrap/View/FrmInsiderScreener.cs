@@ -312,7 +312,6 @@ namespace WebScrap.View
             comboBoxRSI.SelectedItem = "";
             comboBoxCountry.SelectedItem = "";
             comboBoxIndustry.SelectedItem = "";
-            // comboBoxIndustry.Items.Remove("Exchange traded fund");
             comboBoxSector.SelectedItem = "";
             comboBoxAnaReco.SelectedItem = "";
             comboBoxPrice.SelectedItem = "";
