@@ -29,35 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
-            this.buttonFlowsScreener = new System.Windows.Forms.Button();
             this.buttonFinviz = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.contactToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administrationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.labelDaysLeft = new System.Windows.Forms.Label();
-            this.buttonFuturesAlerts = new System.Windows.Forms.Button();
             this.buttonInsiderTradesAlert = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // buttonFlowsScreener
-            // 
-            this.buttonFlowsScreener.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonFlowsScreener.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonFlowsScreener.Location = new System.Drawing.Point(45, 49);
-            this.buttonFlowsScreener.Name = "buttonFlowsScreener";
-            this.buttonFlowsScreener.Size = new System.Drawing.Size(168, 45);
-            this.buttonFlowsScreener.TabIndex = 0;
-            this.buttonFlowsScreener.Text = "$ flows screener";
-            this.buttonFlowsScreener.UseVisualStyleBackColor = true;
-            this.buttonFlowsScreener.Click += new System.EventHandler(this.buttonAvafin_Click);
             // 
             // buttonFinviz
             // 
             this.buttonFinviz.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonFinviz.ForeColor = System.Drawing.Color.Black;
-            this.buttonFinviz.Location = new System.Drawing.Point(254, 48);
+            this.buttonFinviz.Location = new System.Drawing.Point(46, 69);
             this.buttonFinviz.Name = "buttonFinviz";
             this.buttonFinviz.Size = new System.Drawing.Size(168, 45);
             this.buttonFinviz.TabIndex = 1;
@@ -103,29 +89,17 @@
             this.labelDaysLeft.AutoSize = true;
             this.labelDaysLeft.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDaysLeft.ForeColor = System.Drawing.Color.Red;
-            this.labelDaysLeft.Location = new System.Drawing.Point(12, 177);
+            this.labelDaysLeft.Location = new System.Drawing.Point(12, 142);
             this.labelDaysLeft.Name = "labelDaysLeft";
             this.labelDaysLeft.Size = new System.Drawing.Size(62, 12);
             this.labelDaysLeft.TabIndex = 3;
             this.labelDaysLeft.Text = "labelDaysLeft";
             // 
-            // buttonFuturesAlerts
-            // 
-            this.buttonFuturesAlerts.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonFuturesAlerts.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonFuturesAlerts.Location = new System.Drawing.Point(45, 113);
-            this.buttonFuturesAlerts.Name = "buttonFuturesAlerts";
-            this.buttonFuturesAlerts.Size = new System.Drawing.Size(168, 45);
-            this.buttonFuturesAlerts.TabIndex = 4;
-            this.buttonFuturesAlerts.Text = "Futures alerts";
-            this.buttonFuturesAlerts.UseVisualStyleBackColor = true;
-            this.buttonFuturesAlerts.Click += new System.EventHandler(this.buttonFuturesScreener_Click);
-            // 
             // buttonInsiderTradesAlert
             // 
             this.buttonInsiderTradesAlert.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonInsiderTradesAlert.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonInsiderTradesAlert.Location = new System.Drawing.Point(254, 113);
+            this.buttonInsiderTradesAlert.Location = new System.Drawing.Point(258, 69);
             this.buttonInsiderTradesAlert.Name = "buttonInsiderTradesAlert";
             this.buttonInsiderTradesAlert.Size = new System.Drawing.Size(168, 45);
             this.buttonInsiderTradesAlert.TabIndex = 5;
@@ -137,12 +111,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(461, 212);
+            this.ClientSize = new System.Drawing.Size(461, 170);
             this.Controls.Add(this.buttonInsiderTradesAlert);
-            this.Controls.Add(this.buttonFuturesAlerts);
             this.Controls.Add(this.labelDaysLeft);
             this.Controls.Add(this.buttonFinviz);
-            this.Controls.Add(this.buttonFlowsScreener);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
@@ -158,15 +130,12 @@
         }
 
         #endregion
-
-        public System.Windows.Forms.Button buttonFlowsScreener;
         public System.Windows.Forms.Button buttonFinviz;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem contactToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem administrationToolStripMenuItem;
         private System.Windows.Forms.Label labelDaysLeft;
-        public System.Windows.Forms.Button buttonFuturesAlerts;
         public System.Windows.Forms.Button buttonInsiderTradesAlert;
     }
 }

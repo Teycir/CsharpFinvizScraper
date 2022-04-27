@@ -81,9 +81,8 @@ namespace WebScrap.View
 
             Close();
 
-            _frmMain.buttonFlowsScreener.Enabled = true;
+           
             _frmMain.buttonFinviz.Enabled = true;
-            _frmMain.buttonFuturesAlerts.Enabled = true;
             _frmMain.buttonInsiderTradesAlert.Enabled = true;
             _frmMain.Show();
         }

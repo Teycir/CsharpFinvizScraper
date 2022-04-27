@@ -44,15 +44,7 @@
             this.comboBoxFiles.Size = new System.Drawing.Size(319, 21);
             this.comboBoxFiles.TabIndex = 0;
             // 
-            // buttonLoadState
-            // 
-            this.buttonLoadState.Location = new System.Drawing.Point(12, 82);
-            this.buttonLoadState.Name = "buttonLoadState";
-            this.buttonLoadState.Size = new System.Drawing.Size(100, 23);
-            this.buttonLoadState.TabIndex = 1;
-            this.buttonLoadState.Text = "Load group";
-            this.buttonLoadState.UseVisualStyleBackColor = true;
-            this.buttonLoadState.Click += new System.EventHandler(this.buttonLoadState_Click);
+           
             // 
             // labelAvailableStates
             // 

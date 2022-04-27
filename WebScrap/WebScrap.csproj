@@ -118,12 +118,6 @@
     <Compile Include="View\FrmAdministration.Designer.cs">
       <DependentUpon>FrmAdministration.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\FrmFuturesAlerts.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\FrmFuturesAlerts.Designer.cs">
-      <DependentUpon>FrmFuturesAlerts.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\FrmHelp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,12 +142,6 @@
     <Compile Include="View\FrmLoadState.Designer.cs">
       <DependentUpon>FrmLoadState.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\FrmSaveState.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\FrmSaveState.Designer.cs">
-      <DependentUpon>FrmSaveState.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\FrmSectorialInsiderTransactions.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,12 +153,6 @@
     </Compile>
     <Compile Include="View\FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\FrmMoneyFlow.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\FrmMoneyFlow.Designer.cs">
-      <DependentUpon>FrmMoneyFlow.cs</DependentUpon>
     </Compile>
     <Compile Include="View\FrmInsiderScreener.cs">
       <SubType>Form</SubType>
@@ -202,9 +184,6 @@
     <EmbeddedResource Include="View\FrmAdministration.resx">
       <DependentUpon>FrmAdministration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\FrmFuturesAlerts.resx">
-      <DependentUpon>FrmFuturesAlerts.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\FrmHelp.resx">
       <DependentUpon>FrmHelp.cs</DependentUpon>
     </EmbeddedResource>
@@ -217,17 +196,11 @@
     <EmbeddedResource Include="View\FrmLoadState.resx">
       <DependentUpon>FrmLoadState.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\FrmSaveState.resx">
-      <DependentUpon>FrmSaveState.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\FrmSectorialInsiderTransactions.resx">
       <DependentUpon>FrmSectorialInsiderTransactions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\FrmMoneyFlow.resx">
-      <DependentUpon>FrmMoneyFlow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FrmInsiderScreener.resx">
       <DependentUpon>FrmInsiderScreener.cs</DependentUpon>

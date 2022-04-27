@@ -229,15 +229,12 @@ D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.csproj.App.config
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.Properties.Resources.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmContact.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmAdministration.resources
-D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmFuturesAlerts.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmHelp.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmInsidersAlert.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmLicence.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmLoadState.resources
-D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmSaveState.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmSectorialInsiderTransactions.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmMain.resources
-D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmMoneyFlow.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmInsiderScreener.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmTopInsiderTrades.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.csproj.GenerateResource.Cache

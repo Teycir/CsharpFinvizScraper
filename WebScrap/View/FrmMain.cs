@@ -1,9 +1,9 @@
 ﻿#region
 
+using Helpers;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using Helpers;
 using WebScrap.Model;
 
 #endregion
@@ -14,31 +14,24 @@ namespace WebScrap.View
     {
         private FrmInsidersAlert _frmInsidersAlert;
         private FrmInsiderScreener _frmInsidersScreener;
-        private FrmMoneyFlow _frmMflow;
-        private FrmFuturesAlerts _frmfutures;
-
 
         public FrmMain()
         {
             // Generate key
             string crypt = StringCipherHelper.Encrypt(DateTime.Now.ToString() + "*" + "600", "Cirtey1979!");
-            string test = crypt;
             InitializeComponent();
         }
 
         private void InitUsagePeriod()
         {
-
             labelDaysLeft.Text = null;
 
             bool licenceisvalid = WebScrapLicence.LicenceFileValid();
             if (!licenceisvalid)
             {
-                buttonFlowsScreener.Enabled = false;
                 buttonFinviz.Enabled = false;
-                buttonFuturesAlerts.Enabled = false;
-                buttonInsiderTradesAlert.Enabled = false;
 
+                buttonInsiderTradesAlert.Enabled = false;
 
                 FrmLicence frmLicence = new FrmLicence(this);
                 frmLicence.Show();
@@ -60,13 +53,11 @@ namespace WebScrap.View
                                 MessageBoxIcon.Error,
                                 MessageBoxDefaultButton.Button1);
 
-                buttonFlowsScreener.Enabled = false;
                 buttonFinviz.Enabled = false;
-                buttonFuturesAlerts.Enabled = false;
+
                 buttonInsiderTradesAlert.Enabled = false;
                 return;
             }
-
 
             string message;
             double daysago;
@@ -77,7 +68,6 @@ namespace WebScrap.View
                                          out message);
             labelDaysLeft.Text = message;
 
-
             if (daysleft < 1)
             {
                 MessageBox.Show("Expired subscription.",
@@ -85,9 +75,9 @@ namespace WebScrap.View
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Exclamation,
                                 MessageBoxDefaultButton.Button1);
-                buttonFlowsScreener.Enabled = false;
+
                 buttonFinviz.Enabled = false;
-                buttonFuturesAlerts.Enabled = false;
+
                 buttonInsiderTradesAlert.Enabled = false;
                 labelDaysLeft.Font = new Font(Font.FontFamily.Name, 20);
                 FrmLicence frmLicence = new FrmLicence(this);
@@ -99,22 +89,6 @@ namespace WebScrap.View
                     WebScrapWriteData.WriteExpirationData(cryptentered);
                 }
             }
-        }
-
-        private void buttonAvafin_Click(object sender, EventArgs e)
-        {
-            if (_frmMflow != null)
-            {
-                MessageBox.Show("Screen money flow already open",
-                                "Not allowed!",
-                                MessageBoxButtons.OK,
-                                MessageBoxIcon.Exclamation,
-                                MessageBoxDefaultButton.Button1);
-                return;
-            }
-            _frmMflow = new FrmMoneyFlow();
-            _frmMflow.Show();
-            _frmMflow = null;
         }
 
         private void buttonFinviz_Click(object sender, EventArgs e)
@@ -163,21 +137,7 @@ namespace WebScrap.View
             form.ShowDialog();
         }
 
-        private void buttonFuturesScreener_Click(object sender, EventArgs e)
-        {
-            if (_frmfutures != null)
-            {
-                MessageBox.Show("Screen futures screener already open",
-                                "Not allowed!",
-                                MessageBoxButtons.OK,
-                                MessageBoxIcon.Exclamation,
-                                MessageBoxDefaultButton.Button1);
-                return;
-            }
-            _frmfutures = new FrmFuturesAlerts();
-            _frmfutures.Show();
-            _frmfutures = null;
-        }
+      
 
         private void buttonInsiderTradesAlert_Click(object sender, EventArgs e)
         {
