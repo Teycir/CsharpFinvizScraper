@@ -4,18 +4,17 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using MySql.Data.MySqlClient;
 using System.Data;
+using System.Data.SqlClient;
 
 #endregion
 
-//Add MySql Library
 
 namespace Helpers
 {
     public class DbConnect
     {
-        private MySqlConnection _connection;
+        private SqlConnection _connection;
         private string _database;
         private string _password;
         private string _port;
@@ -44,7 +43,7 @@ namespace Helpers
             string connectionString = "SERVER=" + _server + ";" + "Port=" + _port + ";" + "DATABASE=" + _database + ";" +
                                       "UID=" + _uid + ";" + "PASSWORD=" + _password + ";";
 
-            _connection = new MySqlConnection(connectionString);
+            _connection = new SqlConnection(connectionString);
         }
 
 
@@ -61,7 +60,7 @@ namespace Helpers
                 return false;
                     
             }
-            catch (MySqlException ex)
+            catch (SqlException ex)
             {
                 //When handling errors, you can your application's response based on the error number.
                 //The two most common error numbers when connecting are as follows:
@@ -94,7 +93,7 @@ namespace Helpers
                 _connection.Close();
                 return true;
             }
-            catch (MySqlException ex)
+            catch (SqlException ex)
             {
                 Log.WriteLog(ex);
                 //MessageBox.Show(ex.Message);
@@ -112,7 +111,7 @@ namespace Helpers
                 try
                 {
                     //create command and assign the query and connection from the constructor
-                    MySqlCommand cmd = new MySqlCommand(query, _connection);
+                    SqlCommand cmd = new SqlCommand(query, _connection);
 
                     //Execute command
                     cmd.ExecuteNonQuery();
@@ -121,7 +120,7 @@ namespace Helpers
                     CloseConnection();
                     return true;
                 }
-                catch (MySqlException ex)
+                catch (SqlException ex)
                 {
                     Log.WriteLog(ex);
                     //MessageBox.Show(ex.Message);
@@ -140,8 +139,8 @@ namespace Helpers
             //Open connection
             if (OpenConnection())
             {
-                //create mysql command
-                MySqlCommand cmd = new MySqlCommand();
+                //create  command
+                SqlCommand cmd = new SqlCommand();
                 //Assign the query using CommandText
                 cmd.CommandText = query;
                 //Assign the connection using Connection
@@ -160,7 +159,7 @@ namespace Helpers
         {
             if (OpenConnection())
             {
-                MySqlCommand cmd = new MySqlCommand(query, _connection);
+                SqlCommand cmd = new SqlCommand(query, _connection);
                 cmd.ExecuteNonQuery();
                 CloseConnection();
             }
@@ -174,7 +173,7 @@ namespace Helpers
 
             if (OpenConnection())
             {
-                MySqlCommand cmd = new MySqlCommand(query, _connection);
+                SqlCommand cmd = new SqlCommand(query, _connection);
                 cmd.ExecuteNonQuery();
                 CloseConnection();
             }
@@ -197,14 +196,14 @@ namespace Helpers
                 return false;
             }
             values = new List<string>();
-            using (var cn = new MySqlConnection(connectionstring))
+            using (var cn = new SqlConnection(connectionstring))
             {
                 try
                 {
                     cn.Open();
-                    MySqlCommand cmd = new MySqlCommand(query, cn);
+                    SqlCommand cmd = new SqlCommand(query, cn);
                     //Create a data reader and Execute the command
-                    MySqlDataReader dataReader = cmd.ExecuteReader();
+                    SqlDataReader dataReader = cmd.ExecuteReader();
                     values.Add(string.Empty);
                     while (dataReader.Read())
                     {
@@ -223,58 +222,20 @@ namespace Helpers
         }
 
 
-        ///// <summary>
-        ///// Gets the value.
-        ///// </summary>
-        ///// <param name="query">The query.</param>
-        ///// <param name="displayMember">The display member.</param>
-        ///// <param name="connectionstring">The connectionstring.</param>
-        ///// <param name="values">The values.</param>
-        ///// <returns></returns>
-        //public static bool GetValueNoNull(string query, string displayMember, string connectionstring, out List<string> values)
-        //{
-        //    values = new List<string>();
-        //    using (var cn = new MySqlConnection(connectionstring))
-        //    {
-        //        cn.Open();
-
-        //        try
-        //        {
-        //            MySqlCommand cmd = new MySqlCommand(query, cn);
-        //            //Create a data reader and Execute the command
-        //            MySqlDataReader dataReader = cmd.ExecuteReader();
-        //            values.Add(string.Empty);
-        //            while (dataReader.Read())
-        //            {
-        //                string test = (string) dataReader[displayMember];
-        //                double data = (double) dataReader[displayMember];
-        //                values.Add(data.ToString());
-        //            }
-        //            cn.Close();
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            Log.WriteLog(ex);
-        //            return true;
-        //        }
-        //    }
-        //    return false;
-        //}
-
 
         public static bool GetValue(string query, string displayMember1, string displayMember2, string connectionstring,
                                     out List<string> values)
         {
             values = new List<string>();
-            using (var cn = new MySqlConnection(connectionstring))
+            using (var cn = new SqlConnection(connectionstring))
             {
                 cn.Open();
 
                 try
                 {
-                    MySqlCommand cmd = new MySqlCommand(query, cn);
+                    SqlCommand cmd = new SqlCommand(query, cn);
                     //Create a data reader and Execute the command
-                    MySqlDataReader dataReader = cmd.ExecuteReader();
+                    SqlDataReader dataReader = cmd.ExecuteReader();
                     values.Add(string.Empty);
                     while (dataReader.Read())
                     {
@@ -296,15 +257,15 @@ namespace Helpers
                                           out List<string> values)
         {
             values = new List<string>();
-            using (var cn = new MySqlConnection(connectionstring))
+            using (var cn = new SqlConnection(connectionstring))
             {
                 cn.Open();
 
                 try
                 {
-                    MySqlCommand cmd = new MySqlCommand(query, cn);
+                    SqlCommand cmd = new SqlCommand(query, cn);
                     //Create a data reader and Execute the command
-                    MySqlDataReader dataReader = cmd.ExecuteReader();
+                    SqlDataReader dataReader = cmd.ExecuteReader();
                     values.Add(string.Empty);
                     while (dataReader.Read())
                     {
@@ -326,15 +287,15 @@ namespace Helpers
                                     string displayMember4, string connectionstring, out List<string> values)
         {
             values = new List<string>();
-            using (var cn = new MySqlConnection(connectionstring))
+            using (var cn = new SqlConnection(connectionstring))
             {
                 cn.Open();
 
                 try
                 {
-                    MySqlCommand cmd = new MySqlCommand(query, cn);
+                    SqlCommand cmd = new SqlCommand(query, cn);
                     //Create a data reader and Execute the command
-                    MySqlDataReader dataReader = cmd.ExecuteReader();
+                    SqlDataReader dataReader = cmd.ExecuteReader();
                     values.Add(string.Empty);
                     while (dataReader.Read())
                     {
@@ -372,9 +333,9 @@ namespace Helpers
             if (OpenConnection())
             {
                 //Create Command
-                MySqlCommand cmd = new MySqlCommand(query, _connection);
+                SqlCommand cmd = new SqlCommand(query, _connection);
                 //Create a data reader and Execute the command
-                MySqlDataReader dataReader = cmd.ExecuteReader();
+                SqlDataReader dataReader = cmd.ExecuteReader();
 
                 //Read the data and store them in the list
                 while (dataReader.Read())
@@ -408,8 +369,8 @@ namespace Helpers
             //Open Connection
             if (OpenConnection())
             {
-                //Create Mysql Command
-                MySqlCommand cmd = new MySqlCommand(query, _connection);
+                //Create  Command
+                SqlCommand cmd = new SqlCommand(query, _connection);
 
                 //ExecuteScalar will return one value
                 Count = int.Parse(cmd.ExecuteScalar() + "");
@@ -446,7 +407,7 @@ namespace Helpers
 
 
                 ProcessStartInfo psi = new ProcessStartInfo();
-                psi.FileName = "mysqldump";
+                psi.FileName = "sqldump";
                 psi.RedirectStandardInput = false;
                 psi.RedirectStandardOutput = true;
                 psi.Arguments = string.Format(@"-u{0} -p{1} -h{2} {3}", _uid, _password, _server, _database);
@@ -475,14 +436,14 @@ namespace Helpers
             {
                 //Read file from C:\
                 string path;
-                path = "C:\\MySqlBackup.sql";
+                path = "C:\\SqlBackup.sql";
                 StreamReader file = new StreamReader(path);
                 string input = file.ReadToEnd();
                 file.Close();
 
 
                 ProcessStartInfo psi = new ProcessStartInfo();
-                psi.FileName = "mysql";
+                psi.FileName = "sql";
                 psi.RedirectStandardInput = true;
                 psi.RedirectStandardOutput = false;
                 psi.Arguments = string.Format(@"-u{0} -p{1} -h{2} {3}", _uid, _password, _server, _database);
