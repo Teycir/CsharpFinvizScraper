@@ -22,6 +22,12 @@ namespace WebScrap.View
         private readonly List<string> _purchases = new List<string>();
         private readonly List<string> _sales = new List<string>();
         public Thread ThreadMain;
+
+        public FrmInsidersAlert(Thread threadMain)
+        {
+            ThreadMain = threadMain;
+        }
+
         private bool _allTickers;
 
         private bool _listboxthreadInsidersActive = true;
