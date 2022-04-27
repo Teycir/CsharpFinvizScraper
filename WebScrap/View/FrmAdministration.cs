@@ -29,11 +29,7 @@ namespace WebScrap.View
                 if (dbData.Any())
                 {
                     textBoxServer.Text = dbData[1];
-                    textBoxPort.Text = dbData[2];
-                    textBoxDb.Text = dbData[3];
-                    textBoxUid.Text = dbData[4];
-                    string crypt = StringCipherHelper.Decrypt(dbData[5], "Cirtey1979!");
-                    textBoxPassword.Text = crypt;
+                    textBoxDb.Text = dbData[2];
                 }
             }
 
@@ -80,9 +76,8 @@ namespace WebScrap.View
             {
                 crypt = StringCipherHelper.Encrypt(textBoxPassword.Text, "Cirtey1979!");
             }
-            labelResultDb.Text = WebScrapWriteData.WriteDbData(textBoxServer.Text, textBoxPort.Text, textBoxDb.Text,
-                                                               textBoxUid.Text,
-                                                               crypt);
+            labelResultDb.Text = WebScrapWriteData.WriteDbData(textBoxServer.Text,  textBoxDb.Text
+                                                               );
         }
 
         private void buttonValidateEmail_Click(object sender, EventArgs e)

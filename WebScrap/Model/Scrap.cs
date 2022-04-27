@@ -1527,7 +1527,7 @@ namespace WebScrap.Model
             List<string> dbData =
                 XmlReadWrite.ReadXMLData("DbData", "//Insiderstracker//");
             //string server ="127.0.0.1";
-            //string port = "3306";
+
             //string database = "avafinScraper";
             //string uid = "root";
             //string password = "";
@@ -1538,15 +1538,14 @@ namespace WebScrap.Model
                 return null;
             }
             string server = dbData[1];
-            string port = dbData[2];
-            string database = dbData[3];
-            string uid = dbData[4];
-            string password = dbData[5];
+            string database = dbData[2];
+            string uid = dbData[3];
+            string password = dbData[4];
             string crypt = StringCipherHelper.Decrypt(password, "Cirtey1979!");
 
             List<string> values;
             string connectionstring =
-                "SERVER=" + server + ";" + "Port=" + port + ";" + "DATABASE=" + database + ";" + "UID=" + uid +
+                "SERVER=" + server +  ";" + "DATABASE=" + database + ";" + "UID=" + uid +
                 ";" + "PASSWORD=" + crypt + ";";
             const string selectlastiddownload =
                 @"select  iddownload from finviz.findata  order by iddownload desc limit 1;";
@@ -1733,7 +1732,6 @@ namespace WebScrap.Model
                 List<string> dbData =
                     XmlReadWrite.ReadXMLData("DbData", "//Insiderstracker//");
                 //string server ="127.0.0.1";
-                //string port = "3306";
                 //string database = "avafinScraper";
                 //string uid = "root";
                 if (dbData == null)
@@ -1746,13 +1744,12 @@ namespace WebScrap.Model
                     return null;
                 }
                 string server = dbData[1];
-                string port = dbData[2];
-                string uid = dbData[4];
-                string password = dbData[5];
+                string uid = dbData[3];
+                string password = dbData[4];
               
                 string crypt = StringCipherHelper.Decrypt(password, "Cirtey1979!");
 
-                DbConnect db = new DbConnect(server, port, dbname, uid, crypt);
+                DbConnect db = new DbConnect(server, dbname);
                 return db;
             }
             catch (Exception ex)

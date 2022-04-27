@@ -32,8 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAdministration));
             this.textBoxServer = new System.Windows.Forms.TextBox();
             this.labelServer = new System.Windows.Forms.Label();
-            this.labelPort = new System.Windows.Forms.Label();
-            this.textBoxPort = new System.Windows.Forms.TextBox();
             this.labelDb = new System.Windows.Forms.Label();
             this.textBoxDb = new System.Windows.Forms.TextBox();
             this.labelUid = new System.Windows.Forms.Label();
@@ -97,26 +95,10 @@
             this.labelServer.TabIndex = 1;
             this.labelServer.Text = "Server";
             // 
-            // labelPort
-            // 
-            this.labelPort.AutoSize = true;
-            this.labelPort.Location = new System.Drawing.Point(16, 99);
-            this.labelPort.Name = "labelPort";
-            this.labelPort.Size = new System.Drawing.Size(26, 13);
-            this.labelPort.TabIndex = 3;
-            this.labelPort.Text = "Port";
-            // 
-            // textBoxPort
-            // 
-            this.textBoxPort.Location = new System.Drawing.Point(80, 96);
-            this.textBoxPort.Name = "textBoxPort";
-            this.textBoxPort.Size = new System.Drawing.Size(100, 20);
-            this.textBoxPort.TabIndex = 2;
-            // 
             // labelDb
             // 
             this.labelDb.AutoSize = true;
-            this.labelDb.Location = new System.Drawing.Point(16, 142);
+            this.labelDb.Location = new System.Drawing.Point(16, 99);
             this.labelDb.Name = "labelDb";
             this.labelDb.Size = new System.Drawing.Size(53, 13);
             this.labelDb.TabIndex = 5;
@@ -124,7 +106,7 @@
             // 
             // textBoxDb
             // 
-            this.textBoxDb.Location = new System.Drawing.Point(80, 139);
+            this.textBoxDb.Location = new System.Drawing.Point(80, 96);
             this.textBoxDb.Name = "textBoxDb";
             this.textBoxDb.Size = new System.Drawing.Size(100, 20);
             this.textBoxDb.TabIndex = 4;
@@ -132,7 +114,7 @@
             // labelUid
             // 
             this.labelUid.AutoSize = true;
-            this.labelUid.Location = new System.Drawing.Point(16, 185);
+            this.labelUid.Location = new System.Drawing.Point(16, 142);
             this.labelUid.Name = "labelUid";
             this.labelUid.Size = new System.Drawing.Size(23, 13);
             this.labelUid.TabIndex = 7;
@@ -140,7 +122,7 @@
             // 
             // textBoxUid
             // 
-            this.textBoxUid.Location = new System.Drawing.Point(80, 182);
+            this.textBoxUid.Location = new System.Drawing.Point(80, 139);
             this.textBoxUid.Name = "textBoxUid";
             this.textBoxUid.Size = new System.Drawing.Size(100, 20);
             this.textBoxUid.TabIndex = 6;
@@ -148,7 +130,7 @@
             // labelPassword
             // 
             this.labelPassword.AutoSize = true;
-            this.labelPassword.Location = new System.Drawing.Point(16, 228);
+            this.labelPassword.Location = new System.Drawing.Point(16, 185);
             this.labelPassword.Name = "labelPassword";
             this.labelPassword.Size = new System.Drawing.Size(53, 13);
             this.labelPassword.TabIndex = 9;
@@ -156,7 +138,7 @@
             // 
             // textBoxPassword
             // 
-            this.textBoxPassword.Location = new System.Drawing.Point(80, 225);
+            this.textBoxPassword.Location = new System.Drawing.Point(80, 182);
             this.textBoxPassword.Name = "textBoxPassword";
             this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(100, 20);
@@ -188,9 +170,7 @@
             this.panelDb.Controls.Add(this.textBoxServer);
             this.panelDb.Controls.Add(this.labelServer);
             this.panelDb.Controls.Add(this.labelPassword);
-            this.panelDb.Controls.Add(this.textBoxPort);
             this.panelDb.Controls.Add(this.textBoxPassword);
-            this.panelDb.Controls.Add(this.labelPort);
             this.panelDb.Controls.Add(this.labelUid);
             this.panelDb.Controls.Add(this.textBoxDb);
             this.panelDb.Controls.Add(this.textBoxUid);
@@ -542,8 +522,6 @@
 
         private System.Windows.Forms.TextBox textBoxServer;
         private System.Windows.Forms.Label labelServer;
-        private System.Windows.Forms.Label labelPort;
-        private System.Windows.Forms.TextBox textBoxPort;
         private System.Windows.Forms.Label labelDb;
         private System.Windows.Forms.TextBox textBoxDb;
         private System.Windows.Forms.Label labelUid;

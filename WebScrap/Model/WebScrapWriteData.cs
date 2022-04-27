@@ -140,13 +140,11 @@ namespace WebScrap.Model
         /// 	Writes the data.
         /// </summary>
         /// <param name="server"> The server. </param>
-        /// <param name="port"> The port. </param>
         /// <param name="database"> The database. </param>
-        /// <param name="uid"> The uid. </param>
         /// <param name="password"> The password. </param>
         /// <param name="store"> The store. </param>
         /// <returns> </returns>
-        public static string WriteDbData(string server, string port, string database, string uid, string password)
+        public static string WriteDbData(string server,  string database)
 
         {
             //just in case: we protect code with try.
@@ -159,10 +157,8 @@ namespace WebScrap.Model
                 XElement xmlEntry = new XElement("DataEntry",
                                                  new XElement("Date", DateTime.Now.ToString()),
                                                  new XElement("server", server),
-                                                 new XElement("port", port),
-                                                 new XElement("database", database),
-                                                 new XElement("uid", uid),
-                                                 new XElement("password", password)
+                                                 new XElement("database", database)
+       
                     );
                 //
                 sw.WriteLine(xmlEntry);

@@ -16,33 +16,19 @@ namespace Helpers
     {
         private SqlConnection _connection;
         private string _database;
-        private string _password;
-        private string _port;
         private string _server;
-        private string _uid;
+
 
         //Constructor
-        public DbConnect(string server, string port, string database, string uid, string password)
+        public DbConnect(string server, string database)
         {
-            Initialize(server, port, database, uid, password);
+            Initialize(server, database);
         }
 
         //Initialize values
-        private void Initialize(string server, string port, string database, string uid, string password)
+        private void Initialize(string server,  string database)
         {
-            //server = "127.0.0.1";
-            _server = server;
-            _port = port; //3306
-            // database = "avafinScraper";
-            _database = database;
-            //uid = "root";
-            _uid = uid;
-
-            //password = "";
-            _password = password;
-            string connectionString = "SERVER=" + _server + ";" + "Port=" + _port + ";" + "DATABASE=" + _database + ";" +
-                                      "UID=" + _uid + ";" + "PASSWORD=" + _password + ";";
-
+            string connectionString = "Data Source = " + server + "; Initial Catalog = " + database + ";Integrated Security = True";
             _connection = new SqlConnection(connectionString);
         }
 
@@ -383,84 +369,6 @@ namespace Helpers
             else
             {
                 return Count;
-            }
-        }
-
-        //Backup
-        public void Backup()
-        {
-            try
-            {
-                DateTime time = DateTime.Now;
-                int year = time.Year;
-                int month = time.Month;
-                int day = time.Day;
-                int hour = time.Hour;
-                int minute = time.Minute;
-                int second = time.Second;
-                int millisecond = time.Millisecond;
-
-                //Save file to C:\ with the current date as a filename
-                string path = "C:\\" + year + "-" + month + "-" + day + "-" + hour + "-" + minute + "-" + second + "-" +
-                              millisecond + ".sql";
-                StreamWriter file = new StreamWriter(path);
-
-
-                ProcessStartInfo psi = new ProcessStartInfo();
-                psi.FileName = "sqldump";
-                psi.RedirectStandardInput = false;
-                psi.RedirectStandardOutput = true;
-                psi.Arguments = string.Format(@"-u{0} -p{1} -h{2} {3}", _uid, _password, _server, _database);
-                psi.UseShellExecute = false;
-
-                Process process = Process.Start(psi);
-
-                string output;
-                output = process.StandardOutput.ReadToEnd();
-                file.WriteLine(output);
-                process.WaitForExit();
-                file.Close();
-                process.Close();
-            }
-            catch (IOException ex)
-            {
-                Log.WriteLog(ex);
-                //MessageBox.Show("Error , unable to backup!");
-            }
-        }
-
-        //Restore
-        public void Restore()
-        {
-            try
-            {
-                //Read file from C:\
-                string path;
-                path = "C:\\SqlBackup.sql";
-                StreamReader file = new StreamReader(path);
-                string input = file.ReadToEnd();
-                file.Close();
-
-
-                ProcessStartInfo psi = new ProcessStartInfo();
-                psi.FileName = "sql";
-                psi.RedirectStandardInput = true;
-                psi.RedirectStandardOutput = false;
-                psi.Arguments = string.Format(@"-u{0} -p{1} -h{2} {3}", _uid, _password, _server, _database);
-                psi.UseShellExecute = false;
-
-
-                Process process = Process.Start(psi);
-                process.StandardInput.WriteLine(input);
-                process.StandardInput.Close();
-                process.WaitForExit();
-                process.Close();
-            }
-            catch (IOException ex)
-            {
-                Log.WriteLog(ex);
-                //MessageBox.Show("Error , unable to Restore!");
-                Log.WriteLog("Error , unable to Restore!");
             }
         }
     }

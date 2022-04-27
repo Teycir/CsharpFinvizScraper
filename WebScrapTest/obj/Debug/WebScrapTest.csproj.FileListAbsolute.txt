@@ -39,7 +39,6 @@ D:\GitInsidersTracker\WebScrapTest\bin\Debug\Helpers.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\HtmlAgilityPack.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\nunit.framework.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\WebScrap.exe
-D:\GitInsidersTracker\WebScrapTest\bin\Debug\MySql.Data.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\TweetSharp.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\System.Net.Http.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\Hammock.ClientProfile.dll
@@ -50,6 +49,9 @@ D:\GitInsidersTracker\WebScrapTest\bin\Debug\TweetSharp.pdb
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\System.Net.Http.xml
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\Hammock.ClientProfile.pdb
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\Newtonsoft.Json.xml
-D:\GitInsidersTracker\WebScrapTest\obj\Debug\WebScrapTest.csprojResolveAssemblyReference.cache
 D:\GitInsidersTracker\WebScrapTest\obj\Debug\WebScrapTest.dll
 D:\GitInsidersTracker\WebScrapTest\obj\Debug\WebScrapTest.pdb
+D:\GitInsidersTracker\WebScrapTest\bin\Debug\WebScrap.exe.config
+D:\GitInsidersTracker\WebScrapTest\obj\Debug\WebScrapTest.csproj.AssemblyReference.cache
+D:\GitInsidersTracker\WebScrapTest\obj\Debug\WebScrapTest.csproj.CoreCompileInputs.cache
+D:\GitInsidersTracker\WebScrapTest\obj\Debug\WebScrapTest.csproj.CopyComplete

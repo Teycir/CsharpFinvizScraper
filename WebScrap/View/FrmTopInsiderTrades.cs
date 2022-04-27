@@ -40,21 +40,17 @@ namespace WebScrap.View
             List<string> dbData =
               XmlReadWrite.ReadXMLData("DbData", "//Insiderstracker//");
             //string server ="127.0.0.1";
-            //string port = "3306";
             //string database = "avafinScraper";
             //string uid = "root";
             if (dbData != null)
             {
                 string server = dbData[1];
-                string port = dbData[2];
-                string db = dbData[3];
-                string uid = dbData[4];
-                string password = dbData[5];
-                string crypt = StringCipherHelper.Decrypt(password, "Cirtey1979!");
-                _connectionstring =
-                    "SERVER=" + server + ";" + "Port=" + port + ";" + "DATABASE=" + db + ";" + "UID=" + uid +
-                    ";" + "PASSWORD=" + crypt + ";";
-                DbConnect dbc = new DbConnect(server, port, db, uid, crypt);
+                string database = dbData[2];
+ 
+          
+                _connectionstring = "Data Source = " + server + "; Initial Catalog = " + database + ";Integrated Security = True";
+
+                DbConnect dbc = new DbConnect(server, database);
                 bool isconnected = dbc.OpenConnection();
                 if (!isconnected)
                 {
