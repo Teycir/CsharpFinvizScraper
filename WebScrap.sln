@@ -14,6 +14,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		WebScrap\bin\Debug\favicon.ico = WebScrap\bin\Debug\favicon.ico
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tickers", "tickers", "{DE927B52-A1B6-401D-BBCA-298C8E8EB2AE}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\HP\Desktop\tickers\AA_Default.xml = C:\Users\HP\Desktop\tickers\AA_Default.xml
+		C:\Users\HP\Desktop\tickers\Agribusiness.xml = C:\Users\HP\Desktop\tickers\Agribusiness.xml
+		C:\Users\HP\Desktop\tickers\Banks.xml = C:\Users\HP\Desktop\tickers\Banks.xml
+		C:\Users\HP\Desktop\tickers\Biotechs.xml = C:\Users\HP\Desktop\tickers\Biotechs.xml
+		C:\Users\HP\Desktop\tickers\Energy.xml = C:\Users\HP\Desktop\tickers\Energy.xml
+		C:\Users\HP\Desktop\tickers\Gold.xml = C:\Users\HP\Desktop\tickers\Gold.xml
+		C:\Users\HP\Desktop\tickers\LargeCaps.xml = C:\Users\HP\Desktop\tickers\LargeCaps.xml
+		C:\Users\HP\Desktop\tickers\Oil.xml = C:\Users\HP\Desktop\tickers\Oil.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{ED753360-4207-452F-88E9-8F3FF866F675}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\HP\Desktop\CreateMainTable.sql = C:\Users\HP\Desktop\CreateMainTable.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CD_ROM|Any CPU = CD_ROM|Any CPU
@@ -93,7 +110,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
 		SolutionGuid = {B20420CC-2AC9-46B5-8486-98303CF2A9A5}
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
 	EndGlobalSection
 EndGlobal
