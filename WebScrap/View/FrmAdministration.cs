@@ -54,34 +54,7 @@ namespace WebScrap.View
             }
 
 
-            labelResultTwitterMoneyFlow.Text = null;
-            List<string> twitterMoneyFlow = XmlReadWrite.ReadXMLData("TwitterMoneyFlow", "//Insiderstracker//");
-            if (twitterMoneyFlow != null)
-            {
-                if (twitterMoneyFlow.Any())
-                {
-                    textBoxcKeyMoneyFlow.Text = twitterMoneyFlow[1];
-                    textBoxcSecretMoneyFlow.Text = twitterMoneyFlow[2];
-                    textBoxAccessTokenMoneyFlow.Text = twitterMoneyFlow[3];
-                    string crypt = StringCipherHelper.Decrypt(twitterMoneyFlow[4], "Cirtey1979!");
-                    textBoxTokenSecretMoneyFlow.Text = crypt;
-                }
-            }
-
-
-            labelResultTwitterFutures.Text = null;
-            List<string> twitterFutures = XmlReadWrite.ReadXMLData("TwitterFutures", "//Insiderstracker//");
-            if (twitterFutures != null)
-            {
-                if (twitterFutures.Any())
-                {
-                    textBoxcKeyFutures.Text = twitterFutures[1];
-                    textBoxcSecretFutures.Text = twitterFutures[2];
-                    textBoxAccessTokenFutures.Text = twitterFutures[3];
-                    string crypt = StringCipherHelper.Decrypt(twitterFutures[4], "Cirtey1979!");
-                    textBoxTokenSecretFutures.Text = crypt;
-                }
-            }
+          
 
 
             labelResultTwitterInsiders.Text = null;
@@ -195,55 +168,8 @@ namespace WebScrap.View
             return true;
         }
 
-        private void buttonValidateTwitter_Click(object sender, EventArgs e)
-        {
-            labelResultTwitterMoneyFlow.Text = null;
-            if (string.IsNullOrEmpty(textBoxcKeyMoneyFlow.Text) || string.IsNullOrEmpty(textBoxcSecretMoneyFlow.Text) ||
-                string.IsNullOrEmpty(textBoxAccessTokenMoneyFlow.Text) ||
-                string.IsNullOrEmpty(textBoxTokenSecretMoneyFlow.Text))
-            {
-                MessageBox.Show("You must enter all values of the witter application");
-                return;
-            }
 
-
-            string crypt = null;
-            if (!String.IsNullOrEmpty(textBoxTokenSecretMoneyFlow.Text))
-            {
-                crypt = StringCipherHelper.Encrypt(textBoxTokenSecretMoneyFlow.Text, "Cirtey1979!");
-            }
-
-            labelResultTwitterMoneyFlow.Text = WebScrapWriteData.WriteTwitterData(textBoxcKeyMoneyFlow.Text,
-                                                                                  textBoxcSecretMoneyFlow.Text,
-                                                                                  textBoxAccessTokenMoneyFlow.Text,
-                                                                                  crypt, textBoxTwitterMoneyFlow.Text
-                );
-        }
-
-        private void buttonValidateTwitterFutures_Click(object sender, EventArgs e)
-        {
-            labelResultTwitterFutures.Text = null;
-            if (string.IsNullOrEmpty(textBoxcKeyFutures.Text) || string.IsNullOrEmpty(textBoxcSecretFutures.Text) ||
-                string.IsNullOrEmpty(textBoxAccessTokenFutures.Text) ||
-                string.IsNullOrEmpty(textBoxTokenSecretFutures.Text))
-            {
-                MessageBox.Show("You must enter all values of the witter application");
-                return;
-            }
-
-
-            string crypt = null;
-            if (!String.IsNullOrEmpty(textBoxTokenSecretFutures.Text))
-            {
-                crypt = StringCipherHelper.Encrypt(textBoxTokenSecretFutures.Text, "Cirtey1979!");
-            }
-
-            labelResultTwitterFutures.Text = WebScrapWriteData.WriteTwitterData(textBoxcKeyFutures.Text,
-                                                                                textBoxcSecretFutures.Text,
-                                                                                textBoxAccessTokenFutures.Text, crypt,
-                                                                                textBoxTwitterFutures.Text
-                );
-        }
+    
 
         private void buttonValidateTwitterInsiders_Click(object sender, EventArgs e)
         {

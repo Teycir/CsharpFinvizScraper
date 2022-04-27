@@ -36,6 +36,7 @@ namespace WebScrap.View
         private void DesactivateAlerts()
         {
             _listboxthreadInsidersActive = false;
+            if (ThreadMain == null) return;
             if (ThreadMain.IsAlive)
                 ThreadMain.Abort();
             ThreadMain = null;
