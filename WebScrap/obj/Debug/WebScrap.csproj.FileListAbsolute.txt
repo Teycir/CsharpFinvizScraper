@@ -241,4 +241,6 @@ D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmMoneyFlow.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmInsiderScreener.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmTopInsiderTrades.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.csproj.GenerateResource.Cache
-D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.csprojResolveAssemblyReference.cache
+D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.csproj.AssemblyReference.cache
+D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.csproj.CoreCompileInputs.cache
+D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.csproj.CopyComplete

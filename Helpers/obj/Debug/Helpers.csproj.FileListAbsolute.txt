@@ -99,4 +99,6 @@ D:\GitInsidersTracker\Helpers\bin\Debug\Newtonsoft.Json.xml
 D:\GitInsidersTracker\Helpers\bin\Debug\TweetSharp.pdb
 D:\GitInsidersTracker\Helpers\obj\Debug\Helpers.dll
 D:\GitInsidersTracker\Helpers\obj\Debug\Helpers.pdb
-D:\GitInsidersTracker\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+D:\GitInsidersTracker\Helpers\obj\Debug\Helpers.csproj.AssemblyReference.cache
+D:\GitInsidersTracker\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
+D:\GitInsidersTracker\Helpers\obj\Debug\Helpers.csproj.CopyComplete
