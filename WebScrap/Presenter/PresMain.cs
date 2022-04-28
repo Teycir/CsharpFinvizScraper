@@ -25,7 +25,6 @@ namespace WebScrap.Presenter
         {
             _viewMoneyFlow = view;
             _scrap = new Scrap();
-
             _tickerexists = null;
         }
 
@@ -229,103 +228,7 @@ namespace WebScrap.Presenter
         /// </summary>
         /// <param name="listboxDivergence"> The listbox divergence. </param>
         /// <param name="bull"> if set to <c>true</c> [bull]. </param>
-        public void DivergenceAlerts(object listboxDivergence, bool bull)
-        {
-            try
-            {
-                _tickerexists = new List<string>();
-                List<string> dataDiverg = new List<string>();
-                List<string> dataFinviz =
-                    _scrap.GetFinvizTickers(
-                        (@"http://finviz.com/screener.ashx?v=1&&f=sh_avgvol_o50,sh_price_o1,sh_relvol_o1"));
-
-                foreach (var ticker in dataFinviz)
-                {
-                    List<string> datum = _scrap.GetStocksDataAllLiquid(ticker, "1.1", "0.9", "5", "0.1");
-                    bool isdivergent = false;
-                    if (datum == null) continue;
-                    if (datum.Count > 0 && !datum.Contains(null))
-                        isdivergent = _scrap.PriceMoneyFlowDivergence(datum[4],
-                                                                      datum[5]);
-                    if (isdivergent)
-                    {
-                        List<string> datumdiverg = _scrap.GetStocksDataAllLiquid(ticker, "1.2", "0.8", "5", "0.1");
-
-                        if (datumdiverg == null) continue;
-
-                        if (!(datumdiverg.Count > 0 && !datumdiverg.Contains(null))) continue;
-                        // low $ flows excluded
-                        if (!(datumdiverg[6].Contains("M") || datumdiverg[6].Contains("B"))) continue;
-                        if (bull)
-                        {
-                            if (datumdiverg[6].Contains("-"))
-                                continue;
-                        }
-                        if (!bull)
-                        {
-                            if (!(datumdiverg[6].Contains("-")))
-                                continue;
-                        }
-
-
-                        if (FilterIndustry && !string.IsNullOrEmpty(SelectedIndustry))
-                        {
-                            if (datumdiverg[2].Trim() == SelectedIndustry.Trim())
-                            {
-                                if (_tickerexists.Contains(datumdiverg[0].Trim())) continue;
-                                PopulateListbox(listboxDivergence, dataDiverg,
-                                                datumdiverg[0] + " / " + datumdiverg[4].Trim() + " / " +
-                                                datumdiverg[5].Trim() + "  /  " + datumdiverg[6]);
-                                _viewMoneyFlow.ListboxAddItem(listboxDivergence, datumdiverg[7]);
-                                _viewMoneyFlow.ListboxAddItem(listboxDivergence, datumdiverg[1]);
-                                _viewMoneyFlow.ListboxAddItem(listboxDivergence, datumdiverg[2]);
-                                _tickerexists.Add(datumdiverg[0].Trim());
-
-                                _scrap.SendDivergenceAlert(_viewMoneyFlow.Email, _viewMoneyFlow.Tweet, datumdiverg, 5);
-                            }
-                        }
-
-
-                        else if (FilterSector && !string.IsNullOrEmpty(SelectedSector))
-                        {
-                            if (datumdiverg[1].Trim() == SelectedSector.Trim())
-                            {
-                                if (_tickerexists.Contains(datumdiverg[0].Trim())) continue;
-                                PopulateListbox(listboxDivergence, dataDiverg,
-                                                datumdiverg[0] + " / " + datumdiverg[4].Trim() + " / " +
-                                                datumdiverg[5].Trim() + "  /  " + datumdiverg[6]);
-                                _viewMoneyFlow.ListboxAddItem(listboxDivergence, datumdiverg[7]);
-                                _viewMoneyFlow.ListboxAddItem(listboxDivergence, datumdiverg[1]);
-                                _viewMoneyFlow.ListboxAddItem(listboxDivergence, datumdiverg[2]);
-                                _tickerexists.Add(datumdiverg[0].Trim());
-
-
-                                _scrap.SendDivergenceAlert(_viewMoneyFlow.Email, _viewMoneyFlow.Tweet, datumdiverg, 5);
-                            }
-                        }
-                        else
-                        {
-                            if (_tickerexists.Contains(datumdiverg[0].Trim())) continue;
-                            PopulateListbox(listboxDivergence, dataDiverg,
-                                            datumdiverg[0] + " / " + datumdiverg[4].Trim() + " / " +
-                                            datumdiverg[5].Trim() + "  /  " + datumdiverg[6]);
-                            _viewMoneyFlow.ListboxAddItem(listboxDivergence, datumdiverg[7]);
-                            _viewMoneyFlow.ListboxAddItem(listboxDivergence, datumdiverg[1]);
-                            _viewMoneyFlow.ListboxAddItem(listboxDivergence, datumdiverg[2]);
-                            _tickerexists.Add(datumdiverg[0].Trim());
-
-                            _scrap.SendDivergenceAlert(_viewMoneyFlow.Email, _viewMoneyFlow.Tweet, datumdiverg, 5);
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Log.WriteLog("Presmain DivergenceAlerts");
-                Log.WriteLog(ex.ToString());
-            }
-        }
-
+     
 
         /// <summary>
         /// 	Populates the listbox.
@@ -363,68 +266,7 @@ namespace WebScrap.Presenter
         /// <param name="activesoundalert">if set to <c>true</c> [activesoundalert].</param>
         /// <param name="activemailalert">if set to <c>true</c> [activemailalert].</param>
         /// <param name="starlabel">The starlabel.</param>
-        public void GetWsjData(object labelprice, object labelmoneyflow, object labeluptickdowntick,
-                               object labelpercentchange,
-                               string ticker, string alertFlowValue,
-                               string alertRatioValue, string alertRatioValueNeg, string sound,
-                               bool activesoundalert,
-                               bool activemailalert, object starlabel)
-        {
-            try
-            {
-                Dictionary<string, string> tickerdataFlow = _scrap.GetWsjData(ticker);
-
-
-                string uptickdowntick = null;
-                string price = null;
-                string percentchange = null;
-                string moneyflow = null;
-                string moneyflowbrute = null;
-
-                if (tickerdataFlow != null)
-                {
-                    if (tickerdataFlow.Count > 0)
-                    {
-                        uptickdowntick = tickerdataFlow["uptickdowntick"];
-                        price = tickerdataFlow["price"];
-                        percentchange = tickerdataFlow["percentchange"];
-                        moneyflow = tickerdataFlow["moneyflow"];
-                        moneyflowbrute = tickerdataFlow["moneyflowbrute"];
-                    }
-                }
-
-
-                bool flowAlert = _scrap.CompareData(moneyflow, alertFlowValue, sound, activesoundalert);
-                bool ratioAlert = _scrap.CompareData(uptickdowntick, alertRatioValue, sound, activesoundalert);
-                bool ratioAlertNeg = _scrap.CompareData(alertRatioValueNeg, uptickdowntick, sound, activesoundalert);
-
-
-                bool starVisible = false;
-
-                if (flowAlert || ratioAlert || ratioAlertNeg)
-                {
-                    starVisible = true;
-                }
-
-
-                _viewMoneyFlow.VisibleLabel(starlabel, starVisible);
-                _viewMoneyFlow.ViewLabel(labelmoneyflow, moneyflowbrute);
-                _viewMoneyFlow.ViewLabel(labelpercentchange, percentchange);
-                _viewMoneyFlow.ViewLabel(labeluptickdowntick, uptickdowntick);
-                _viewMoneyFlow.ViewLabel(labelprice, price);
-
-
-                if (activemailalert)
-                {
-                    _mail.SendMailMoneyFlow(ticker, percentchange, uptickdowntick,moneyflow, ratioAlert, ratioAlertNeg, flowAlert);
-                }
-            }
-
-            catch (Exception ex)
-            {
-                Log.WriteLog(ex);
-            }
-        }
+      
 
 
         /// <summary>
@@ -471,84 +313,7 @@ namespace WebScrap.Presenter
         /// <param name="labelT19S"> The label T19 S. </param>
         /// <param name="labelT20S"> The label T20 S. </param>
         /// <param name="?"> The ?. </param>
-        public void GetWsjData(Object labelT1B, Object labelT2B, Object labelT3B, Object labelT4B, Object labelT5B,
-                               Object labelT1S, Object labelT2S, Object labelT3S, Object labelT4S, Object labelT5S,
-                               Object labelT6B, Object labelT7B, Object labelT8B, Object labelT9B, Object labelT10B,
-                               Object labelT6S, Object labelT7S, Object labelT8S, Object labelT9S, Object labelT10S,
-                               Object labelT11B, Object labelT12B, Object labelT13B, Object labelT14B, Object labelT15B,
-                               Object labelT11S, Object labelT12S, Object labelT13S, Object labelT14S, Object labelT15S,
-                               Object labelT16B, Object labelT17B, Object labelT18B, Object labelT19B, Object labelT20B,
-                               Object labelT16S, Object labelT17S, Object labelT18S, Object labelT19S, Object labelT20S
-            )
-        {
-            // Buy on weakness
-            List<string> tickersB =
-                _scrap.GetWsjTickers(@"http://online.wsj.com/mdc/public/page/2_3022-mfgppl-moneyflow.html");
-
-
-            // Sell on strength;
-            // Buy on weakness
-            List<string> tickersS =
-                _scrap.GetWsjTickers(@"http://online.wsj.com/mdc/public/page/2_3022-mflppg-moneyflow.html");
-
-            if (tickersB == null) return;
-
-            if (tickersB.Count == 21)
-            {
-                _viewMoneyFlow.ViewLabel(labelT1B, "1- " + tickersB[0]);
-                _viewMoneyFlow.ViewLabel(labelT2B, "2- " + tickersB[1]);
-                _viewMoneyFlow.ViewLabel(labelT3B, "3- " + tickersB[2]);
-                _viewMoneyFlow.ViewLabel(labelT4B, "4- " + tickersB[3]);
-                _viewMoneyFlow.ViewLabel(labelT5B, "5- " + tickersB[4]);
-
-                _viewMoneyFlow.ViewLabel(labelT6B, "6- " + tickersB[5]);
-                _viewMoneyFlow.ViewLabel(labelT7B, "7- " + tickersB[6]);
-                _viewMoneyFlow.ViewLabel(labelT8B, "8- " + tickersB[7]);
-                _viewMoneyFlow.ViewLabel(labelT9B, "9- " + tickersB[8]);
-                _viewMoneyFlow.ViewLabel(labelT10B, "10- " + tickersB[9]);
-
-                _viewMoneyFlow.ViewLabel(labelT11B, "11- " + tickersB[10]);
-                _viewMoneyFlow.ViewLabel(labelT12B, "12- " + tickersB[11]);
-                _viewMoneyFlow.ViewLabel(labelT13B, "13- " + tickersB[12]);
-                _viewMoneyFlow.ViewLabel(labelT14B, "14- " + tickersB[13]);
-                _viewMoneyFlow.ViewLabel(labelT15B, "15- " + tickersB[14]);
-
-                _viewMoneyFlow.ViewLabel(labelT16B, "16- " + tickersB[15]);
-                _viewMoneyFlow.ViewLabel(labelT17B, "17- " + tickersB[16]);
-                _viewMoneyFlow.ViewLabel(labelT18B, "18- " + tickersB[17]);
-                _viewMoneyFlow.ViewLabel(labelT19B, "19- " + tickersB[18]);
-                _viewMoneyFlow.ViewLabel(labelT20B, "20-" + tickersB[19]);
-            }
-
-            if (tickersS == null) return;
-            if (tickersS.Count == 21)
-            {
-                _viewMoneyFlow.ViewLabel(labelT1S, "1- " + tickersS[0]);
-                _viewMoneyFlow.ViewLabel(labelT2S, "2- " + tickersS[1]);
-                _viewMoneyFlow.ViewLabel(labelT3S, "3- " + tickersS[2]);
-                _viewMoneyFlow.ViewLabel(labelT4S, "4- " + tickersS[3]);
-                _viewMoneyFlow.ViewLabel(labelT5S, "5- " + tickersS[4]);
-
-                _viewMoneyFlow.ViewLabel(labelT6S, "6- " + tickersS[5]);
-                _viewMoneyFlow.ViewLabel(labelT7S, "7- " + tickersS[6]);
-                _viewMoneyFlow.ViewLabel(labelT8S, "8- " + tickersS[7]);
-                _viewMoneyFlow.ViewLabel(labelT9S, "9- " + tickersS[8]);
-                _viewMoneyFlow.ViewLabel(labelT10S, "10- " + tickersS[9]);
-
-                _viewMoneyFlow.ViewLabel(labelT11S, "11- " + tickersS[10]);
-                _viewMoneyFlow.ViewLabel(labelT12S, "12- " + tickersS[11]);
-                _viewMoneyFlow.ViewLabel(labelT13S, "13- " + tickersS[12]);
-                _viewMoneyFlow.ViewLabel(labelT14S, "14- " + tickersS[13]);
-                _viewMoneyFlow.ViewLabel(labelT15S, "15- " + tickersS[14]);
-
-                _viewMoneyFlow.ViewLabel(labelT16S, "16- " + tickersS[15]);
-                _viewMoneyFlow.ViewLabel(labelT17S, "17- " + tickersS[16]);
-                _viewMoneyFlow.ViewLabel(labelT18S, "18- " + tickersS[17]);
-                _viewMoneyFlow.ViewLabel(labelT19S, "19- " + tickersS[18]);
-                _viewMoneyFlow.ViewLabel(labelT20S, "20-" + tickersS[19]);
-            }
-        }
-
+      
         /// <summary>
         /// 	Sets the state.
         /// </summary>

@@ -9,6 +9,13 @@ namespace Helpers
 {
     public class Expiration
     {
+        /// <summary>Gets the expiration date.</summary>
+        /// <param name="expirationspan">The expirationspan.</param>
+        /// <param name="datestart">The datestart.</param>
+        /// <param name="daysAgo">The days ago.</param>
+        /// <param name="daysLeft">The days left.</param>
+        /// <param name="messagebefore">The messagebefore.</param>
+        /// <param name="message">The message.</param>
         public static void GetExpirationDate(double expirationspan, string datestart, out double daysAgo,
                                              out double daysLeft, string messagebefore, out string message)
         {

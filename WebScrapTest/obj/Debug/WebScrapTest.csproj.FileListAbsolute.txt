@@ -40,13 +40,11 @@ D:\GitInsidersTracker\WebScrapTest\bin\Debug\HtmlAgilityPack.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\nunit.framework.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\WebScrap.exe
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\TweetSharp.dll
-D:\GitInsidersTracker\WebScrapTest\bin\Debug\System.Net.Http.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\Hammock.ClientProfile.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\Newtonsoft.Json.dll
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\Helpers.pdb
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\WebScrap.pdb
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\TweetSharp.pdb
-D:\GitInsidersTracker\WebScrapTest\bin\Debug\System.Net.Http.xml
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\Hammock.ClientProfile.pdb
 D:\GitInsidersTracker\WebScrapTest\bin\Debug\Newtonsoft.Json.xml
 D:\GitInsidersTracker\WebScrapTest\obj\Debug\WebScrapTest.dll

@@ -38,9 +38,13 @@ namespace Helpers
         {
             try
             {
-                if (_connection != null && _connection.State == ConnectionState.Closed)
+                if (_connection != null)
                 {
-                    _connection.Open();
+                    if (_connection.State == ConnectionState.Closed)
+                    {
+                        _connection.Open();
+                    }
+
                     return true;
                 }
                 return false;
@@ -96,8 +100,9 @@ namespace Helpers
             {
                 try
                 {
+                    string newquery = query.Replace("\"", "\'");
                     //create command and assign the query and connection from the constructor
-                    SqlCommand cmd = new SqlCommand(query, _connection);
+                    SqlCommand cmd = new SqlCommand(newquery, _connection);
 
                     //Execute command
                     cmd.ExecuteNonQuery();
