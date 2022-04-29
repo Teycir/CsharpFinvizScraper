@@ -157,18 +157,6 @@ namespace Helpers
         }
 
 
-        //Delete statement
-        public void Delete()
-        {
-            string query = "DELETE FROM tableinfo WHERE name='John Smith'";
-
-            if (OpenConnection())
-            {
-                SqlCommand cmd = new SqlCommand(query, _connection);
-                cmd.ExecuteNonQuery();
-                CloseConnection();
-            }
-        }
 
 
         /// <summary>

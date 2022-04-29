@@ -108,8 +108,43 @@ namespace WebScrap.Model
         }
 
 
- 
-      
+        /// <summary>
+        /// 	Gets the data. 
+        /// </summary>
+        /// <param name="ticker"> The ticker. </param>
+        /// <returns> </returns>
+        public Dictionary<string, string> GetOpenInsiderData(string ticker)
+        {
+            try
+            {
+                Dictionary<string, string> data = new Dictionary<string, string>();
+
+
+
+                string urlPt = @"http://finviz.com/quote.ashx?t=" + ticker + @"&ty=c&ta=0&p=d";
+                var nodesPt = WebScrapHelper.LoadHtmlDoc(urlPt, "//td");
+
+                if (nodesPt != null)
+                {
+                    foreach (var node in nodesPt)
+                    {
+                       
+                        if (node.InnerText.Trim().Equals("Shortable"))
+                        {
+                            GetValue(node.NextSibling, data, "shortable", false);
+                        }
+                    }
+                }
+                return data;
+            }
+            catch (Exception e)
+            {
+                Log.WriteLog(e);
+                return null;
+            }
+        }
+
+
 
 
         /// <summary>
@@ -353,7 +388,7 @@ namespace WebScrap.Model
         public void DeleteFinvizData()
         {
             DbConnect connection = DbConnect("finviz");
-            const string deletequery = "delete FROM finviz.findata where ticker<>'0';";
+            const string deletequery = "delete FROM findata where ticker<>'0';";
             connection.Delete(deletequery);
         }
 
@@ -368,16 +403,16 @@ namespace WebScrap.Model
         {
            
             DbConnect connection = DbConnect("finviz");
-            List<string> tickers = GetFinvizTickers(@"http://finviz.com/screener.ashx?v=1");
+            //List<string> tickers = GetFinvizTickers(@"http://finviz.com/screener.ashx?v=1");
             //// TODO
             //testing do not remove
-            //List<string> tickers = new List<string>();
-            //tickers.Add("cqh");
-            //tickers.Add("swks");
-            //tickers.Add("ayr");
-            //tickers.Add("xon");
-            //tickers.Add("opk");
-            //tickers.Add("psec");
+            List<string> tickers = new List<string>();
+            tickers.Add("cqh");
+            tickers.Add("swks");
+            tickers.Add("ayr");
+            tickers.Add("xon");
+            tickers.Add("opk");
+            tickers.Add("psec");
             string idDownload = BuildIdDownload();
             foreach (var ticker in tickers)
             {
@@ -436,16 +471,7 @@ namespace WebScrap.Model
 
 
       
-        
-
-
-       
-
-
-     
-
-
-
+  
 
 
         /// <summary>
