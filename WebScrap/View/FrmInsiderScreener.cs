@@ -110,17 +110,17 @@ namespace WebScrap.View
         /// </summary>
         private void FillComboboxes()
         {
-            _pres.FillDropDownList("select distinct country from finviz.findata order by country;", comboBoxCountry,
+            _pres.FillDropDownList("select distinct country from findata order by country;", comboBoxCountry,
                                    "country",
                                    _connectionstring);
 
-            _pres.FillDropDownList("select distinct sector from finviz.findata order by sector;", comboBoxSector,
+            _pres.FillDropDownList("select distinct sector from findata order by sector;", comboBoxSector,
                                    "sector",
                                    _connectionstring);
 
 
             _pres.FillDropDownList(
-                "select distinct industry from finviz.findata  where trim(industry) <> 'Exchange Traded Fund' order by industry;",
+                "select distinct industry from findata  where trim(industry) <> 'Exchange Traded Fund' order by industry;",
                 comboBoxIndustry,
                 "industry",
                 _connectionstring);
