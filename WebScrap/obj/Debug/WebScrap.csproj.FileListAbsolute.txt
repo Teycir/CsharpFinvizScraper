@@ -226,10 +226,8 @@ D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmHelp.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmInsidersAlert.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmLicence.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmLoadState.resources
-D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmSectorialInsiderTransactions.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmMain.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmInsiderScreener.resources
-D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.View.FrmTopInsiderTrades.resources
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.csproj.GenerateResource.Cache
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.csproj.AssemblyReference.cache
 D:\GitInsidersTracker\WebScrap\obj\Debug\WebScrap.csproj.CoreCompileInputs.cache

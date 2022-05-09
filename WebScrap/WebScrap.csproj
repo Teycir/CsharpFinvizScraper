@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\IModel.cs" />
+    <Compile Include="Model\InsidersData.cs" />
     <Compile Include="Model\Scrap.cs" />
     <Compile Include="Model\ScrapFuturesAlert.cs" />
     <Compile Include="Model\ScrapInsiderAlert.cs" />
@@ -142,12 +143,6 @@
     <Compile Include="View\FrmLoadState.Designer.cs">
       <DependentUpon>FrmLoadState.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\FrmSectorialInsiderTransactions.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\FrmSectorialInsiderTransactions.Designer.cs">
-      <DependentUpon>FrmSectorialInsiderTransactions.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,12 +154,6 @@
     </Compile>
     <Compile Include="View\FrmInsiderScreener.Designer.cs">
       <DependentUpon>FrmInsiderScreener.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\FrmTopInsiderTrades.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\FrmTopInsiderTrades.Designer.cs">
-      <DependentUpon>FrmTopInsiderTrades.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -196,17 +185,11 @@
     <EmbeddedResource Include="View\FrmLoadState.resx">
       <DependentUpon>FrmLoadState.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\FrmSectorialInsiderTransactions.resx">
-      <DependentUpon>FrmSectorialInsiderTransactions.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\FrmInsiderScreener.resx">
       <DependentUpon>FrmInsiderScreener.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\FrmTopInsiderTrades.resx">
-      <DependentUpon>FrmTopInsiderTrades.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config">
       <SubType>Designer</SubType>

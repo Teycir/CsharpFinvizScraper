@@ -113,29 +113,98 @@ namespace WebScrap.Model
         /// </summary>
         /// <param name="ticker"> The ticker. </param>
         /// <returns> </returns>
-        public Dictionary<string, string> GetOpenInsiderData(string ticker)
+        public List<InsidersData> GetOpenInsiderData(string ticker)
         {
             try
             {
-                Dictionary<string, string> data = new Dictionary<string, string>();
-
-
-
-                string urlPt = @"http://finviz.com/quote.ashx?t=" + ticker + @"&ty=c&ta=0&p=d";
+                List<InsidersData> insidersdata = new   List<InsidersData>();
+  
+                // sales
+                string urlPt = @"http://openinsider.com/screener?s=" + ticker 
+                    + @"&o=&pl=&ph=&ll=&lh=&fd=0&fdr=&td=0&tdr=&fdlyl=&fdlyh=&daysago=&xp=1&xs=1&excludeDerivRelated=1&vl=&vh=&ocl=&och=&sic1=-1&sicl=100&sich=9999&grp=0&nfl=&nfh=&nil=&nih=&nol=&noh=&v2l=&v2h=&oc2l=&oc2h=&sortcol=0&cnt=100&page=1";
                 var nodesPt = WebScrapHelper.LoadHtmlDoc(urlPt, "//td");
 
                 if (nodesPt != null)
                 {
                     foreach (var node in nodesPt)
                     {
-                       
-                        if (node.InnerText.Trim().Equals("Shortable"))
+                        if (node.InnerText.Trim().ToUpper()==ticker.ToUpper())
                         {
-                            GetValue(node.NextSibling, data, "shortable", false);
+                            InsidersData insiderData = new InsidersData();
+                            if (node.PreviousSibling == null) continue;
+                            if (node.NextSibling.NextSibling == null) continue;
+                            if (node.NextSibling.NextSibling.NextSibling == null) continue;
+                            if (node.NextSibling.NextSibling.NextSibling == null) continue;
+                            if (node.NextSibling.NextSibling.NextSibling.NextSibling == null) continue;
+                            if (node.NextSibling.NextSibling.NextSibling.NextSibling.NextSibling
+                            .NextSibling.NextSibling.NextSibling == null) continue;
+                                
+                          
+                            var tradeDate = node.PreviousSibling.InnerText.Trim();
+                            var insiderName =  node.NextSibling.InnerText.Trim();
+                            var insiderTitle = node.NextSibling.NextSibling.InnerText.Trim();
+                            var tradeType = node.NextSibling.NextSibling.NextSibling.InnerText.Trim();
+                            var price = node.NextSibling.NextSibling.NextSibling.NextSibling.InnerText.Trim();
+                            if (price.Contains(','))
+                            {
+                                price = price.Replace(@",", String.Empty).Trim();
+                            }
+                            if (price.Contains('$'))
+                            {
+                                price = price.Replace(@"$", String.Empty).Trim();
+                            }
+                            if (price.Contains('.'))
+                            {
+                                price = price.Replace(@".", @",").Trim();
+                            }
+
+                            if (price.StartsWith("0"))
+                            {
+                                continue;
+                            }
+
+
+                            var value = node.NextSibling.NextSibling.NextSibling.NextSibling.NextSibling
+                                .NextSibling.NextSibling.NextSibling.InnerText.Trim();
+
+                            if (value.Contains(',')) 
+                            { 
+                                value = value.Replace(@",", String.Empty).Trim();
+                            }
+                            if (value.Contains('-')) 
+                            {
+                                value = value.Replace(@"-", String.Empty).Trim();
+                            }
+                            if (value.Contains('+'))
+                            {
+                                value = value.Replace(@"+", String.Empty).Trim();
+                            }
+                            if (value.Contains('$')) 
+                            {
+                                value = value.Replace(@"$", String.Empty).Trim();
+                            }
+                            if (value.Contains('.'))
+                            {
+                                value = value.Replace(@".", @",").Trim();
+                            }
+                            if (value.StartsWith("0"))
+                            {
+                                continue;
+                            }
+
+                            insiderData.Tradedate = Convert.ToDateTime(tradeDate);
+                            insiderData.InsiderName = insiderName;
+                            insiderData.Title = insiderTitle;
+                            insiderData.Tradetype = tradeType;
+                            insiderData.Price =  Convert.ToDouble(price);
+                            insiderData.Value = Convert.ToDouble(value);
+                            insidersdata.Add(insiderData);
                         }
+                        
+
                     }
                 }
-                return data;
+                return insidersdata;
             }
             catch (Exception e)
             {
@@ -157,9 +226,6 @@ namespace WebScrap.Model
             try
             {
                 Dictionary<string, string> data = new Dictionary<string, string>();
-
-
-    
 
 
                 string urlPt = @"http://finviz.com/quote.ashx?t=" + ticker + @"&ty=c&ta=0&p=d";
@@ -390,6 +456,8 @@ namespace WebScrap.Model
             DbConnect connection = DbConnect("finviz");
             const string deletequery = "delete FROM findata where ticker<>'0';";
             connection.Delete(deletequery);
+            const string deletequeryInsiders = "delete FROM insiders where ticker<>'0';";
+            connection.Delete(deletequeryInsiders);
         }
 
 
@@ -403,22 +471,22 @@ namespace WebScrap.Model
         {
            
             DbConnect connection = DbConnect("finviz");
-            //List<string> tickers = GetFinvizTickers(@"http://finviz.com/screener.ashx?v=1");
+            List<string> tickers = GetFinvizTickers(@"http://finviz.com/screener.ashx?v=1");
             //// TODO
             //testing do not remove
-            List<string> tickers = new List<string>();
-            tickers.Add("cqh");
-            tickers.Add("swks");
-            tickers.Add("ayr");
-            tickers.Add("xon");
-            tickers.Add("opk");
-            tickers.Add("psec");
+            //List<string> tickers = new List<string>();
+
+            // tickers.Add("swks");
+            //tickers.Add("aap");
+            //tickers.Add("aatc");
+
             string idDownload = BuildIdDownload();
             foreach (var ticker in tickers)
             {
                 if (ticker == "NO DATA") continue;
 
                 Dictionary<string, string> data = GetFinvizData(ticker);
+               
                 if (data == null) continue;
                 // check if no data is missing 
                 if (data.Count() < 31) continue;
@@ -466,6 +534,37 @@ namespace WebScrap.Model
                      ")";
 
                  connection.Insert(insertquery);
+
+                List<InsidersData> dataInsiders = GetOpenInsiderData(ticker);
+
+                if (dataInsiders == null) continue;
+                // check if no data is missing 
+
+
+                foreach (var insider in dataInsiders)
+                {
+                    DateTime insidertrade = insider.Tradedate;
+                    string price = insider.Price.ToString().Replace(',', '.');
+                    string tradevalue = insider.Value.ToString().Replace(',', '.');
+                    string format = "yyyy-MM-dd HH:mm:ss";
+                    string insertqueryInsiders =
+                   "INSERT INTO insiders (iddownload, ticker,date,tradedate,insidername,title,tradetype,price,value" + ") VALUES " + "(" + '"' +
+                   idDownload + '"' + ',' + '"' +
+                   ticker.Trim().ToUpper() + '"' +
+                   ',' + "GETDATE()" + ',' + '"' +
+                   insidertrade.ToString(format) + '"' + ',' + '"' +
+                   insider.InsiderName + '"' + ',' + '"' +
+                   insider.Title + '"' + ',' + '"' +
+                   insider.Tradetype + '"' + ',' + '"' +
+                   price + '"' + ',' + '"' +
+                   tradevalue + '"' +
+                    ")";
+
+                    connection.Insert(insertqueryInsiders);
+                }
+
+
+               
             }
         }
 
@@ -812,7 +911,7 @@ namespace WebScrap.Model
                 string sector = content[0].Split('\n')[4];
                 data.Add("sector", sector);
                 data.Add("industry", content[1].Replace("&amp;", "&"));
-                data.Add("country", content[2].Replace("\n", String.Empty).Replace("\r", String.Empty).Replace("statements", String.Empty));
+                data.Add("country", content[2].Substring(0,5).Trim());
             }
             catch (Exception ex)
             {

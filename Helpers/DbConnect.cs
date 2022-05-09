@@ -101,6 +101,7 @@ namespace Helpers
                 try
                 {
                     string newquery = query.Replace("\"", "\'");
+  
                     //create command and assign the query and connection from the constructor
                     SqlCommand cmd = new SqlCommand(newquery, _connection);
 
