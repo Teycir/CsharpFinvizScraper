@@ -28,7 +28,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tickers", "tickers", "{DE92
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{ED753360-4207-452F-88E9-8F3FF866F675}"
 	ProjectSection(SolutionItems) = preProject
-		C:\Users\HP\Desktop\CreateMainTable.sql = C:\Users\HP\Desktop\CreateMainTable.sql
+		findata.sql = findata.sql
+		insiders.sql = insiders.sql
 	EndProjectSection
 EndProject
 Global
@@ -110,7 +111,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B20420CC-2AC9-46B5-8486-98303CF2A9A5}
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+		SolutionGuid = {B20420CC-2AC9-46B5-8486-98303CF2A9A5}
 	EndGlobalSection
 EndGlobal
