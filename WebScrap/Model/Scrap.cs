@@ -476,7 +476,7 @@ namespace WebScrap.Model
             //testing do not remove
             //List<string> tickers = new List<string>();
 
-            // tickers.Add("swks");
+            //tickers.Add("swks");
             //tickers.Add("aap");
             //tickers.Add("aatc");
 
@@ -693,7 +693,7 @@ namespace WebScrap.Model
             string connectionstring =
                 "Data Source = " + server + "; Initial Catalog = " + database + ";Integrated Security = True";
             const string selectlastiddownload =
-                @"select  iddownload from finviz.findata  order by iddownload desc limit 1;";
+                @"select  top 1 iddownload from findata  order by iddownload desc;";
 
 
             Helpers.DbConnect.GetValue(selectlastiddownload, "iddownload", connectionstring, out values);
